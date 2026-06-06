@@ -1,0 +1,244 @@
+{
+  "categories": [
+    "baseline-curated"
+  ],
+  "curation": {
+    "gap_notes": [
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "level": "machine-verified",
+    "review_state": "machine-generated",
+    "reviewed_at": null,
+    "source_count": 3,
+    "verified_at": "2026-06-06T07:17:34.045Z"
+  },
+  "dashboard_url": "https://taomarketcap.com/subnets/36",
+  "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/36",
+  "links": [],
+  "name": "Eirel",
+  "netuid": 36,
+  "notes": "Machine-generated baseline overlay from verified public-source candidates.",
+  "schema_version": 1,
+  "slug": "sn-36",
+  "source_repo": "https://github.com/RendixNetwork/eirel-ai",
+  "status": "active",
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-36-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Eirel source repository",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/36"
+      ],
+      "url": "https://github.com/RendixNetwork/eirel-ai",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/RendixNetwork/eirel-ai",
+        "homepage": null,
+        "last_push_at": "2026-05-28T20:38:49Z",
+        "redirect_target": null,
+        "topics": [],
+        "verified_at": "2026-06-06T07:17:33.893Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-36-taomarketcap-website",
+      "kind": "website",
+      "name": "Eirel website",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/36"
+      ],
+      "url": "https://eirel.ai/",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 647,
+        "method_tested": "HEAD",
+        "redirect_target": "https://www.eirel.ai/",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:33.893Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-36-tensorplex-docs",
+      "kind": "docs",
+      "name": "Eirel Tensorplex subnet docs",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/36/subnet.json"
+      ],
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/36",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 365,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:33.906Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-36-website-common-docs",
+      "kind": "docs",
+      "name": "Eirel docs",
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://eirel.ai/"
+      ],
+      "url": "https://eirel.ai/docs",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 669,
+        "method_tested": "HEAD",
+        "redirect_target": "https://www.eirel.ai/docs/overview",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:33.942Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-36-website-link-eirel-ai-docs-3",
+      "kind": "docs",
+      "name": "Eirel docs",
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://eirel.ai/"
+      ],
+      "url": "https://eirel.ai/whitepaper.pdf",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "application/pdf",
+        "latency_ms": 589,
+        "method_tested": "HEAD",
+        "redirect_target": "https://www.eirel.ai/whitepaper.pdf",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:34.045Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-36-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Eirel TaoMarketCap dashboard",
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/36"
+      ],
+      "url": "https://taomarketcap.com/subnets/36",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 172,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:33.861Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-36-website-link-eirel-ai-dashboard-2",
+      "kind": "dashboard",
+      "name": "Eirel dashboard",
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://eirel.ai/"
+      ],
+      "url": "https://leaderboard.eirel.ai/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 447,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:34.033Z"
+      }
+    }
+  ],
+  "website_url": "https://eirel.ai/"
+}

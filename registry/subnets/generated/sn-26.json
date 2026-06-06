@@ -1,0 +1,273 @@
+{
+  "categories": [
+    "baseline-curated"
+  ],
+  "curation": {
+    "gap_notes": [
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "level": "machine-verified",
+    "review_state": "machine-generated",
+    "reviewed_at": null,
+    "source_count": 5,
+    "verified_at": "2026-06-06T07:17:30.864Z"
+  },
+  "dashboard_url": "https://taomarketcap.com/subnets/26",
+  "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/26",
+  "links": [],
+  "name": "Perturb",
+  "netuid": 26,
+  "notes": "Machine-generated baseline overlay from verified public-source candidates.",
+  "schema_version": 1,
+  "slug": "sn-26",
+  "source_repo": "https://github.com/0xsigurd/Perturb",
+  "status": "active",
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-26-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Perturb source repository",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/26"
+      ],
+      "url": "https://github.com/0xsigurd/Perturb",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/0xsigurd/Perturb",
+        "homepage": null,
+        "last_push_at": "2026-05-27T18:44:37Z",
+        "redirect_target": null,
+        "topics": [],
+        "verified_at": "2026-06-06T07:17:30.502Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-26-github-readme-0xsigurd-perturb-website-1",
+      "kind": "website",
+      "name": "Perturb website page",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/0xsigurd/Perturb/blob/main/README.md"
+      ],
+      "url": "https://github.com/0xsigurd/Perturb",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 477,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:30.492Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-26-taomarketcap-website",
+      "kind": "website",
+      "name": "Perturb website",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/26"
+      ],
+      "url": "https://www.perturbai.io/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 200,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:30.502Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-26-tensorplex-docs",
+      "kind": "docs",
+      "name": "Perturb Tensorplex subnet docs",
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/26/subnet.json"
+      ],
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/26",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 296,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:30.514Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-26-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "Perturb docs",
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/0xsigurd/Perturb"
+      ],
+      "url": "https://github.com/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 88,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:30.599Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-26-website-link-www-perturbai-io-docs-2",
+      "kind": "docs",
+      "name": "Perturb docs",
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://www.perturbai.io/"
+      ],
+      "url": "https://www.perturbai.io/whitepaper",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 51,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:30.864Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-26-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Perturb TaoMarketCap dashboard",
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/26"
+      ],
+      "url": "https://taomarketcap.com/subnets/26",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 162,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:30.501Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-26-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Perturb Swagger UI",
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/0xsigurd/Perturb"
+      ],
+      "url": "https://github.com/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 87,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:30.687Z"
+      }
+    }
+  ],
+  "website_url": "https://github.com/0xsigurd/Perturb"
+}

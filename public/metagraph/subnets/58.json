@@ -1,5 +1,194 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-github-readme-handshake58-hs58-docs-2",
+      "kind": "docs",
+      "name": "Pending docs",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Handshake58/HS58/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://handshake58.com/skill.md"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-github-readme-handshake58-hs58-subnet-api-3",
+      "kind": "subnet-api",
+      "name": "Pending API surface",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Handshake58/HS58/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://handshake58.com/api/drain/signing"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-github-readme-handshake58-hs58-subnet-api-7",
+      "kind": "subnet-api",
+      "name": "Pending API surface",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Handshake58/HS58/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://handshake58.com/api/mcp/providers"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-github-readme-handshake58-hs58-subnet-api-8",
+      "kind": "subnet-api",
+      "name": "Pending API surface",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Handshake58/HS58/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://handshake58.com/api/mcp/providers?model=gpt-4o&category=scraping&limit=3&format=compact"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-github-readme-handshake58-hs58-website-1",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Handshake58/HS58/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/Handshake58/HS58-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-github-readme-handshake58-hs58-website-4",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Handshake58/HS58/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/Handshake58/HS58"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-github-readme-handshake58-hs58-website-5",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Handshake58/HS58/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/kimbo128/DRAIN"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-github-readme-handshake58-hs58-website-6",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Handshake58/HS58/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/Handshake58/HS58.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-58-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Pending TaoMarketCap dashboard",
+      "netuid": 58,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/58",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/58"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/58"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -41,27 +230,1165 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/Handshake58/HS58"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-common-api",
+      "kind": "subnet-api",
+      "name": "Pending API",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-common-docs",
+      "kind": "docs",
+      "name": "Pending docs",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-common-health",
+      "kind": "subnet-api",
+      "name": "Pending health endpoint",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Pending OpenAPI JSON",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-common-swagger",
+      "kind": "openapi",
+      "name": "Pending Swagger UI",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Pending Swagger JSON",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58-subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FHandshake58%2FHS58-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-2-1fc51tu",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/kimbo128/DRAIN",
+      "source_urls": [
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fkimbo128%2FDRAIN"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-2-7ak2hh",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FHandshake58%2FHS58"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-github-readme-handshake58-hs58-docs-2",
+      "kind": "docs",
+      "name": "Pending docs",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Handshake58/HS58/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://handshake58.com/skill.md"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-github-readme-handshake58-hs58-subnet-api-3",
+      "kind": "subnet-api",
+      "name": "Pending API surface",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Handshake58/HS58/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://handshake58.com/api/drain/signing"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-github-readme-handshake58-hs58-subnet-api-7",
+      "kind": "subnet-api",
+      "name": "Pending API surface",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Handshake58/HS58/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://handshake58.com/api/mcp/providers"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-github-readme-handshake58-hs58-subnet-api-8",
+      "kind": "subnet-api",
+      "name": "Pending API surface",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Handshake58/HS58/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://handshake58.com/api/mcp/providers?model=gpt-4o&category=scraping&limit=3&format=compact"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-github-readme-handshake58-hs58-website-1",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Handshake58/HS58/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/Handshake58/HS58-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-github-readme-handshake58-hs58-website-4",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Handshake58/HS58/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/Handshake58/HS58"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-github-readme-handshake58-hs58-website-5",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Handshake58/HS58/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/kimbo128/DRAIN"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-github-readme-handshake58-hs58-website-6",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Handshake58/HS58/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/Handshake58/HS58.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-58-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Pending TaoMarketCap dashboard",
+      "netuid": 58,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/58",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/58"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/58"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-58-tensorplex-docs",
+      "kind": "docs",
+      "name": "Pending Tensorplex subnet docs",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/58/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/58/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/58"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-58-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "Pending source repository",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs-github",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/58/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/58/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/Handshake58/HS58"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-common-api",
+      "kind": "subnet-api",
+      "name": "Pending API",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-common-docs",
+      "kind": "docs",
+      "name": "Pending docs",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-common-health",
+      "kind": "subnet-api",
+      "name": "Pending health endpoint",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Pending OpenAPI JSON",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-common-swagger",
+      "kind": "openapi",
+      "name": "Pending Swagger UI",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Pending Swagger JSON",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58-subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FHandshake58%2FHS58-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-2-1fc51tu",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/kimbo128/DRAIN",
+      "source_urls": [
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fkimbo128%2FDRAIN"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-2-7ak2hh",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FHandshake58%2FHS58"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-58-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Pending website page",
+      "netuid": 58,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/Handshake58/HS58-subnet",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58",
+        "https://github.com/Handshake58/HS58-subnet",
+        "https://github.com/Handshake58/HS58.git",
+        "https://github.com/kimbo128/DRAIN"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified project website yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "source-repo",
+      "website",
+      "openapi",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "docs",
+      "subnet-api"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 2,
+    "candidate_count": 29,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified project website yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:17:42.648Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/58",
+    "docs_url": "https://handshake58.com/skill.md",
+    "gaps": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified project website yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "source-repo",
+        "website",
+        "openapi",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "docs",
+        "subnet-api"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "Pending",
     "native_name": "Pending",
     "native_slug": "pending",
     "netuid": 58,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 5,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -70,16 +1397,350 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 4367003,
     "slug": "sn-58",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 5,
     "symbol": "خ",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": null
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-github-readme-handshake58-hs58-docs-2",
+      "kind": "docs",
+      "name": "Pending docs",
+      "netuid": 58,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://handshake58.com/skill.md",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/markdown; charset=UTF-8",
+        "latency_ms": 267,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:42.476Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-github-readme-handshake58-hs58-subnet-api-3",
+      "kind": "subnet-api",
+      "name": "Pending API surface",
+      "netuid": 58,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://handshake58.com/api/drain/signing",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/json",
+        "latency_ms": 262,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:42.480Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-github-readme-handshake58-hs58-subnet-api-7",
+      "kind": "subnet-api",
+      "name": "Pending API surface",
+      "netuid": 58,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://handshake58.com/api/mcp/providers",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/json",
+        "latency_ms": 274,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:42.512Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-github-readme-handshake58-hs58-subnet-api-8",
+      "kind": "subnet-api",
+      "name": "Pending API surface",
+      "netuid": 58,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://handshake58.com/api/mcp/providers?model=gpt-4o&category=scraping&limit=3&format=compact",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/json",
+        "latency_ms": 199,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:42.596Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Pending TaoMarketCap dashboard",
+      "netuid": 58,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/58"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://taomarketcap.com/subnets/58",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 174,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:42.648Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-github-readme-handshake58-hs58-docs-2",
+      "kind": "docs",
+      "name": "Pending docs",
+      "netuid": 58,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://handshake58.com/skill.md",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/markdown; charset=UTF-8",
+        "latency_ms": 267,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:42.476Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-github-readme-handshake58-hs58-subnet-api-3",
+      "kind": "subnet-api",
+      "name": "Pending API surface",
+      "netuid": 58,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://handshake58.com/api/drain/signing",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/json",
+        "latency_ms": 262,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:42.480Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-github-readme-handshake58-hs58-subnet-api-7",
+      "kind": "subnet-api",
+      "name": "Pending API surface",
+      "netuid": 58,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://handshake58.com/api/mcp/providers",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/json",
+        "latency_ms": 274,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:42.512Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-github-readme-handshake58-hs58-subnet-api-8",
+      "kind": "subnet-api",
+      "name": "Pending API surface",
+      "netuid": 58,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://handshake58.com/api/mcp/providers?model=gpt-4o&category=scraping&limit=3&format=compact",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/json",
+        "latency_ms": 199,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:42.596Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Pending TaoMarketCap dashboard",
+      "netuid": 58,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/58"
+      ],
+      "subnet_name": "Pending",
+      "subnet_slug": "sn-58",
+      "url": "https://taomarketcap.com/subnets/58",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 174,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:42.648Z"
+      }
+    }
+  ]
 }

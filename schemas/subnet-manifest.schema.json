@@ -61,8 +61,24 @@
       ],
       "format": "uri"
     },
+    "website_url": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "uri"
+    },
     "notes": {
       "type": "string"
+    },
+    "curation": {
+      "$ref": "#/$defs/curation"
+    },
+    "links": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/link"
+      }
     },
     "surfaces": {
       "type": "array",
@@ -139,6 +155,17 @@
           "type": "string",
           "format": "uri"
         },
+        "source_urls": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "format": "uri"
+          },
+          "uniqueItems": true
+        },
+        "verification": {
+          "$ref": "#/$defs/verification"
+        },
         "rate_limit_notes": {
           "type": "string"
         },
@@ -180,6 +207,120 @@
           "type": "integer",
           "minimum": 1000,
           "maximum": 30000
+        }
+      }
+    },
+    "curation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "level",
+        "review_state"
+      ],
+      "properties": {
+        "level": {
+          "enum": [
+            "native",
+            "candidate-discovered",
+            "machine-verified",
+            "maintainer-reviewed",
+            "adapter-backed"
+          ]
+        },
+        "review_state": {
+          "enum": [
+            "unreviewed",
+            "machine-generated",
+            "maintainer-reviewed",
+            "needs-review",
+            "stale"
+          ]
+        },
+        "reviewed_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "verified_at": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "gap_notes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "link": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "label",
+        "url"
+      ],
+      "properties": {
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri"
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "classification",
+        "verified_at"
+      ],
+      "properties": {
+        "classification": {
+          "enum": [
+            "live",
+            "redirected",
+            "auth-required",
+            "dead",
+            "unsafe",
+            "unsupported"
+          ]
+        },
+        "verified_at": {
+          "type": "string"
+        },
+        "status_code": {
+          "type": "integer"
+        },
+        "latency_ms": {
+          "type": "integer"
+        },
+        "content_type": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "redirect_target": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "format": "uri"
         }
       }
     }

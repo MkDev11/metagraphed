@@ -1,5 +1,90 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-github-readme-taostat-blockmachine-docs-1",
+      "kind": "docs",
+      "name": "blockmachine docs",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/taostat/blockmachine/blob/main/README.md",
+      "source_urls": [
+        "https://blockmachine.io/",
+        "https://github.com/taostat/blockmachine/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/whitepaper"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-github-readme-taostat-blockmachine-website-2",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/taostat/blockmachine/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/taostat/blockmachine-miner"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-github-readme-taostat-blockmachine-website-3",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/taostat/blockmachine/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/taostat/blockmachine-validator"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-19-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "blockmachine TaoMarketCap dashboard",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/19",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/19"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/19"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -63,27 +148,1603 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/19"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-api",
+      "kind": "subnet-api",
+      "name": "blockmachine API",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "blockmachine API",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-docs",
+      "kind": "docs",
+      "name": "blockmachine docs",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "blockmachine docs",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-health",
+      "kind": "subnet-api",
+      "name": "blockmachine health endpoint",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "blockmachine health endpoint",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "blockmachine OpenAPI JSON",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "blockmachine OpenAPI JSON",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-swagger",
+      "kind": "openapi",
+      "name": "blockmachine Swagger UI",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "blockmachine Swagger UI",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "blockmachine Swagger JSON",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "blockmachine Swagger JSON",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-docs-4",
+      "kind": "docs",
+      "name": "blockmachine docs",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/docs/ai-agents"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-website-1",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/performance"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-website-2",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/technology"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-website-3",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/pricing"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-website-5",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/login"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-website-6",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/login?redirect=%2Fdashboard%2Fplans"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-website-7",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/bittensor"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-website-8",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/miners"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-website-9",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/buybacks"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftaostat%2Fblockmachine-miner"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-2-jqjloq",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-validator",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftaostat%2Fblockmachine-validator"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-github-readme-taostat-blockmachine-docs-1",
+      "kind": "docs",
+      "name": "blockmachine docs",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/taostat/blockmachine/blob/main/README.md",
+      "source_urls": [
+        "https://blockmachine.io/",
+        "https://github.com/taostat/blockmachine/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/whitepaper"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-github-readme-taostat-blockmachine-website-2",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/taostat/blockmachine/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/taostat/blockmachine-miner"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-github-readme-taostat-blockmachine-website-3",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/taostat/blockmachine/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/taostat/blockmachine-validator"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-19-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "blockmachine TaoMarketCap dashboard",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/19",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/19"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/19"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-19-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "blockmachine source repository",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/19",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/19",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/19/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/taostat/blockmachine"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-19-taomarketcap-website",
+      "kind": "website",
+      "name": "blockmachine website",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/19",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/19"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-19-tensorplex-docs",
+      "kind": "docs",
+      "name": "blockmachine Tensorplex subnet docs",
+      "netuid": 19,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/19/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/19/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/19"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-api",
+      "kind": "subnet-api",
+      "name": "blockmachine API",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "blockmachine API",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-docs",
+      "kind": "docs",
+      "name": "blockmachine docs",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "blockmachine docs",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-health",
+      "kind": "subnet-api",
+      "name": "blockmachine health endpoint",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "blockmachine health endpoint",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "blockmachine OpenAPI JSON",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "blockmachine OpenAPI JSON",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-swagger",
+      "kind": "openapi",
+      "name": "blockmachine Swagger UI",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "blockmachine Swagger UI",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "blockmachine Swagger JSON",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "blockmachine Swagger JSON",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-docs-4",
+      "kind": "docs",
+      "name": "blockmachine docs",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/docs/ai-agents"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-website-1",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/performance"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-website-2",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/technology"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-website-3",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/pricing"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-website-5",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/login"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-website-6",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/login?redirect=%2Fdashboard%2Fplans"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-website-7",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/bittensor"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-website-8",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/miners"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-blockmachine-io-website-9",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://blockmachine.io/",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blockmachine.io/buybacks"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftaostat%2Fblockmachine-miner"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-2-jqjloq",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-validator",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftaostat%2Fblockmachine-validator"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-19-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/taostat/blockmachine-miner",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "docs",
+      "openapi",
+      "source-repo",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 3,
+    "candidate_count": 39,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 6,
+      "verified_at": "2026-06-06T07:17:27.970Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/19",
+    "docs_url": "https://blockmachine.io/whitepaper",
+    "gaps": {
+      "gap_notes": [
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "docs",
+        "openapi",
+        "source-repo",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "blockmachine",
     "native_name": "blockmachine",
     "native_slug": "blockmachine",
     "netuid": 19,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 9,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -92,16 +1753,628 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 1956072,
     "slug": "sn-19",
-    "source_repo": null,
+    "source_repo": "https://github.com/taostat/blockmachine",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 9,
     "symbol": "t",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://github.com/taostat/blockmachine-miner"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-github-readme-taostat-blockmachine-docs-1",
+      "kind": "docs",
+      "name": "blockmachine docs",
+      "netuid": 19,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://blockmachine.io/",
+        "https://github.com/taostat/blockmachine/blob/main/README.md"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://blockmachine.io/whitepaper",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 268,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.488Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-github-readme-taostat-blockmachine-website-2",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine/blob/main/README.md"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://github.com/taostat/blockmachine-miner",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 476,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.572Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-github-readme-taostat-blockmachine-website-3",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine/blob/main/README.md"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://github.com/taostat/blockmachine-validator",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 555,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.615Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "blockmachine TaoMarketCap dashboard",
+      "netuid": 19,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/19"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://taomarketcap.com/subnets/19",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 141,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.615Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "blockmachine source repository",
+      "netuid": 19,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/19",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/19/subnet.json"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://github.com/taostat/blockmachine",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/taostat/blockmachine",
+        "homepage": null,
+        "last_push_at": "2026-04-27T11:27:02Z",
+        "redirect_target": null,
+        "topics": [],
+        "verified_at": "2026-06-06T07:17:27.700Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-tensorplex-docs",
+      "kind": "docs",
+      "name": "blockmachine Tensorplex subnet docs",
+      "netuid": 19,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/19/subnet.json"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/19",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 414,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.756Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-website-common-docs",
+      "kind": "docs",
+      "name": "blockmachine docs",
+      "netuid": 19,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://blockmachine.io/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 288,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.767Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "blockmachine docs",
+      "netuid": 19,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://github.com/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 93,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.768Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "blockmachine Swagger UI",
+      "netuid": 19,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://github.com/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 97,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.970Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-github-readme-taostat-blockmachine-docs-1",
+      "kind": "docs",
+      "name": "blockmachine docs",
+      "netuid": 19,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://blockmachine.io/",
+        "https://github.com/taostat/blockmachine/blob/main/README.md"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://blockmachine.io/whitepaper",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 268,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.488Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-github-readme-taostat-blockmachine-website-2",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine/blob/main/README.md"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://github.com/taostat/blockmachine-miner",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 476,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.572Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-github-readme-taostat-blockmachine-website-3",
+      "kind": "website",
+      "name": "blockmachine website page",
+      "netuid": 19,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine/blob/main/README.md"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://github.com/taostat/blockmachine-validator",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 555,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.615Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "blockmachine TaoMarketCap dashboard",
+      "netuid": 19,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/19"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://taomarketcap.com/subnets/19",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 141,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.615Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "blockmachine source repository",
+      "netuid": 19,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/19",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/19/subnet.json"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://github.com/taostat/blockmachine",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/taostat/blockmachine",
+        "homepage": null,
+        "last_push_at": "2026-04-27T11:27:02Z",
+        "redirect_target": null,
+        "topics": [],
+        "verified_at": "2026-06-06T07:17:27.700Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-tensorplex-docs",
+      "kind": "docs",
+      "name": "blockmachine Tensorplex subnet docs",
+      "netuid": 19,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/19/subnet.json"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/19",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 414,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.756Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-website-common-docs",
+      "kind": "docs",
+      "name": "blockmachine docs",
+      "netuid": 19,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://blockmachine.io/"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://blockmachine.io/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 288,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.767Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "blockmachine docs",
+      "netuid": 19,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://github.com/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 93,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.768Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-19-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "blockmachine Swagger UI",
+      "netuid": 19,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/taostat/blockmachine-miner",
+        "https://github.com/taostat/blockmachine-validator"
+      ],
+      "subnet_name": "blockmachine",
+      "subnet_slug": "sn-19",
+      "url": "https://github.com/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 97,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.970Z"
+      }
+    }
+  ]
 }

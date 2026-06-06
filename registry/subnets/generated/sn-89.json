@@ -1,0 +1,151 @@
+{
+  "categories": [
+    "baseline-curated"
+  ],
+  "curation": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified project website yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "level": "machine-verified",
+    "review_state": "machine-generated",
+    "reviewed_at": null,
+    "source_count": 2,
+    "verified_at": "2026-06-06T07:17:55.295Z"
+  },
+  "dashboard_url": "https://taomarketcap.com/subnets/89",
+  "docs_url": "https://docs.docker.com/compose/install/linux",
+  "links": [],
+  "name": "InfiniteHash",
+  "netuid": 89,
+  "notes": "Machine-generated baseline overlay from verified public-source candidates.",
+  "schema_version": 1,
+  "slug": "sn-89",
+  "status": "active",
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-89-github-readme-backend-developers-ltd-infinitehash-docs-1",
+      "kind": "docs",
+      "name": "InfiniteHash docs",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/InfiniteHash/blob/master/README.md"
+      ],
+      "url": "https://docs.docker.com/compose/install/linux",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html",
+        "latency_ms": 81,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:55.241Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-89-github-readme-backend-developers-ltd-infinitehash-docs-2",
+      "kind": "docs",
+      "name": "InfiniteHash docs",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/InfiniteHash/blob/master/README.md"
+      ],
+      "url": "https://docs.astral.sh/uv",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 80,
+        "method_tested": "HEAD",
+        "redirect_target": "https://docs.astral.sh/uv/",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:55.246Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-89-github-readme-backend-developers-ltd-infinitehash-docs-3",
+      "kind": "docs",
+      "name": "InfiniteHash docs",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/InfiniteHash/blob/master/README.md"
+      ],
+      "url": "https://www.backblaze.com/docs/cloud-storage-configure-and-manage-lifecycle-rules",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 538,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:55.266Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-89-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "InfiniteHash TaoMarketCap dashboard",
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/89"
+      ],
+      "url": "https://taomarketcap.com/subnets/89",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 357,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:55.295Z"
+      }
+    }
+  ]
+}

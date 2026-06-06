@@ -1,5 +1,26 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-16-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "BitAds TaoMarketCap dashboard",
+      "netuid": 16,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/16",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/16"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/16"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -62,27 +83,416 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/16"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-16-website-common-api",
+      "kind": "subnet-api",
+      "name": "BitAds API",
+      "netuid": 16,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://bitads.ai/",
+      "source_urls": [
+        "https://bitads.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://bitads.ai/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-16-website-common-docs",
+      "kind": "docs",
+      "name": "BitAds docs",
+      "netuid": 16,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://bitads.ai/",
+      "source_urls": [
+        "https://bitads.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://bitads.ai/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-16-website-common-health",
+      "kind": "subnet-api",
+      "name": "BitAds health endpoint",
+      "netuid": 16,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://bitads.ai/",
+      "source_urls": [
+        "https://bitads.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://bitads.ai/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-16-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "BitAds OpenAPI JSON",
+      "netuid": 16,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://bitads.ai/",
+      "source_urls": [
+        "https://bitads.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://bitads.ai/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-16-website-common-swagger",
+      "kind": "openapi",
+      "name": "BitAds Swagger UI",
+      "netuid": 16,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://bitads.ai/",
+      "source_urls": [
+        "https://bitads.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://bitads.ai/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-16-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "BitAds Swagger JSON",
+      "netuid": 16,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://bitads.ai/",
+      "source_urls": [
+        "https://bitads.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://bitads.ai/swagger.json"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-16-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "BitAds TaoMarketCap dashboard",
+      "netuid": 16,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/16",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/16"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/16"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-16-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "BitAds source repository",
+      "netuid": 16,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/16",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/16"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/FirstTensorLabs/BitAds"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-16-taomarketcap-website",
+      "kind": "website",
+      "name": "BitAds website",
+      "netuid": 16,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/16",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/16"
+      ],
+      "state": "schema-valid",
+      "url": "https://bitads.ai/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-16-tensorplex-docs",
+      "kind": "docs",
+      "name": "BitAds Tensorplex subnet docs",
+      "netuid": 16,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/16/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/16/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/16"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-16-website-common-api",
+      "kind": "subnet-api",
+      "name": "BitAds API",
+      "netuid": 16,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://bitads.ai/",
+      "source_urls": [
+        "https://bitads.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://bitads.ai/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-16-website-common-docs",
+      "kind": "docs",
+      "name": "BitAds docs",
+      "netuid": 16,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://bitads.ai/",
+      "source_urls": [
+        "https://bitads.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://bitads.ai/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-16-website-common-health",
+      "kind": "subnet-api",
+      "name": "BitAds health endpoint",
+      "netuid": 16,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://bitads.ai/",
+      "source_urls": [
+        "https://bitads.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://bitads.ai/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-16-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "BitAds OpenAPI JSON",
+      "netuid": 16,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://bitads.ai/",
+      "source_urls": [
+        "https://bitads.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://bitads.ai/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-16-website-common-swagger",
+      "kind": "openapi",
+      "name": "BitAds Swagger UI",
+      "netuid": 16,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://bitads.ai/",
+      "source_urls": [
+        "https://bitads.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://bitads.ai/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-16-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "BitAds Swagger JSON",
+      "netuid": 16,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://bitads.ai/",
+      "source_urls": [
+        "https://bitads.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://bitads.ai/swagger.json"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "docs",
+      "openapi",
+      "source-repo",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 3,
+    "candidate_count": 10,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 3,
+      "verified_at": "2026-06-06T07:17:25.706Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/16",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/16",
+    "gaps": {
+      "gap_notes": [
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "docs",
+        "openapi",
+        "source-repo",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 2,
     "name": "BitAds",
     "native_name": "BitAds",
     "native_slug": "bitads",
     "netuid": 16,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 6,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -91,16 +501,422 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 2765446,
     "slug": "sn-16",
-    "source_repo": null,
+    "source_repo": "https://github.com/FirstTensorLabs/BitAds",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 6,
     "symbol": "π",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://bitads.ai/"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-16-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "BitAds TaoMarketCap dashboard",
+      "netuid": 16,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/16"
+      ],
+      "subnet_name": "BitAds",
+      "subnet_slug": "sn-16",
+      "url": "https://taomarketcap.com/subnets/16",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 136,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:25.540Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-16-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "BitAds source repository",
+      "netuid": 16,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/16"
+      ],
+      "subnet_name": "BitAds",
+      "subnet_slug": "sn-16",
+      "url": "https://github.com/FirstTensorLabs/BitAds",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/FirstTensorLabs/BitAds",
+        "homepage": "https://bitads.ai/",
+        "last_push_at": "2026-02-17T09:03:51Z",
+        "redirect_target": null,
+        "topics": [],
+        "verified_at": "2026-06-06T07:17:25.554Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-16-taomarketcap-website",
+      "kind": "website",
+      "name": "BitAds website",
+      "netuid": 16,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/16"
+      ],
+      "subnet_name": "BitAds",
+      "subnet_slug": "sn-16",
+      "url": "https://bitads.ai/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html",
+        "latency_ms": 611,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:25.556Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-16-tensorplex-docs",
+      "kind": "docs",
+      "name": "BitAds Tensorplex subnet docs",
+      "netuid": 16,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/16/subnet.json"
+      ],
+      "subnet_name": "BitAds",
+      "subnet_slug": "sn-16",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/16",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 403,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:25.565Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-16-website-common-docs",
+      "kind": "docs",
+      "name": "BitAds docs",
+      "netuid": 16,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://bitads.ai/"
+      ],
+      "subnet_name": "BitAds",
+      "subnet_slug": "sn-16",
+      "url": "https://bitads.ai/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html",
+        "latency_ms": 1313,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:25.676Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-16-website-common-swagger",
+      "kind": "openapi",
+      "name": "BitAds Swagger UI",
+      "netuid": 16,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://bitads.ai/"
+      ],
+      "subnet_name": "BitAds",
+      "subnet_slug": "sn-16",
+      "url": "https://bitads.ai/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html",
+        "latency_ms": 1283,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:25.706Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-16-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "BitAds TaoMarketCap dashboard",
+      "netuid": 16,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/16"
+      ],
+      "subnet_name": "BitAds",
+      "subnet_slug": "sn-16",
+      "url": "https://taomarketcap.com/subnets/16",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 136,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:25.540Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-16-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "BitAds source repository",
+      "netuid": 16,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/16"
+      ],
+      "subnet_name": "BitAds",
+      "subnet_slug": "sn-16",
+      "url": "https://github.com/FirstTensorLabs/BitAds",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/FirstTensorLabs/BitAds",
+        "homepage": "https://bitads.ai/",
+        "last_push_at": "2026-02-17T09:03:51Z",
+        "redirect_target": null,
+        "topics": [],
+        "verified_at": "2026-06-06T07:17:25.554Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-16-taomarketcap-website",
+      "kind": "website",
+      "name": "BitAds website",
+      "netuid": 16,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/16"
+      ],
+      "subnet_name": "BitAds",
+      "subnet_slug": "sn-16",
+      "url": "https://bitads.ai/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html",
+        "latency_ms": 611,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:25.556Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-16-tensorplex-docs",
+      "kind": "docs",
+      "name": "BitAds Tensorplex subnet docs",
+      "netuid": 16,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/16/subnet.json"
+      ],
+      "subnet_name": "BitAds",
+      "subnet_slug": "sn-16",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/16",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 403,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:25.565Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-16-website-common-docs",
+      "kind": "docs",
+      "name": "BitAds docs",
+      "netuid": 16,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://bitads.ai/"
+      ],
+      "subnet_name": "BitAds",
+      "subnet_slug": "sn-16",
+      "url": "https://bitads.ai/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html",
+        "latency_ms": 1313,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:25.676Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-16-website-common-swagger",
+      "kind": "openapi",
+      "name": "BitAds Swagger UI",
+      "netuid": 16,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://bitads.ai/"
+      ],
+      "subnet_name": "BitAds",
+      "subnet_slug": "sn-16",
+      "url": "https://bitads.ai/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html",
+        "latency_ms": 1283,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:25.706Z"
+      }
+    }
+  ]
 }

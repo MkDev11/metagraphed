@@ -1,0 +1,271 @@
+{
+  "categories": [
+    "baseline-curated"
+  ],
+  "curation": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified SSE/event stream yet."
+    ],
+    "level": "machine-verified",
+    "review_state": "machine-generated",
+    "reviewed_at": null,
+    "source_count": 5,
+    "verified_at": "2026-06-06T07:17:45.202Z"
+  },
+  "dashboard_url": "https://taomarketcap.com/subnets/64",
+  "docs_url": "https://kubernetes.io/docs/reference/kubectl",
+  "links": [],
+  "name": "Chutes",
+  "netuid": 64,
+  "notes": "Machine-generated baseline overlay from verified public-source candidates.",
+  "schema_version": 1,
+  "slug": "sn-64",
+  "status": "active",
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-64-github-readme-chutesai-chutes-website-4",
+      "kind": "website",
+      "name": "Chutes website page",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/chutesai/chutes/blob/main/README.md",
+        "https://github.com/rayonlabs/chutes/blob/main/README.md"
+      ],
+      "url": "https://github.com/rayonlabs/chutes/blob/main/chutes/chute/template/vllm.py",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 646,
+        "method_tested": "HEAD",
+        "redirect_target": "https://github.com/chutesai/chutes/blob/main/chutes/chute/template/vllm.py",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:44.801Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-64-taomarketcap-website",
+      "kind": "website",
+      "name": "Chutes website",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/64"
+      ],
+      "url": "https://chutes.ai/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html",
+        "latency_ms": 204,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:44.963Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-64-github-readme-rayonlabs-chutes-miner-docs-3",
+      "kind": "docs",
+      "name": "Chutes docs",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/rayonlabs/chutes-miner/blob/main/README.md"
+      ],
+      "url": "https://kubernetes.io/docs/reference/kubectl",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=UTF-8",
+        "latency_ms": 348,
+        "method_tested": "HEAD",
+        "redirect_target": "https://kubernetes.io/docs/reference/kubectl/",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:44.854Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-64-website-common-docs",
+      "kind": "docs",
+      "name": "Chutes docs",
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://chutes.ai/"
+      ],
+      "url": "https://chutes.ai/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 171,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:45.066Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-64-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Chutes TaoMarketCap dashboard",
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/64"
+      ],
+      "url": "https://taomarketcap.com/subnets/64",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 142,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:44.948Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-64-github-readme-chutesai-chutes-subnet-api-3",
+      "kind": "subnet-api",
+      "name": "Chutes API surface",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/chutesai/chutes/blob/main/README.md",
+        "https://github.com/rayonlabs/chutes/blob/main/README.md"
+      ],
+      "url": "https://api.chutes.ai/pricing",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/json",
+        "latency_ms": 69,
+        "method_tested": "GET",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:44.759Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-64-website-link-chutes-ai-data-artifact-5",
+      "kind": "data-artifact",
+      "name": "Chutes data artifact",
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://chutes.ai/"
+      ],
+      "url": "https://chutes.ai/app?type=llm",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html",
+        "latency_ms": 246,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:45.186Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-64-website-link-chutes-ai-data-artifact-6",
+      "kind": "data-artifact",
+      "name": "Chutes data artifact",
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://chutes.ai/"
+      ],
+      "url": "https://chutes.ai/app?type=diffusion",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html",
+        "latency_ms": 270,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:45.202Z"
+      }
+    }
+  ],
+  "website_url": "https://github.com/rayonlabs/chutes/blob/main/chutes/chute/template/vllm.py"
+}

@@ -59,7 +59,7 @@ export async function loadProviders() {
 }
 
 export async function loadSubnets() {
-  const files = await listJsonFiles(path.join(repoRoot, "registry/subnets"));
+  const files = await listJsonFilesRecursive(path.join(repoRoot, "registry/subnets"));
   const subnets = await Promise.all(files.map(readJson));
   return subnets.sort((a, b) => a.netuid - b.netuid || a.slug.localeCompare(b.slug));
 }
@@ -78,6 +78,21 @@ export async function loadCandidates() {
     return [document];
   });
   return candidates.sort((a, b) => a.netuid - b.netuid || a.id.localeCompare(b.id));
+}
+
+export async function loadVerification() {
+  try {
+    return await readJson(path.join(repoRoot, "registry/verification/latest.json"));
+  } catch (error) {
+    if (error.code === "ENOENT") {
+      return {
+        schema_version: 1,
+        generated_at: null,
+        results: []
+      };
+    }
+    throw error;
+  }
 }
 
 export function flattenSurfaces(subnets) {

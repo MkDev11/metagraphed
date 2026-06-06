@@ -10,9 +10,22 @@
     "pilot"
   ],
   "docs_url": "https://docs.all-ways.io/how-it-works.html",
-  "source_repo": null,
+  "source_repo": "https://github.com/entrius/allways",
   "dashboard_url": null,
+  "website_url": "https://all-ways.io/",
   "notes": "Pilot manifest. Registry observations are external status data, not Allways protocol authority.",
+  "curation": {
+    "level": "adapter-backed",
+    "review_state": "maintainer-reviewed",
+    "reviewed_at": null,
+    "verified_at": null,
+    "source_count": 3,
+    "gap_notes": [
+      "No verified dashboard surface yet.",
+      "No verified data artifact yet."
+    ]
+  },
+  "links": [],
   "surfaces": [
     {
       "id": "allways-docs",

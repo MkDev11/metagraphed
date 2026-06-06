@@ -1,5 +1,68 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-github-readme-dendritehq-soma-website-1",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/DendriteHQ/SOMA"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-github-readme-level114-level114-subnet-website-1",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Level114/level114-subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Level114/level114-subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/level114/level114-subnet.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-114-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "SOMA TaoMarketCap dashboard",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/114",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/114"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/114"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -83,27 +146,1523 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/Level114/level114-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-api",
+      "kind": "subnet-api",
+      "name": "SOMA API",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "SOMA API",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-docs",
+      "kind": "docs",
+      "name": "SOMA docs",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "SOMA docs",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-health",
+      "kind": "subnet-api",
+      "name": "SOMA health endpoint",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "SOMA health endpoint",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "SOMA OpenAPI JSON",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "SOMA OpenAPI JSON",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-swagger",
+      "kind": "openapi",
+      "name": "SOMA Swagger UI",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "SOMA Swagger UI",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "SOMA Swagger JSON",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "SOMA Swagger JSON",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FDendriteHQ%2FSOMA"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-2-c0w7dl",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/level114/level114-subnet.git",
+      "source_urls": [
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Flevel114%2Flevel114-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-thesoma-ai-dashboard-6",
+      "kind": "dashboard",
+      "name": "SOMA dashboard",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/dashboard"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-thesoma-ai-data-artifact-4",
+      "kind": "data-artifact",
+      "name": "SOMA data artifact",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-thesoma-ai-subnet-api-7",
+      "kind": "subnet-api",
+      "name": "SOMA API surface",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/soma-access"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-thesoma-ai-website-1",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/about"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-thesoma-ai-website-2",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/contact"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-thesoma-ai-website-3",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/somarizer"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-thesoma-ai-website-5",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/compression"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-github-readme-dendritehq-soma-website-1",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/DendriteHQ/SOMA"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-github-readme-level114-level114-subnet-website-1",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Level114/level114-subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/Level114/level114-subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/level114/level114-subnet.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-114-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "SOMA TaoMarketCap dashboard",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/114",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/114"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/114"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-114-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "SOMA source repository",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/114",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/114"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/DendriteHQ/SOMA"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-114-taomarketcap-website",
+      "kind": "website",
+      "name": "SOMA website",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/114",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/114"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-114-tensorplex-docs",
+      "kind": "docs",
+      "name": "SOMA Tensorplex subnet docs",
+      "netuid": 114,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/114/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/114/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/114"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-114-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "SOMA source repository",
+      "netuid": 114,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs-github",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/114/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/114/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/Level114/level114-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-api",
+      "kind": "subnet-api",
+      "name": "SOMA API",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "SOMA API",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-docs",
+      "kind": "docs",
+      "name": "SOMA docs",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "SOMA docs",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-health",
+      "kind": "subnet-api",
+      "name": "SOMA health endpoint",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "SOMA health endpoint",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "SOMA OpenAPI JSON",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "SOMA OpenAPI JSON",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-swagger",
+      "kind": "openapi",
+      "name": "SOMA Swagger UI",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "SOMA Swagger UI",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "SOMA Swagger JSON",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "SOMA Swagger JSON",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FDendriteHQ%2FSOMA"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-2-c0w7dl",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/level114/level114-subnet.git",
+      "source_urls": [
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Flevel114%2Flevel114-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/DendriteHQ/SOMA",
+      "source_urls": [
+        "https://github.com/DendriteHQ/SOMA",
+        "https://github.com/level114/level114-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-thesoma-ai-dashboard-6",
+      "kind": "dashboard",
+      "name": "SOMA dashboard",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/dashboard"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-thesoma-ai-data-artifact-4",
+      "kind": "data-artifact",
+      "name": "SOMA data artifact",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-thesoma-ai-subnet-api-7",
+      "kind": "subnet-api",
+      "name": "SOMA API surface",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/soma-access"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-thesoma-ai-website-1",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/about"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-thesoma-ai-website-2",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/contact"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-thesoma-ai-website-3",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/somarizer"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-114-website-link-thesoma-ai-website-5",
+      "kind": "website",
+      "name": "SOMA website page",
+      "netuid": 114,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://thesoma.ai/",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://thesoma.ai/compression"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified project docs surface yet.",
+      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet."
+    ],
+    "missing_kinds": [
+      "docs",
+      "source-repo",
+      "openapi",
+      "subnet-api",
+      "sse"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "data-artifact",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 4,
+    "candidate_count": 37,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified project docs surface yet.",
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:18:06.718Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/114",
     "docs_url": null,
+    "gaps": {
+      "gap_notes": [
+        "No verified project docs surface yet.",
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet."
+      ],
+      "missing_kinds": [
+        "docs",
+        "source-repo",
+        "openapi",
+        "subnet-api",
+        "sse"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "data-artifact",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "SOMA",
     "native_name": "SOMA",
     "native_slug": "soma",
     "netuid": 114,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 4,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -112,16 +1671,284 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 7312241,
     "slug": "sn-114",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 4,
     "symbol": "Є",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://thesoma.ai/"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-114-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "SOMA TaoMarketCap dashboard",
+      "netuid": 114,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/114"
+      ],
+      "subnet_name": "SOMA",
+      "subnet_slug": "sn-114",
+      "url": "https://taomarketcap.com/subnets/114",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 132,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:06.088Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-114-taomarketcap-website",
+      "kind": "website",
+      "name": "SOMA website",
+      "netuid": 114,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/114"
+      ],
+      "subnet_name": "SOMA",
+      "subnet_slug": "sn-114",
+      "url": "https://thesoma.ai/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 415,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:06.103Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-114-website-link-thesoma-ai-dashboard-6",
+      "kind": "dashboard",
+      "name": "SOMA dashboard",
+      "netuid": 114,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "subnet_name": "SOMA",
+      "subnet_slug": "sn-114",
+      "url": "https://thesoma.ai/dashboard",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 314,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:06.676Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-114-website-link-thesoma-ai-data-artifact-4",
+      "kind": "data-artifact",
+      "name": "SOMA data artifact",
+      "netuid": 114,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "subnet_name": "SOMA",
+      "subnet_slug": "sn-114",
+      "url": "https://thesoma.ai/mcp",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 240,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:06.718Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-114-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "SOMA TaoMarketCap dashboard",
+      "netuid": 114,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/114"
+      ],
+      "subnet_name": "SOMA",
+      "subnet_slug": "sn-114",
+      "url": "https://taomarketcap.com/subnets/114",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 132,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:06.088Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-114-taomarketcap-website",
+      "kind": "website",
+      "name": "SOMA website",
+      "netuid": 114,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/114"
+      ],
+      "subnet_name": "SOMA",
+      "subnet_slug": "sn-114",
+      "url": "https://thesoma.ai/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 415,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:06.103Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-114-website-link-thesoma-ai-dashboard-6",
+      "kind": "dashboard",
+      "name": "SOMA dashboard",
+      "netuid": 114,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "subnet_name": "SOMA",
+      "subnet_slug": "sn-114",
+      "url": "https://thesoma.ai/dashboard",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 314,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:06.676Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-114-website-link-thesoma-ai-data-artifact-4",
+      "kind": "data-artifact",
+      "name": "SOMA data artifact",
+      "netuid": 114,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://thesoma.ai/"
+      ],
+      "subnet_name": "SOMA",
+      "subnet_slug": "sn-114",
+      "url": "https://thesoma.ai/mcp",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 240,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:06.718Z"
+      }
+    }
+  ]
 }

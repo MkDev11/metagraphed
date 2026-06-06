@@ -1,0 +1,180 @@
+{
+  "categories": [
+    "baseline-curated"
+  ],
+  "curation": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified project website yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "level": "machine-verified",
+    "review_state": "machine-generated",
+    "reviewed_at": null,
+    "source_count": 2,
+    "verified_at": "2026-06-06T07:17:42.648Z"
+  },
+  "dashboard_url": "https://taomarketcap.com/subnets/58",
+  "docs_url": "https://handshake58.com/skill.md",
+  "links": [],
+  "name": "Pending",
+  "netuid": 58,
+  "notes": "Machine-generated baseline overlay from verified public-source candidates.",
+  "schema_version": 1,
+  "slug": "sn-58",
+  "status": "active",
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-github-readme-handshake58-hs58-docs-2",
+      "kind": "docs",
+      "name": "Pending docs",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "url": "https://handshake58.com/skill.md",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/markdown; charset=UTF-8",
+        "latency_ms": 267,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:42.476Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Pending TaoMarketCap dashboard",
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/58"
+      ],
+      "url": "https://taomarketcap.com/subnets/58",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 174,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:42.648Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-github-readme-handshake58-hs58-subnet-api-3",
+      "kind": "subnet-api",
+      "name": "Pending API surface",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "url": "https://handshake58.com/api/drain/signing",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/json",
+        "latency_ms": 262,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:42.480Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-github-readme-handshake58-hs58-subnet-api-7",
+      "kind": "subnet-api",
+      "name": "Pending API surface",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "url": "https://handshake58.com/api/mcp/providers",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/json",
+        "latency_ms": 274,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:42.512Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-58-github-readme-handshake58-hs58-subnet-api-8",
+      "kind": "subnet-api",
+      "name": "Pending API surface",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/Handshake58/HS58/blob/main/README.md"
+      ],
+      "url": "https://handshake58.com/api/mcp/providers?model=gpt-4o&category=scraping&limit=3&format=compact",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/json",
+        "latency_ms": 199,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:42.596Z"
+      }
+    }
+  ]
+}

@@ -1,5 +1,26 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-116-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "hard_sign TaoMarketCap dashboard",
+      "netuid": 116,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/116",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/116"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/116"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -43,25 +64,153 @@
       "url": "https://github.com/xpenlab/taolend"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-116-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "hard_sign TaoMarketCap dashboard",
+      "netuid": 116,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/116",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/116"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/116"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-116-tensorplex-docs",
+      "kind": "docs",
+      "name": "hard_sign Tensorplex subnet docs",
+      "netuid": 116,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/116/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/116/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/116"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-116-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "hard_sign source repository",
+      "netuid": 116,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs-github",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/116/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/116/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/xpenlab/taolend"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified project docs surface yet.",
+      "No verified source repository yet.",
+      "No verified project website yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "docs",
+      "source-repo",
+      "website",
+      "openapi",
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 2,
+    "candidate_count": 3,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified project docs surface yet.",
+        "No verified source repository yet.",
+        "No verified project website yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 1,
+      "verified_at": "2026-06-06T07:18:06.829Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/116",
     "docs_url": null,
+    "gaps": {
+      "gap_notes": [
+        "No verified project docs surface yet.",
+        "No verified source repository yet.",
+        "No verified project website yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "docs",
+        "source-repo",
+        "website",
+        "openapi",
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "hard_sign",
     "native_name": "hard_sign",
     "native_slug": "hard-sign",
     "netuid": 116,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 62,
-    "probed_surface_count": 0,
+    "probed_surface_count": 1,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -70,16 +219,86 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 8294730,
     "slug": "sn-116",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 1,
     "symbol": "ъ",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": null
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-116-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "hard_sign TaoMarketCap dashboard",
+      "netuid": 116,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/116"
+      ],
+      "subnet_name": "hard_sign",
+      "subnet_slug": "sn-116",
+      "url": "https://taomarketcap.com/subnets/116",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 227,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:06.829Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-116-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "hard_sign TaoMarketCap dashboard",
+      "netuid": 116,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/116"
+      ],
+      "subnet_name": "hard_sign",
+      "subnet_slug": "sn-116",
+      "url": "https://taomarketcap.com/subnets/116",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 227,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:06.829Z"
+      }
+    }
+  ]
 }

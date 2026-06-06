@@ -21,6 +21,10 @@
     "sync:subnets:dry-run": "node scripts/sync-subnets.mjs --dry-run",
     "discover:candidates": "node scripts/discover-candidates.mjs --write",
     "discover:candidates:dry-run": "node scripts/discover-candidates.mjs --dry-run",
+    "verify:candidates": "node scripts/verify-candidates.mjs --write",
+    "verify:candidates:dry-run": "node scripts/verify-candidates.mjs --dry-run",
+    "curate:baseline": "node scripts/curate-baseline.mjs --write",
+    "curate:baseline:dry-run": "node scripts/curate-baseline.mjs --dry-run",
     "probes:smoke": "node scripts/probes-smoke.mjs",
     "scan:public-safety": "node scripts/scan-public-safety.mjs",
     "test": "node --test tests/*.test.mjs"

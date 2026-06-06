@@ -1,5 +1,257 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unarbos-albedo-dashboard-2",
+      "kind": "dashboard",
+      "name": "Albedo dashboard",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unarbos/albedo/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/albedo/dashboard.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unarbos-albedo-dashboard-3",
+      "kind": "dashboard",
+      "name": "Albedo dashboard",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unarbos/albedo/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/albedo/dashboard.json%60"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unarbos-albedo-data-artifact-1",
+      "kind": "data-artifact",
+      "name": "Albedo data artifact",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unarbos/albedo/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://huggingface.co/datasets/AlienKevin/SWE-ZERO-12M-trajectories"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unarbos-albedo-data-artifact-6",
+      "kind": "data-artifact",
+      "name": "Albedo data artifact",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unarbos/albedo/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://huggingface.co/ricdomolm/mini-coder-1.7b"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unarbos-albedo-website-4",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unarbos/albedo/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/unarbos/albedo.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unarbos-albedo-website-5",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unarbos/albedo/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/unarbos/albedo"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unitone-labs-flamewire-docs-1",
+      "kind": "docs",
+      "name": "Albedo docs",
+      "netuid": 97,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unitone-labs/FlameWire/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unitone-labs/FlameWire/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.flamewire.io/docs/miners/registration"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unitone-labs-flamewire-docs-3",
+      "kind": "docs",
+      "name": "Albedo docs",
+      "netuid": 97,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unitone-labs/FlameWire/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unitone-labs/FlameWire/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.flamewire.io/docs/validators/guide"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unitone-labs-flamewire-subnet-api-5",
+      "kind": "subnet-api",
+      "name": "Albedo API surface",
+      "netuid": 97,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unitone-labs/FlameWire/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unitone-labs/FlameWire/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://app.flamewire.io/api-keys?create=true&role=validator"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unitone-labs-flamewire-website-2",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unitone-labs/FlameWire/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unitone-labs/FlameWire/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/paritytech/polkadot-sdk"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unitone-labs-flamewire-website-4",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unitone-labs/FlameWire/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unitone-labs/FlameWire/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/unitone-labs/FlameWire.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-97-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Albedo TaoMarketCap dashboard",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/97",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/97"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/97"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -83,27 +335,1558 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/unitone-labs/FlameWire"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-api",
+      "kind": "subnet-api",
+      "name": "Albedo API",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://us-east-1.hippius.com/albedo/index.html",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "Albedo API",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/unarbos/albedo.git",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-docs",
+      "kind": "docs",
+      "name": "Albedo docs",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://us-east-1.hippius.com/albedo/index.html",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "Albedo docs",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/unarbos/albedo.git",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-health",
+      "kind": "subnet-api",
+      "name": "Albedo health endpoint",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://us-east-1.hippius.com/albedo/index.html",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "Albedo health endpoint",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/unarbos/albedo.git",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Albedo OpenAPI JSON",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://us-east-1.hippius.com/albedo/index.html",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "Albedo OpenAPI JSON",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/unarbos/albedo.git",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-swagger",
+      "kind": "openapi",
+      "name": "Albedo Swagger UI",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://us-east-1.hippius.com/albedo/index.html",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Albedo Swagger UI",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/unarbos/albedo.git",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Albedo Swagger JSON",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://us-east-1.hippius.com/albedo/index.html",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "Albedo Swagger JSON",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/unarbos/albedo.git",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Funarbos%2Falbedo"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-2-10ekrtt",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/paritytech/polkadot-sdk",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fparitytech%2Fpolkadot-sdk"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-2-b7ivfc",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unitone-labs/FlameWire.git",
+      "source_urls": [
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Funitone-labs%2FFlameWire"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-us-east-1-hippius-com-website-1",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://us-east-1.hippius.com/albedo/index.html",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/albedo/kings.html"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unarbos-albedo-dashboard-2",
+      "kind": "dashboard",
+      "name": "Albedo dashboard",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unarbos/albedo/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/albedo/dashboard.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unarbos-albedo-dashboard-3",
+      "kind": "dashboard",
+      "name": "Albedo dashboard",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unarbos/albedo/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/albedo/dashboard.json%60"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unarbos-albedo-data-artifact-1",
+      "kind": "data-artifact",
+      "name": "Albedo data artifact",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unarbos/albedo/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://huggingface.co/datasets/AlienKevin/SWE-ZERO-12M-trajectories"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unarbos-albedo-data-artifact-6",
+      "kind": "data-artifact",
+      "name": "Albedo data artifact",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unarbos/albedo/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://huggingface.co/ricdomolm/mini-coder-1.7b"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unarbos-albedo-website-4",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unarbos/albedo/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/unarbos/albedo.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unarbos-albedo-website-5",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unarbos/albedo/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/unarbos/albedo"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unitone-labs-flamewire-docs-1",
+      "kind": "docs",
+      "name": "Albedo docs",
+      "netuid": 97,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unitone-labs/FlameWire/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unitone-labs/FlameWire/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.flamewire.io/docs/miners/registration"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unitone-labs-flamewire-docs-3",
+      "kind": "docs",
+      "name": "Albedo docs",
+      "netuid": 97,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unitone-labs/FlameWire/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unitone-labs/FlameWire/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.flamewire.io/docs/validators/guide"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unitone-labs-flamewire-subnet-api-5",
+      "kind": "subnet-api",
+      "name": "Albedo API surface",
+      "netuid": 97,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unitone-labs/FlameWire/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unitone-labs/FlameWire/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://app.flamewire.io/api-keys?create=true&role=validator"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unitone-labs-flamewire-website-2",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unitone-labs/FlameWire/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unitone-labs/FlameWire/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/paritytech/polkadot-sdk"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-github-readme-unitone-labs-flamewire-website-4",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/unitone-labs/FlameWire/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/unitone-labs/FlameWire/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/unitone-labs/FlameWire.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-97-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Albedo TaoMarketCap dashboard",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/97",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/97"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/97"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-97-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Albedo source repository",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/97",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/97"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/unarbos/albedo"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-97-taomarketcap-website",
+      "kind": "website",
+      "name": "Albedo website",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/97",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/97"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/albedo/index.html"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-97-tensorplex-docs",
+      "kind": "docs",
+      "name": "Albedo Tensorplex subnet docs",
+      "netuid": 97,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/97/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/97/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/97"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-97-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "Albedo source repository",
+      "netuid": 97,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs-github",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/97/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/97/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/unitone-labs/FlameWire"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-api",
+      "kind": "subnet-api",
+      "name": "Albedo API",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://us-east-1.hippius.com/albedo/index.html",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "Albedo API",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/unarbos/albedo.git",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-docs",
+      "kind": "docs",
+      "name": "Albedo docs",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://us-east-1.hippius.com/albedo/index.html",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "Albedo docs",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/unarbos/albedo.git",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-health",
+      "kind": "subnet-api",
+      "name": "Albedo health endpoint",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://us-east-1.hippius.com/albedo/index.html",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "Albedo health endpoint",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/unarbos/albedo.git",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Albedo OpenAPI JSON",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://us-east-1.hippius.com/albedo/index.html",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "Albedo OpenAPI JSON",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/unarbos/albedo.git",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-swagger",
+      "kind": "openapi",
+      "name": "Albedo Swagger UI",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://us-east-1.hippius.com/albedo/index.html",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Albedo Swagger UI",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/unarbos/albedo.git",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Albedo Swagger JSON",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://us-east-1.hippius.com/albedo/index.html",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "Albedo Swagger JSON",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/unarbos/albedo.git",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Funarbos%2Falbedo"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-2-10ekrtt",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/paritytech/polkadot-sdk",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fparitytech%2Fpolkadot-sdk"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-2-b7ivfc",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unitone-labs/FlameWire.git",
+      "source_urls": [
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Funitone-labs%2FFlameWire"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/unarbos/albedo",
+      "source_urls": [
+        "https://github.com/paritytech/polkadot-sdk",
+        "https://github.com/unarbos/albedo",
+        "https://github.com/unarbos/albedo.git",
+        "https://github.com/unitone-labs/FlameWire.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-97-website-link-us-east-1-hippius-com-website-1",
+      "kind": "website",
+      "name": "Albedo website page",
+      "netuid": 97,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://us-east-1.hippius.com/albedo/index.html",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "state": "schema-valid",
+      "url": "https://us-east-1.hippius.com/albedo/kings.html"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet."
+    ],
+    "missing_kinds": [
+      "source-repo",
+      "subnet-api",
+      "sse"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "data-artifact",
+      "docs",
+      "openapi",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 4,
+    "candidate_count": 41,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 4,
+      "verified_at": "2026-06-06T07:17:59.261Z"
+    },
+    "dashboard_url": "https://us-east-1.hippius.com/albedo/dashboard.json",
+    "docs_url": "https://docs.flamewire.io/docs/miners/registration",
+    "gaps": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet."
+      ],
+      "missing_kinds": [
+        "source-repo",
+        "subnet-api",
+        "sse"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "data-artifact",
+        "docs",
+        "openapi",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "Albedo",
     "native_name": "Albedo",
     "native_slug": "albedo",
     "netuid": 97,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 9,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -112,16 +1895,614 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 7735450,
     "slug": "sn-97",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 9,
     "symbol": "ა",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://us-east-1.hippius.com/albedo/index.html"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-github-readme-unarbos-albedo-dashboard-2",
+      "kind": "dashboard",
+      "name": "Albedo dashboard",
+      "netuid": 97,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://us-east-1.hippius.com/albedo/dashboard.json",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/json",
+        "latency_ms": 392,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:58.797Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-github-readme-unarbos-albedo-data-artifact-1",
+      "kind": "data-artifact",
+      "name": "Albedo data artifact",
+      "netuid": 97,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://huggingface.co/datasets/AlienKevin/SWE-ZERO-12M-trajectories",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 266,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:58.820Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-github-readme-unarbos-albedo-data-artifact-6",
+      "kind": "data-artifact",
+      "name": "Albedo data artifact",
+      "netuid": 97,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://huggingface.co/ricdomolm/mini-coder-1.7b",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 135,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:58.821Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-github-readme-unitone-labs-flamewire-docs-1",
+      "kind": "docs",
+      "name": "Albedo docs",
+      "netuid": 97,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/unitone-labs/FlameWire/blob/main/README.md"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://docs.flamewire.io/docs/miners/registration",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 233,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:58.921Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-github-readme-unitone-labs-flamewire-docs-3",
+      "kind": "docs",
+      "name": "Albedo docs",
+      "netuid": 97,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/unitone-labs/FlameWire/blob/main/README.md"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://docs.flamewire.io/docs/validators/guide",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 236,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:58.941Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Albedo TaoMarketCap dashboard",
+      "netuid": 97,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/97"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://taomarketcap.com/subnets/97",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 135,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:59.079Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-taomarketcap-website",
+      "kind": "website",
+      "name": "Albedo website",
+      "netuid": 97,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/97"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://us-east-1.hippius.com/albedo/index.html",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 369,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:59.090Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-website-common-docs",
+      "kind": "docs",
+      "name": "Albedo docs",
+      "netuid": 97,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://us-east-1.hippius.com/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 552,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:59.210Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Albedo OpenAPI JSON",
+      "netuid": 97,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://us-east-1.hippius.com/openapi.json",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/json",
+        "latency_ms": 640,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:59.261Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-github-readme-unarbos-albedo-dashboard-2",
+      "kind": "dashboard",
+      "name": "Albedo dashboard",
+      "netuid": 97,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://us-east-1.hippius.com/albedo/dashboard.json",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/json",
+        "latency_ms": 392,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:58.797Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-github-readme-unarbos-albedo-data-artifact-1",
+      "kind": "data-artifact",
+      "name": "Albedo data artifact",
+      "netuid": 97,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://huggingface.co/datasets/AlienKevin/SWE-ZERO-12M-trajectories",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 266,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:58.820Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-github-readme-unarbos-albedo-data-artifact-6",
+      "kind": "data-artifact",
+      "name": "Albedo data artifact",
+      "netuid": 97,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/unarbos/albedo/blob/main/README.md"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://huggingface.co/ricdomolm/mini-coder-1.7b",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 135,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:58.821Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-github-readme-unitone-labs-flamewire-docs-1",
+      "kind": "docs",
+      "name": "Albedo docs",
+      "netuid": 97,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/unitone-labs/FlameWire/blob/main/README.md"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://docs.flamewire.io/docs/miners/registration",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 233,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:58.921Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-github-readme-unitone-labs-flamewire-docs-3",
+      "kind": "docs",
+      "name": "Albedo docs",
+      "netuid": 97,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/unitone-labs/FlameWire/blob/main/README.md"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://docs.flamewire.io/docs/validators/guide",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 236,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:58.941Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Albedo TaoMarketCap dashboard",
+      "netuid": 97,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/97"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://taomarketcap.com/subnets/97",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 135,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:59.079Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-taomarketcap-website",
+      "kind": "website",
+      "name": "Albedo website",
+      "netuid": 97,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/97"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://us-east-1.hippius.com/albedo/index.html",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 369,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:59.090Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-website-common-docs",
+      "kind": "docs",
+      "name": "Albedo docs",
+      "netuid": 97,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://us-east-1.hippius.com/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 552,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:59.210Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-97-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Albedo OpenAPI JSON",
+      "netuid": 97,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://us-east-1.hippius.com/albedo/index.html"
+      ],
+      "subnet_name": "Albedo",
+      "subnet_slug": "sn-97",
+      "url": "https://us-east-1.hippius.com/openapi.json",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/json",
+        "latency_ms": 640,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:59.261Z"
+      }
+    }
+  ]
 }

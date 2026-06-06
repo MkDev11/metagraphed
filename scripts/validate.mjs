@@ -53,6 +53,28 @@ const candidateStates = new Set([
   "stale",
   "rejected"
 ]);
+const curationLevels = new Set([
+  "native",
+  "candidate-discovered",
+  "machine-verified",
+  "maintainer-reviewed",
+  "adapter-backed"
+]);
+const reviewStates = new Set([
+  "unreviewed",
+  "machine-generated",
+  "maintainer-reviewed",
+  "needs-review",
+  "stale"
+]);
+const verificationClassifications = new Set([
+  "live",
+  "redirected",
+  "auth-required",
+  "dead",
+  "unsafe",
+  "unsupported"
+]);
 
 const slugPattern = /^[a-z0-9][a-z0-9-]*$/;
 
@@ -86,11 +108,13 @@ function validateSubnet(subnet, providerIds, surfaceIds) {
   if (subnet.docs_url !== undefined) {
     assert(isValidUrl(subnet.docs_url), `${subnet.slug}: docs_url must be a URL`);
   }
-  for (const key of ["source_repo", "dashboard_url"]) {
+  for (const key of ["source_repo", "dashboard_url", "website_url"]) {
     if (subnet[key] !== undefined && subnet[key] !== null) {
       assert(isValidUrl(subnet[key]), `${subnet.slug}: ${key} must be a URL or null`);
     }
   }
+  validateCuration(subnet.slug, subnet.curation);
+  validateLinks(subnet.slug, subnet.links || []);
   assert(Array.isArray(subnet.surfaces), `${subnet.slug}: surfaces must be an array`);
 
   for (const surface of subnet.surfaces || []) {
@@ -109,6 +133,23 @@ function validateSubnet(subnet, providerIds, surfaceIds) {
     if (surface.schema_url !== undefined) {
       assert(isValidUrl(surface.schema_url), `${surfaceKey}: schema_url must be a URL`);
     }
+    if (surface.source_urls !== undefined) {
+      assert(Array.isArray(surface.source_urls), `${surfaceKey}: source_urls must be an array`);
+      for (const sourceUrl of surface.source_urls || []) {
+        assert(isValidUrl(sourceUrl), `${surfaceKey}: source_urls must contain URLs`);
+      }
+    }
+    if (surface.verification !== undefined) {
+      validateVerification(`${surfaceKey}:verification`, surface.verification);
+    }
+    if (surface.authority === "registry-observed") {
+      assert(Array.isArray(surface.source_urls) && surface.source_urls.length > 0, `${surfaceKey}: source_urls required`);
+      assert(surface.verification !== undefined, `${surfaceKey}: verification is required for registry-observed surfaces`);
+      assert(
+        ["live", "redirected"].includes(surface.verification?.classification),
+        `${surfaceKey}: promoted registry-observed surface must be live or redirected`
+      );
+    }
 
     if (surface.probe !== undefined) {
       assert(typeof surface.probe.enabled === "boolean", `${surfaceKey}: probe.enabled must be boolean`);
@@ -123,6 +164,49 @@ function validateSubnet(subnet, providerIds, surfaceIds) {
         );
       }
     }
+  }
+}
+
+function validateCuration(key, curation) {
+  assert(curation && typeof curation === "object", `${key}: curation is required`);
+  assert(curationLevels.has(curation?.level), `${key}: invalid curation.level`);
+  assert(reviewStates.has(curation?.review_state), `${key}: invalid curation.review_state`);
+  assert(
+    curation.reviewed_at === null || curation.reviewed_at === undefined || typeof curation.reviewed_at === "string",
+    `${key}: reviewed_at must be string or null`
+  );
+  assert(
+    curation.verified_at === null || curation.verified_at === undefined || typeof curation.verified_at === "string",
+    `${key}: verified_at must be string or null`
+  );
+  assert(
+    curation.source_count === undefined ||
+      (Number.isInteger(curation.source_count) && curation.source_count >= 0),
+    `${key}: curation.source_count must be non-negative integer`
+  );
+  assert(Array.isArray(curation.gap_notes || []), `${key}: curation.gap_notes must be an array`);
+}
+
+function validateLinks(key, links) {
+  assert(Array.isArray(links), `${key}: links must be an array`);
+  for (const [index, link] of links.entries()) {
+    assert(Boolean(link.label), `${key}: links[${index}].label is required`);
+    assert(isValidUrl(link.url), `${key}: links[${index}].url must be a URL`);
+    if (link.source_url !== undefined) {
+      assert(isValidUrl(link.source_url), `${key}: links[${index}].source_url must be a URL`);
+    }
+  }
+}
+
+function validateVerification(key, verification) {
+  assert(verification && typeof verification === "object", `${key}: verification must be an object`);
+  assert(verificationClassifications.has(verification.classification), `${key}: invalid classification`);
+  assert(typeof verification.verified_at === "string", `${key}: verified_at is required`);
+  if (verification.redirect_target !== undefined && verification.redirect_target !== null) {
+    assert(isValidUrl(verification.redirect_target), `${key}: redirect_target must be a URL or null`);
+  }
+  if (verification.homepage !== undefined && verification.homepage !== null) {
+    assert(isValidUrl(verification.homepage), `${key}: homepage must be a URL or null`);
   }
 }
 
@@ -193,6 +277,9 @@ function validateCandidate(candidate, nativeNetuids, providerIds) {
   if (candidate.confidence !== undefined) {
     assert(["low", "medium", "high"].includes(candidate.confidence), `${key}: invalid confidence`);
   }
+  if (candidate.verification !== undefined && candidate.verification !== null) {
+    validateVerification(`${key}:verification`, candidate.verification);
+  }
   assert(providerIds.has(candidate.provider), `${key}: unknown provider ${candidate.provider}`);
   assert(typeof candidate.auth_required === "boolean", `${key}: auth_required must be boolean`);
   assert(typeof candidate.public_safe === "boolean", `${key}: public_safe must be boolean`);
@@ -202,7 +289,10 @@ async function validateGeneratedArtifacts(nativeSnapshot, overlays, candidates) 
   const subnetsArtifact = await readJson(path.join(repoRoot, "public/metagraph/subnets.json"));
   const surfacesArtifact = await readJson(path.join(repoRoot, "public/metagraph/surfaces.json"));
   const candidatesArtifact = await readJson(path.join(repoRoot, "public/metagraph/candidates.json"));
+  const curationArtifact = await readJson(path.join(repoRoot, "public/metagraph/curation.json"));
+  const gapsArtifact = await readJson(path.join(repoRoot, "public/metagraph/gaps.json"));
   const reviewQueueArtifact = await readJson(path.join(repoRoot, "public/metagraph/review-queue.json"));
+  const verificationArtifact = await readJson(path.join(repoRoot, "public/metagraph/verification/latest.json"));
   const coverageArtifact = await readJson(path.join(repoRoot, "public/metagraph/coverage.json"));
 
   const nativeNetuids = nativeSnapshot.subnets.map((subnet) => subnet.netuid);
@@ -214,6 +304,7 @@ async function validateGeneratedArtifacts(nativeSnapshot, overlays, candidates) 
 
   for (const subnet of subnetsArtifact.subnets) {
     assert(coverageLevels.has(subnet.coverage_level), `generated:${subnet.netuid}: invalid coverage_level`);
+    assert(subnet.coverage_level !== "native-only", `generated:${subnet.netuid}: active subnet must be curated`);
     const detailPath = path.join(repoRoot, `public/metagraph/subnets/${subnet.netuid}.json`);
     try {
       await fs.access(detailPath);
@@ -229,9 +320,17 @@ async function validateGeneratedArtifacts(nativeSnapshot, overlays, candidates) 
   }
 
   assert(coverageArtifact.chain_subnet_count === nativeSnapshot.subnets.length, "coverage: chain_subnet_count mismatch");
+  assert(coverageArtifact.curated_overlay_count === nativeSnapshot.subnets.length, "coverage: curated_overlay_count mismatch");
+  assert(coverageArtifact.native_only_count === 0, "coverage: native_only_count must be 0");
   assert(coverageArtifact.surface_count === surfacesArtifact.surfaces.length, "coverage: surface_count mismatch");
   assert(coverageArtifact.candidate_count === candidates.length, "coverage: candidate_count mismatch");
   assert(candidatesArtifact.candidates.length === candidates.length, "candidates artifact: count mismatch");
+  assert(curationArtifact.curation.length === nativeSnapshot.subnets.length, "curation artifact: count mismatch");
+  assert(gapsArtifact.gaps.length === nativeSnapshot.subnets.length, "gaps artifact: count mismatch");
+  assert(
+    verificationArtifact.results.length === candidates.length,
+    "verification artifact: result count must match candidates"
+  );
   assert(
     reviewQueueArtifact.count === reviewQueueArtifact.candidates.length,
     "review queue artifact: count must match candidates length"
@@ -266,6 +365,13 @@ for (const subnet of subnets) {
   slugs.add(subnet.slug);
   validateSubnet(subnet, providerIds, surfaceIds);
 }
+
+for (const nativeNetuid of nativeNetuids) {
+  assert(netuids.has(nativeNetuid), `native:${nativeNetuid}: missing curated overlay`);
+}
+
+const rootOverlay = subnets.find((subnet) => subnet.netuid === 0);
+assert(rootOverlay?.categories?.includes("root"), "root overlay must be labeled root/system");
 
 for (const candidate of candidates) {
   assert(!candidateIds.has(candidate.id), `${candidate.id}: duplicate candidate id`);

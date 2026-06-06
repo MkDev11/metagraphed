@@ -1,5 +1,26 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-55-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "NIOME TaoMarketCap dashboard",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/55",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/55"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/55"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -63,27 +84,675 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/55"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-common-api",
+      "kind": "subnet-api",
+      "name": "NIOME API",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-common-docs",
+      "kind": "docs",
+      "name": "NIOME docs",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-common-health",
+      "kind": "subnet-api",
+      "name": "NIOME health endpoint",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "NIOME OpenAPI JSON",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-common-swagger",
+      "kind": "openapi",
+      "name": "NIOME Swagger UI",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "NIOME Swagger JSON",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-link-niome-genomes-io-docs-2",
+      "kind": "docs",
+      "name": "NIOME docs",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/NIOME_Whitepaper_v1.1.pdf"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-link-niome-genomes-io-docs-5",
+      "kind": "docs",
+      "name": "NIOME docs",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/NIOME_Release_Plan.pdf"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-link-niome-genomes-io-website-1",
+      "kind": "website",
+      "name": "NIOME website page",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://genomes.io/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-link-niome-genomes-io-website-3",
+      "kind": "website",
+      "name": "NIOME website page",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/how-to-buy"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-link-niome-genomes-io-website-4",
+      "kind": "website",
+      "name": "NIOME website page",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blog.genomes.io/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-link-niome-genomes-io-website-6",
+      "kind": "website",
+      "name": "NIOME website page",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blog.genomes.io/the-niome-manifesto-f9f861cb0bd4"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-55-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "NIOME TaoMarketCap dashboard",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/55",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/55"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/55"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-55-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "NIOME source repository",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/55",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/55",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/55/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/genomesio/subnet-niome"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-55-taomarketcap-website",
+      "kind": "website",
+      "name": "NIOME website",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/55",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/55"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-55-tensorplex-docs",
+      "kind": "docs",
+      "name": "NIOME Tensorplex subnet docs",
+      "netuid": 55,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/55/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/55/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/55"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-common-api",
+      "kind": "subnet-api",
+      "name": "NIOME API",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-common-docs",
+      "kind": "docs",
+      "name": "NIOME docs",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-common-health",
+      "kind": "subnet-api",
+      "name": "NIOME health endpoint",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "NIOME OpenAPI JSON",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-common-swagger",
+      "kind": "openapi",
+      "name": "NIOME Swagger UI",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "NIOME Swagger JSON",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-link-niome-genomes-io-docs-2",
+      "kind": "docs",
+      "name": "NIOME docs",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/NIOME_Whitepaper_v1.1.pdf"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-link-niome-genomes-io-docs-5",
+      "kind": "docs",
+      "name": "NIOME docs",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/NIOME_Release_Plan.pdf"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-link-niome-genomes-io-website-1",
+      "kind": "website",
+      "name": "NIOME website page",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://genomes.io/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-link-niome-genomes-io-website-3",
+      "kind": "website",
+      "name": "NIOME website page",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://niome.genomes.io/how-to-buy"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-link-niome-genomes-io-website-4",
+      "kind": "website",
+      "name": "NIOME website page",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blog.genomes.io/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-55-website-link-niome-genomes-io-website-6",
+      "kind": "website",
+      "name": "NIOME website page",
+      "netuid": 55,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://niome.genomes.io/",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "state": "schema-valid",
+      "url": "https://blog.genomes.io/the-niome-manifesto-f9f861cb0bd4"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "source-repo",
+      "openapi",
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "docs",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 3,
+    "candidate_count": 16,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 3,
+      "verified_at": "2026-06-06T07:17:41.757Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/55",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/55",
+    "gaps": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "source-repo",
+        "openapi",
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "docs",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "NIOME",
     "native_name": "NIOME",
     "native_slug": "niome",
     "netuid": 55,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 5,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -92,16 +761,350 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 4703386,
     "slug": "sn-55",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 5,
     "symbol": "ث",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://niome.genomes.io/"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-55-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "NIOME TaoMarketCap dashboard",
+      "netuid": 55,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/55"
+      ],
+      "subnet_name": "NIOME",
+      "subnet_slug": "sn-55",
+      "url": "https://taomarketcap.com/subnets/55",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 159,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:41.648Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-55-taomarketcap-website",
+      "kind": "website",
+      "name": "NIOME website",
+      "netuid": 55,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/55"
+      ],
+      "subnet_name": "NIOME",
+      "subnet_slug": "sn-55",
+      "url": "https://niome.genomes.io/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=UTF-8",
+        "latency_ms": 243,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:41.658Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-55-tensorplex-docs",
+      "kind": "docs",
+      "name": "NIOME Tensorplex subnet docs",
+      "netuid": 55,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/55/subnet.json"
+      ],
+      "subnet_name": "NIOME",
+      "subnet_slug": "sn-55",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/55",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 391,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:41.665Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-55-website-link-niome-genomes-io-docs-2",
+      "kind": "docs",
+      "name": "NIOME docs",
+      "netuid": 55,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "subnet_name": "NIOME",
+      "subnet_slug": "sn-55",
+      "url": "https://niome.genomes.io/NIOME_Whitepaper_v1.1.pdf",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/pdf",
+        "latency_ms": 202,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:41.746Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-55-website-link-niome-genomes-io-docs-5",
+      "kind": "docs",
+      "name": "NIOME docs",
+      "netuid": 55,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "subnet_name": "NIOME",
+      "subnet_slug": "sn-55",
+      "url": "https://niome.genomes.io/NIOME_Release_Plan.pdf",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/pdf",
+        "latency_ms": 204,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:41.757Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-55-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "NIOME TaoMarketCap dashboard",
+      "netuid": 55,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/55"
+      ],
+      "subnet_name": "NIOME",
+      "subnet_slug": "sn-55",
+      "url": "https://taomarketcap.com/subnets/55",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 159,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:41.648Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-55-taomarketcap-website",
+      "kind": "website",
+      "name": "NIOME website",
+      "netuid": 55,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/55"
+      ],
+      "subnet_name": "NIOME",
+      "subnet_slug": "sn-55",
+      "url": "https://niome.genomes.io/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=UTF-8",
+        "latency_ms": 243,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:41.658Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-55-tensorplex-docs",
+      "kind": "docs",
+      "name": "NIOME Tensorplex subnet docs",
+      "netuid": 55,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/55/subnet.json"
+      ],
+      "subnet_name": "NIOME",
+      "subnet_slug": "sn-55",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/55",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 391,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:41.665Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-55-website-link-niome-genomes-io-docs-2",
+      "kind": "docs",
+      "name": "NIOME docs",
+      "netuid": 55,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "subnet_name": "NIOME",
+      "subnet_slug": "sn-55",
+      "url": "https://niome.genomes.io/NIOME_Whitepaper_v1.1.pdf",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/pdf",
+        "latency_ms": 202,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:41.746Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-55-website-link-niome-genomes-io-docs-5",
+      "kind": "docs",
+      "name": "NIOME docs",
+      "netuid": 55,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://niome.genomes.io/"
+      ],
+      "subnet_name": "NIOME",
+      "subnet_slug": "sn-55",
+      "url": "https://niome.genomes.io/NIOME_Release_Plan.pdf",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/pdf",
+        "latency_ms": 204,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:41.757Z"
+      }
+    }
+  ]
 }

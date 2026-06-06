@@ -1,5 +1,153 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-github-readme-flock-io-flock-subnet-website-1",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/FLock-io/FLock-subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/FLock-io/FLock-subnet.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-github-readme-verathos-ai-verathos-docs-2",
+      "kind": "docs",
+      "name": "Verathos docs",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/verathos-ai/verathos/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/verathos-ai/verathos/blob/main/README.md",
+        "https://verathos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://verathos.ai/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-github-readme-verathos-ai-verathos-docs-3",
+      "kind": "docs",
+      "name": "Verathos docs",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/verathos-ai/verathos/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/verathos-ai/verathos/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://verathos.ai/docs?page=setup"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-github-readme-verathos-ai-verathos-subnet-api-4",
+      "kind": "subnet-api",
+      "name": "Verathos API surface",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/verathos-ai/verathos/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/verathos-ai/verathos/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://api.verathos.ai/v1"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-github-readme-verathos-ai-verathos-website-1",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/verathos-ai/verathos/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/verathos-ai/verathos/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/vllm-project/vllm"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-github-readme-verathos-ai-verathos-website-5",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/verathos-ai/verathos/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/verathos-ai/verathos/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/verathos-ai/verathos"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-96-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Verathos TaoMarketCap dashboard",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/96",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/96"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/96"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -83,27 +231,1341 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/FLock-io/FLock-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-api",
+      "kind": "subnet-api",
+      "name": "Verathos API",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://verathos.ai/",
+      "source_urls": [
+        "https://verathos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://verathos.ai/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "Verathos API",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-docs",
+      "kind": "docs",
+      "name": "Verathos docs",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-health",
+      "kind": "subnet-api",
+      "name": "Verathos health endpoint",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://verathos.ai/",
+      "source_urls": [
+        "https://verathos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://verathos.ai/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "Verathos health endpoint",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Verathos OpenAPI JSON",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://verathos.ai/",
+      "source_urls": [
+        "https://verathos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://verathos.ai/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "Verathos OpenAPI JSON",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-swagger",
+      "kind": "openapi",
+      "name": "Verathos Swagger UI",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://verathos.ai/",
+      "source_urls": [
+        "https://verathos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://verathos.ai/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Verathos Swagger UI",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Verathos Swagger JSON",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://verathos.ai/",
+      "source_urls": [
+        "https://verathos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://verathos.ai/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "Verathos Swagger JSON",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fvllm-project%2Fvllm"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-2-1bbtqyw",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/FLock-io/FLock-subnet.git",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FFLock-io%2FFLock-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-2-tbxp4",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/verathos-ai/verathos",
+      "source_urls": [
+        "https://github.com/verathos-ai/verathos"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fverathos-ai%2Fverathos"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-github-readme-flock-io-flock-subnet-website-1",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/FLock-io/FLock-subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/FLock-io/FLock-subnet.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-github-readme-verathos-ai-verathos-docs-2",
+      "kind": "docs",
+      "name": "Verathos docs",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/verathos-ai/verathos/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/verathos-ai/verathos/blob/main/README.md",
+        "https://verathos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://verathos.ai/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-github-readme-verathos-ai-verathos-docs-3",
+      "kind": "docs",
+      "name": "Verathos docs",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/verathos-ai/verathos/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/verathos-ai/verathos/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://verathos.ai/docs?page=setup"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-github-readme-verathos-ai-verathos-subnet-api-4",
+      "kind": "subnet-api",
+      "name": "Verathos API surface",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/verathos-ai/verathos/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/verathos-ai/verathos/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://api.verathos.ai/v1"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-github-readme-verathos-ai-verathos-website-1",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/verathos-ai/verathos/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/verathos-ai/verathos/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/vllm-project/vllm"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-github-readme-verathos-ai-verathos-website-5",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/verathos-ai/verathos/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/verathos-ai/verathos/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/verathos-ai/verathos"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-96-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Verathos TaoMarketCap dashboard",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/96",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/96"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/96"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-96-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Verathos source repository",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/96",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/96"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/verathos-ai/verathos"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-96-taomarketcap-website",
+      "kind": "website",
+      "name": "Verathos website",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/96",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/96"
+      ],
+      "state": "schema-valid",
+      "url": "https://verathos.ai/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-96-tensorplex-docs",
+      "kind": "docs",
+      "name": "Verathos Tensorplex subnet docs",
+      "netuid": 96,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/96/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/96/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/96"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-96-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "Verathos source repository",
+      "netuid": 96,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs-github",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/96/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/96/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/FLock-io/FLock-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-api",
+      "kind": "subnet-api",
+      "name": "Verathos API",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://verathos.ai/",
+      "source_urls": [
+        "https://verathos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://verathos.ai/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "Verathos API",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-docs",
+      "kind": "docs",
+      "name": "Verathos docs",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-health",
+      "kind": "subnet-api",
+      "name": "Verathos health endpoint",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://verathos.ai/",
+      "source_urls": [
+        "https://verathos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://verathos.ai/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "Verathos health endpoint",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Verathos OpenAPI JSON",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://verathos.ai/",
+      "source_urls": [
+        "https://verathos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://verathos.ai/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "Verathos OpenAPI JSON",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-swagger",
+      "kind": "openapi",
+      "name": "Verathos Swagger UI",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://verathos.ai/",
+      "source_urls": [
+        "https://verathos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://verathos.ai/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Verathos Swagger UI",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Verathos Swagger JSON",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://verathos.ai/",
+      "source_urls": [
+        "https://verathos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://verathos.ai/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "Verathos Swagger JSON",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fvllm-project%2Fvllm"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-2-1bbtqyw",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/FLock-io/FLock-subnet.git",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FFLock-io%2FFLock-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-2-tbxp4",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/verathos-ai/verathos",
+      "source_urls": [
+        "https://github.com/verathos-ai/verathos"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fverathos-ai%2Fverathos"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-96-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Verathos website page",
+      "netuid": 96,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/vllm-project/vllm",
+      "source_urls": [
+        "https://github.com/FLock-io/FLock-subnet.git",
+        "https://github.com/verathos-ai/verathos",
+        "https://github.com/vllm-project/vllm"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "source-repo",
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "docs",
+      "openapi",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 4,
+    "candidate_count": 34,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 3,
+      "verified_at": "2026-06-06T07:17:58.333Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/96",
+    "docs_url": "https://verathos.ai/docs",
+    "gaps": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "source-repo",
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "docs",
+        "openapi",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "Verathos",
     "native_name": "Verathos",
     "native_slug": "verathos",
     "netuid": 96,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 6,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -112,16 +1574,418 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 7692872,
     "slug": "sn-96",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 6,
     "symbol": "᚛",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://verathos.ai/"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-96-github-readme-verathos-ai-verathos-docs-2",
+      "kind": "docs",
+      "name": "Verathos docs",
+      "netuid": 96,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/verathos-ai/verathos/blob/main/README.md",
+        "https://verathos.ai/"
+      ],
+      "subnet_name": "Verathos",
+      "subnet_slug": "sn-96",
+      "url": "https://verathos.ai/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 608,
+        "method_tested": "GET",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:57.877Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-96-github-readme-verathos-ai-verathos-docs-3",
+      "kind": "docs",
+      "name": "Verathos docs",
+      "netuid": 96,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/verathos-ai/verathos/blob/main/README.md"
+      ],
+      "subnet_name": "Verathos",
+      "subnet_slug": "sn-96",
+      "url": "https://verathos.ai/docs?page=setup",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 597,
+        "method_tested": "GET",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:57.886Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-96-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Verathos TaoMarketCap dashboard",
+      "netuid": 96,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/96"
+      ],
+      "subnet_name": "Verathos",
+      "subnet_slug": "sn-96",
+      "url": "https://taomarketcap.com/subnets/96",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 145,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:57.919Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-96-taomarketcap-website",
+      "kind": "website",
+      "name": "Verathos website",
+      "netuid": 96,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/96"
+      ],
+      "subnet_name": "Verathos",
+      "subnet_slug": "sn-96",
+      "url": "https://verathos.ai/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 586,
+        "method_tested": "GET",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:58.037Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-96-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Verathos OpenAPI JSON",
+      "netuid": 96,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://verathos.ai/"
+      ],
+      "subnet_name": "Verathos",
+      "subnet_slug": "sn-96",
+      "url": "https://verathos.ai/openapi.json",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/json",
+        "latency_ms": 584,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:58.237Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-96-website-common-swagger",
+      "kind": "openapi",
+      "name": "Verathos Swagger UI",
+      "netuid": 96,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://verathos.ai/"
+      ],
+      "subnet_name": "Verathos",
+      "subnet_slug": "sn-96",
+      "url": "https://verathos.ai/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 621,
+        "method_tested": "GET",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:58.333Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-96-github-readme-verathos-ai-verathos-docs-2",
+      "kind": "docs",
+      "name": "Verathos docs",
+      "netuid": 96,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/verathos-ai/verathos/blob/main/README.md",
+        "https://verathos.ai/"
+      ],
+      "subnet_name": "Verathos",
+      "subnet_slug": "sn-96",
+      "url": "https://verathos.ai/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 608,
+        "method_tested": "GET",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:57.877Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-96-github-readme-verathos-ai-verathos-docs-3",
+      "kind": "docs",
+      "name": "Verathos docs",
+      "netuid": 96,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/verathos-ai/verathos/blob/main/README.md"
+      ],
+      "subnet_name": "Verathos",
+      "subnet_slug": "sn-96",
+      "url": "https://verathos.ai/docs?page=setup",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 597,
+        "method_tested": "GET",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:57.886Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-96-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Verathos TaoMarketCap dashboard",
+      "netuid": 96,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/96"
+      ],
+      "subnet_name": "Verathos",
+      "subnet_slug": "sn-96",
+      "url": "https://taomarketcap.com/subnets/96",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 145,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:57.919Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-96-taomarketcap-website",
+      "kind": "website",
+      "name": "Verathos website",
+      "netuid": 96,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/96"
+      ],
+      "subnet_name": "Verathos",
+      "subnet_slug": "sn-96",
+      "url": "https://verathos.ai/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 586,
+        "method_tested": "GET",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:58.037Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-96-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Verathos OpenAPI JSON",
+      "netuid": 96,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://verathos.ai/"
+      ],
+      "subnet_name": "Verathos",
+      "subnet_slug": "sn-96",
+      "url": "https://verathos.ai/openapi.json",
+      "verification": {
+        "classification": "live",
+        "content_type": "application/json",
+        "latency_ms": 584,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:58.237Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-96-website-common-swagger",
+      "kind": "openapi",
+      "name": "Verathos Swagger UI",
+      "netuid": 96,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://verathos.ai/"
+      ],
+      "subnet_name": "Verathos",
+      "subnet_slug": "sn-96",
+      "url": "https://verathos.ai/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 621,
+        "method_tested": "GET",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:58.333Z"
+      }
+    }
+  ]
 }

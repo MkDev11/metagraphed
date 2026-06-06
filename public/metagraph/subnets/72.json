@@ -1,5 +1,68 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-github-readme-natixnetwork-streetvision-subnet-data-artifact-1",
+      "kind": "data-artifact",
+      "name": "StreetVision by NATIX data artifact",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/natixnetwork/streetvision-subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/natixnetwork/streetvision-subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://huggingface.co/natix-network-org"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-github-readme-natixnetwork-streetvision-subnet-docs-2",
+      "kind": "docs",
+      "name": "StreetVision by NATIX docs",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/natixnetwork/streetvision-subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/natixnetwork/streetvision-subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.bittensor.com/learn/bittensor-building-blocks."
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-72-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "StreetVision by NATIX TaoMarketCap dashboard",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/72",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/72"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/72"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -63,27 +126,882 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/72"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-common-api",
+      "kind": "subnet-api",
+      "name": "StreetVision by NATIX API",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-common-docs",
+      "kind": "docs",
+      "name": "StreetVision by NATIX docs",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-common-health",
+      "kind": "subnet-api",
+      "name": "StreetVision by NATIX health endpoint",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "StreetVision by NATIX OpenAPI JSON",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-common-swagger",
+      "kind": "openapi",
+      "name": "StreetVision by NATIX Swagger UI",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "StreetVision by NATIX Swagger JSON",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-docs-10",
+      "kind": "docs",
+      "name": "StreetVision by NATIX docs",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.natix.network/whitepaper"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-1",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/vx360-depin-dashcam"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-2",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://staking.natix.network/?_gl=1*gkaumg*_gcl_au*MTQyNTIwNDgxNS4xNzcyNTI1Njg3LjIxMDE0MzE4MzcuMTc3NDk3MDkzMy4xNzc0OTcwOTMz"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-3",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/use-cases"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-4",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-5",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/drive-earn-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-6",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/drones"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-7",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/data-console"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-8",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/tokens"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-9",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://staking.natix.network/"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-github-readme-natixnetwork-streetvision-subnet-data-artifact-1",
+      "kind": "data-artifact",
+      "name": "StreetVision by NATIX data artifact",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/natixnetwork/streetvision-subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/natixnetwork/streetvision-subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://huggingface.co/natix-network-org"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-github-readme-natixnetwork-streetvision-subnet-docs-2",
+      "kind": "docs",
+      "name": "StreetVision by NATIX docs",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/natixnetwork/streetvision-subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/natixnetwork/streetvision-subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.bittensor.com/learn/bittensor-building-blocks."
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-72-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "StreetVision by NATIX TaoMarketCap dashboard",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/72",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/72"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/72"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-72-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "StreetVision by NATIX source repository",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/72",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/72",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/72/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/natixnetwork/streetvision-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-72-taomarketcap-website",
+      "kind": "website",
+      "name": "StreetVision by NATIX website",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/72",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/72"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/?utm_source=bittensor"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-72-tensorplex-docs",
+      "kind": "docs",
+      "name": "StreetVision by NATIX Tensorplex subnet docs",
+      "netuid": 72,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/72/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/72/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/72"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-common-api",
+      "kind": "subnet-api",
+      "name": "StreetVision by NATIX API",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-common-docs",
+      "kind": "docs",
+      "name": "StreetVision by NATIX docs",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-common-health",
+      "kind": "subnet-api",
+      "name": "StreetVision by NATIX health endpoint",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "StreetVision by NATIX OpenAPI JSON",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-common-swagger",
+      "kind": "openapi",
+      "name": "StreetVision by NATIX Swagger UI",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "StreetVision by NATIX Swagger JSON",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-docs-10",
+      "kind": "docs",
+      "name": "StreetVision by NATIX docs",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.natix.network/whitepaper"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-1",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/vx360-depin-dashcam"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-2",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://staking.natix.network/?_gl=1*gkaumg*_gcl_au*MTQyNTIwNDgxNS4xNzcyNTI1Njg3LjIxMDE0MzE4MzcuMTc3NDk3MDkzMy4xNzc0OTcwOTMz"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-3",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/use-cases"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-4",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-5",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/drive-earn-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-6",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/drones"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-7",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/data-console"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-8",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.natix.network/tokens"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-72-website-link-www-natix-network-website-9",
+      "kind": "website",
+      "name": "StreetVision by NATIX website page",
+      "netuid": 72,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.natix.network/?utm_source=bittensor",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://staking.natix.network/"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet."
+    ],
+    "missing_kinds": [
+      "source-repo",
+      "openapi",
+      "subnet-api",
+      "sse"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "data-artifact",
+      "docs",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 3,
+    "candidate_count": 22,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 3,
+      "verified_at": "2026-06-06T07:17:48.132Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/72",
+    "docs_url": "https://docs.natix.network/whitepaper",
+    "gaps": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet."
+      ],
+      "missing_kinds": [
+        "source-repo",
+        "openapi",
+        "subnet-api",
+        "sse"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "data-artifact",
+        "docs",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "StreetVision by NATIX",
     "native_name": "StreetVision by NATIX",
     "native_slug": "streetvision-by-natix",
     "netuid": 72,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 4,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -92,16 +1010,284 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 5064327,
     "slug": "sn-72",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 4,
     "symbol": "ق",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://www.natix.network/?utm_source=bittensor"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-72-github-readme-natixnetwork-streetvision-subnet-data-artifact-1",
+      "kind": "data-artifact",
+      "name": "StreetVision by NATIX data artifact",
+      "netuid": 72,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/natixnetwork/streetvision-subnet/blob/main/README.md"
+      ],
+      "subnet_name": "StreetVision by NATIX",
+      "subnet_slug": "sn-72",
+      "url": "https://huggingface.co/natix-network-org",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 125,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.995Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-72-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "StreetVision by NATIX TaoMarketCap dashboard",
+      "netuid": 72,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/72"
+      ],
+      "subnet_name": "StreetVision by NATIX",
+      "subnet_slug": "sn-72",
+      "url": "https://taomarketcap.com/subnets/72",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 188,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:48.043Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-72-taomarketcap-website",
+      "kind": "website",
+      "name": "StreetVision by NATIX website",
+      "netuid": 72,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/72"
+      ],
+      "subnet_name": "StreetVision by NATIX",
+      "subnet_slug": "sn-72",
+      "url": "https://www.natix.network/?utm_source=bittensor",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 146,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:48.067Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-72-website-link-www-natix-network-docs-10",
+      "kind": "docs",
+      "name": "StreetVision by NATIX docs",
+      "netuid": 72,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "subnet_name": "StreetVision by NATIX",
+      "subnet_slug": "sn-72",
+      "url": "https://docs.natix.network/whitepaper",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 237,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:48.132Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-72-github-readme-natixnetwork-streetvision-subnet-data-artifact-1",
+      "kind": "data-artifact",
+      "name": "StreetVision by NATIX data artifact",
+      "netuid": 72,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/natixnetwork/streetvision-subnet/blob/main/README.md"
+      ],
+      "subnet_name": "StreetVision by NATIX",
+      "subnet_slug": "sn-72",
+      "url": "https://huggingface.co/natix-network-org",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 125,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.995Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-72-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "StreetVision by NATIX TaoMarketCap dashboard",
+      "netuid": 72,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/72"
+      ],
+      "subnet_name": "StreetVision by NATIX",
+      "subnet_slug": "sn-72",
+      "url": "https://taomarketcap.com/subnets/72",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 188,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:48.043Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-72-taomarketcap-website",
+      "kind": "website",
+      "name": "StreetVision by NATIX website",
+      "netuid": 72,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/72"
+      ],
+      "subnet_name": "StreetVision by NATIX",
+      "subnet_slug": "sn-72",
+      "url": "https://www.natix.network/?utm_source=bittensor",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 146,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:48.067Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-72-website-link-www-natix-network-docs-10",
+      "kind": "docs",
+      "name": "StreetVision by NATIX docs",
+      "netuid": 72,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://www.natix.network/?utm_source=bittensor"
+      ],
+      "subnet_name": "StreetVision by NATIX",
+      "subnet_slug": "sn-72",
+      "url": "https://docs.natix.network/whitepaper",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 237,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:48.132Z"
+      }
+    }
+  ]
 }

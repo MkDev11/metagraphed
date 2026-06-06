@@ -1,0 +1,3565 @@
+{
+  "gaps": [
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs"
+        ]
+      },
+      "name": "root",
+      "netuid": 0,
+      "slug": "root"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Apex",
+      "netuid": 1,
+      "slug": "sn-1"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "DSperse",
+      "netuid": 2,
+      "slug": "sn-2"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "deprecated",
+      "netuid": 3,
+      "slug": "sn-3"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Targon",
+      "netuid": 4,
+      "slug": "sn-4"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "data-artifact",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Hone",
+      "netuid": 5,
+      "slug": "sn-5"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Numinous",
+      "netuid": 6,
+      "slug": "sn-6"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "adapter-backed",
+      "gaps": {
+        "gap_notes": [
+          "No verified dashboard surface yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "dashboard",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "docs",
+          "openapi",
+          "source-repo",
+          "sse",
+          "subnet-api",
+          "website"
+        ]
+      },
+      "name": "Allways",
+      "netuid": 7,
+      "slug": "allways"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Vanta",
+      "netuid": 8,
+      "slug": "sn-8"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "iota",
+      "netuid": 9,
+      "slug": "sn-9"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Swap",
+      "netuid": 10,
+      "slug": "sn-10"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "TrajectoryRL",
+      "netuid": 11,
+      "slug": "sn-11"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Compute Horde",
+      "netuid": 12,
+      "slug": "sn-12"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Data Universe",
+      "netuid": 13,
+      "slug": "sn-13"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Cacheon",
+      "netuid": 14,
+      "slug": "sn-14"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "ORO",
+      "netuid": 15,
+      "slug": "sn-15"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "BitAds",
+      "netuid": 16,
+      "slug": "sn-16"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "404—GEN",
+      "netuid": 17,
+      "slug": "sn-17"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Zeus",
+      "netuid": 18,
+      "slug": "sn-18"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "blockmachine",
+      "netuid": 19,
+      "slug": "sn-19"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "GroundLayer",
+      "netuid": 20,
+      "slug": "sn-20"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "AdTAO",
+      "netuid": 21,
+      "slug": "sn-21"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Desearch",
+      "netuid": 22,
+      "slug": "sn-22"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "subnet-api",
+          "website"
+        ]
+      },
+      "name": "Trishool",
+      "netuid": 23,
+      "slug": "sn-23"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet."
+        ],
+        "missing_kinds": [
+          "openapi",
+          "subnet-api",
+          "sse"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "data-artifact",
+          "docs",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Quasar",
+      "netuid": 24,
+      "slug": "sn-24"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Mainframe",
+      "netuid": 25,
+      "slug": "sn-25"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Perturb",
+      "netuid": 26,
+      "slug": "sn-26"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs"
+        ]
+      },
+      "name": "Nodexo",
+      "netuid": 27,
+      "slug": "sn-27"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs"
+        ]
+      },
+      "name": "gm",
+      "netuid": 28,
+      "slug": "sn-28"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "data-artifact",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Coldint",
+      "netuid": 29,
+      "slug": "sn-29"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "Endure Network",
+      "netuid": 30,
+      "slug": "sn-30"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs"
+        ]
+      },
+      "name": "Recall",
+      "netuid": 31,
+      "slug": "sn-31"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "ItsAI",
+      "netuid": 32,
+      "slug": "sn-32"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "data-artifact",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "ReadyAI",
+      "netuid": 33,
+      "slug": "sn-33"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "data-artifact",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "BitMind",
+      "netuid": 34,
+      "slug": "sn-34"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "OxMarkets",
+      "netuid": 35,
+      "slug": "sn-35"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Eirel",
+      "netuid": 36,
+      "slug": "sn-36"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Aurelius",
+      "netuid": 37,
+      "slug": "sn-37"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "colosseum",
+      "netuid": 38,
+      "slug": "sn-38"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "source-repo"
+        ]
+      },
+      "name": "deprecated",
+      "netuid": 39,
+      "slug": "sn-39"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs"
+        ]
+      },
+      "name": "Chunking",
+      "netuid": 40,
+      "slug": "sn-40"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Almanac",
+      "netuid": 41,
+      "slug": "sn-41"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs"
+        ]
+      },
+      "name": "Unknown",
+      "netuid": 42,
+      "slug": "sn-42"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "source-repo"
+        ]
+      },
+      "name": "Graphite",
+      "netuid": 43,
+      "slug": "sn-43"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Score",
+      "netuid": 44,
+      "slug": "sn-44"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Talisman AI",
+      "netuid": 45,
+      "slug": "sn-45"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "data-artifact",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Zipcode",
+      "netuid": 46,
+      "slug": "sn-46"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "data-artifact",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "EvolAI",
+      "netuid": 47,
+      "slug": "sn-47"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Quantum Compute",
+      "netuid": 48,
+      "slug": "sn-48"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Nepher Robotics",
+      "netuid": 49,
+      "slug": "sn-49"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Synth",
+      "netuid": 50,
+      "slug": "sn-50"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "subnet-api",
+          "website"
+        ]
+      },
+      "name": "lium.io",
+      "netuid": 51,
+      "slug": "sn-51"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "Dojo",
+      "netuid": 52,
+      "slug": "sn-52"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "EfficientFrontier",
+      "netuid": 53,
+      "slug": "sn-53"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "website"
+        ]
+      },
+      "name": "Yanez MIID",
+      "netuid": 54,
+      "slug": "sn-54"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "NIOME",
+      "netuid": 55,
+      "slug": "sn-55"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "data-artifact",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "Gradients",
+      "netuid": 56,
+      "slug": "sn-56"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs"
+        ]
+      },
+      "name": "gaia",
+      "netuid": 57,
+      "slug": "sn-57"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "website",
+          "openapi",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "subnet-api"
+        ]
+      },
+      "name": "Pending",
+      "netuid": 58,
+      "slug": "sn-58"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "subnet-api",
+          "website"
+        ]
+      },
+      "name": "Babelbit",
+      "netuid": 59,
+      "slug": "sn-59"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Bitsec.ai",
+      "netuid": 60,
+      "slug": "sn-60"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "RedTeam",
+      "netuid": 61,
+      "slug": "sn-61"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "Ridges",
+      "netuid": 62,
+      "slug": "sn-62"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "website"
+        ]
+      },
+      "name": "Enigma",
+      "netuid": 63,
+      "slug": "sn-63"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified SSE/event stream yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "sse"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "data-artifact",
+          "docs",
+          "subnet-api",
+          "website"
+        ]
+      },
+      "name": "Chutes",
+      "netuid": 64,
+      "slug": "sn-64"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "TAO Private Network",
+      "netuid": 65,
+      "slug": "sn-65"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "subnet-api",
+          "website"
+        ]
+      },
+      "name": "ninja",
+      "netuid": 66,
+      "slug": "sn-66"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "website"
+        ]
+      },
+      "name": "Harnyx",
+      "netuid": 67,
+      "slug": "sn-67"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "data-artifact",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "NOVA",
+      "netuid": 68,
+      "slug": "sn-68"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "ain",
+      "netuid": 69,
+      "slug": "sn-69"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "data-artifact",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "NexisGen",
+      "netuid": 70,
+      "slug": "sn-70"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "Leadpoet",
+      "netuid": 71,
+      "slug": "sn-71"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "data-artifact",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "StreetVision by NATIX",
+      "netuid": 72,
+      "slug": "sn-72"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "Parked",
+      "netuid": 73,
+      "slug": "sn-73"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "adapter-backed",
+      "gaps": {
+        "gap_notes": [
+          "No verified dashboard surface yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "dashboard",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "docs",
+          "source-repo",
+          "website"
+        ]
+      },
+      "name": "Gittensor",
+      "netuid": 74,
+      "slug": "gittensor"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "Hippius",
+      "netuid": 75,
+      "slug": "sn-75"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "Byzantium",
+      "netuid": 76,
+      "slug": "sn-76"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "Liquidity",
+      "netuid": 77,
+      "slug": "sn-77"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "Vocence",
+      "netuid": 78,
+      "slug": "sn-78"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "MVTRX",
+      "netuid": 79,
+      "slug": "sn-79"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "dogelayer",
+      "netuid": 80,
+      "slug": "sn-80"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "deprecated",
+      "netuid": 81,
+      "slug": "sn-81"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "Compelle",
+      "netuid": 82,
+      "slug": "sn-82"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "CliqueAI",
+      "netuid": 83,
+      "slug": "sn-83"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs"
+        ]
+      },
+      "name": "ansuz",
+      "netuid": 84,
+      "slug": "sn-84"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "Vidaio",
+      "netuid": 85,
+      "slug": "sn-85"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "⚒",
+      "netuid": 86,
+      "slug": "sn-86"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "Luminar Network",
+      "netuid": 87,
+      "slug": "sn-87"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "subnet-api",
+          "website"
+        ]
+      },
+      "name": "Investing",
+      "netuid": 88,
+      "slug": "sn-88"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs"
+        ]
+      },
+      "name": "InfiniteHash",
+      "netuid": 89,
+      "slug": "sn-89"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "ogham",
+      "netuid": 90,
+      "slug": "sn-90"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "website"
+        ]
+      },
+      "name": "Bitstarter #1",
+      "netuid": 91,
+      "slug": "sn-91"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "TensorClaw",
+      "netuid": 92,
+      "slug": "sn-92"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "Bitcast",
+      "netuid": 93,
+      "slug": "sn-93"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "Bitsota",
+      "netuid": 94,
+      "slug": "sn-94"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "nion",
+      "netuid": 95,
+      "slug": "sn-95"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "Verathos",
+      "netuid": 96,
+      "slug": "sn-96"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "data-artifact",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "Albedo",
+      "netuid": 97,
+      "slug": "sn-97"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "ForeverMoney",
+      "netuid": 98,
+      "slug": "sn-98"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "data-artifact",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "Leoma",
+      "netuid": 99,
+      "slug": "sn-99"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "Plaτform",
+      "netuid": 100,
+      "slug": "sn-100"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "eni",
+      "netuid": 101,
+      "slug": "sn-101"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "ConnitoAI",
+      "netuid": 102,
+      "slug": "sn-102"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "Djinn",
+      "netuid": 103,
+      "slug": "sn-103"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "for sale (burn to uid1)",
+      "netuid": 104,
+      "slug": "sn-104"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "Beam",
+      "netuid": 105,
+      "slug": "sn-105"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "VoidAI",
+      "netuid": 106,
+      "slug": "sn-106"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "subnet-api",
+          "website"
+        ]
+      },
+      "name": "Minos",
+      "netuid": 107,
+      "slug": "sn-107"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "website"
+        ]
+      },
+      "name": "TalkHead",
+      "netuid": 108,
+      "slug": "sn-108"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "Academia",
+      "netuid": 109,
+      "slug": "sn-109"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "data-artifact",
+          "website"
+        ]
+      },
+      "name": "Green Compute",
+      "netuid": 110,
+      "slug": "sn-110"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "oneoneone",
+      "netuid": 111,
+      "slug": "sn-111"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "website"
+        ]
+      },
+      "name": "minotaur",
+      "netuid": 112,
+      "slug": "sn-112"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "TensorUSD",
+      "netuid": 113,
+      "slug": "sn-113"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "data-artifact",
+          "website"
+        ]
+      },
+      "name": "SOMA",
+      "netuid": 114,
+      "slug": "sn-114"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "HashiChain",
+      "netuid": 115,
+      "slug": "sn-115"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "hard_sign",
+      "netuid": 116,
+      "slug": "sn-116"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "Unknown",
+      "netuid": 117,
+      "slug": "sn-117"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "Ditto",
+      "netuid": 118,
+      "slug": "sn-118"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "Satori",
+      "netuid": 119,
+      "slug": "sn-119"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "website"
+        ]
+      },
+      "name": "Affine",
+      "netuid": 120,
+      "slug": "sn-120"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "website"
+        ]
+      },
+      "name": "sundae_bar",
+      "netuid": 121,
+      "slug": "sn-121"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "gamma_small",
+      "netuid": 122,
+      "slug": "sn-122"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "MANTIS",
+      "netuid": 123,
+      "slug": "sn-123"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "Swarm",
+      "netuid": 124,
+      "slug": "sn-124"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified project website yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "website",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard"
+        ]
+      },
+      "name": "8 Ball",
+      "netuid": 125,
+      "slug": "sn-125"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "openapi",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "website"
+        ]
+      },
+      "name": "Poker44",
+      "netuid": 126,
+      "slug": "sn-126"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified project docs surface yet.",
+          "No verified source repository yet.",
+          "No verified OpenAPI/Swagger surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "docs",
+          "source-repo",
+          "openapi",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "subnet-api",
+          "website"
+        ]
+      },
+      "name": "Astrid",
+      "netuid": 127,
+      "slug": "sn-127"
+    },
+    {
+      "coverage_level": "probed",
+      "curation_level": "machine-verified",
+      "gaps": {
+        "gap_notes": [
+          "No verified source repository yet.",
+          "No verified subnet API surface yet.",
+          "No verified SSE/event stream yet.",
+          "No verified data artifact yet."
+        ],
+        "missing_kinds": [
+          "source-repo",
+          "subnet-api",
+          "sse",
+          "data-artifact"
+        ],
+        "supported_kinds": [
+          "dashboard",
+          "docs",
+          "openapi",
+          "website"
+        ]
+      },
+      "name": "ByteLeap",
+      "netuid": 128,
+      "slug": "sn-128"
+    }
+  ],
+  "generated_at": "1970-01-01T00:00:00.000Z",
+  "notes": "Missing or unsupported public interface facets by subnet. Missing facets are not invented.",
+  "schema_version": 1
+}

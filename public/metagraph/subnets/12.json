@@ -1,5 +1,152 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-dashboard-4",
+      "kind": "dashboard",
+      "name": "Compute Horde dashboard",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://taostats.io/subnets/12"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-subnet-api-3",
+      "kind": "subnet-api",
+      "name": "Compute Horde API surface",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://grafana.bactensor.io/d/subnet/metagraph-subnet?var-subnet=12"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-website-1",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/bactensor/collateral-contracts"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-website-2",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/bactensor/bt-ddos-shield"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-website-5",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-website-6",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-12-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Compute Horde TaoMarketCap dashboard",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/12",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/12"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/12"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -42,27 +189,1038 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/12"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-common-api",
+      "kind": "subnet-api",
+      "name": "Compute Horde API",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh",
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh",
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-common-docs",
+      "kind": "docs",
+      "name": "Compute Horde docs",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh",
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh",
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-common-health",
+      "kind": "subnet-api",
+      "name": "Compute Horde health endpoint",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh",
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh",
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Compute Horde OpenAPI JSON",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh",
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh",
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-common-swagger",
+      "kind": "openapi",
+      "name": "Compute Horde Swagger UI",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh",
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh",
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Compute Horde Swagger JSON",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh",
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh",
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fbittensor-church%2Fcollateral-contracts"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-2-1w1m0t6",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/bt-ddos-shield",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fbittensor-church%2Fbt-ddos-shield"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-dashboard-4",
+      "kind": "dashboard",
+      "name": "Compute Horde dashboard",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://taostats.io/subnets/12"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-subnet-api-3",
+      "kind": "subnet-api",
+      "name": "Compute Horde API surface",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://grafana.bactensor.io/d/subnet/metagraph-subnet?var-subnet=12"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-website-1",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/bactensor/collateral-contracts"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-website-2",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/bactensor/bt-ddos-shield"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-website-5",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-website-6",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-12-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Compute Horde TaoMarketCap dashboard",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/12",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/12"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/12"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-12-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Compute Horde source repository",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/12",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/12",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/12/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/backend-developers-ltd/ComputeHorde"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-12-tensorplex-docs",
+      "kind": "docs",
+      "name": "Compute Horde Tensorplex subnet docs",
+      "netuid": 12,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/12/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/12/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/12"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-common-api",
+      "kind": "subnet-api",
+      "name": "Compute Horde API",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh",
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh",
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-common-docs",
+      "kind": "docs",
+      "name": "Compute Horde docs",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh",
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh",
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-common-health",
+      "kind": "subnet-api",
+      "name": "Compute Horde health endpoint",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh",
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh",
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Compute Horde OpenAPI JSON",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh",
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh",
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-common-swagger",
+      "kind": "openapi",
+      "name": "Compute Horde Swagger UI",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh",
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh",
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Compute Horde Swagger JSON",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh",
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh",
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fbittensor-church%2Fcollateral-contracts"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-2-1w1m0t6",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/bt-ddos-shield",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fbittensor-church%2Fbt-ddos-shield"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-12-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/bactensor/collateral-contracts",
+      "source_urls": [
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "docs",
+      "openapi",
+      "source-repo",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 2,
+    "candidate_count": 26,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 7,
+      "verified_at": "2026-06-06T07:17:23.759Z"
+    },
+    "dashboard_url": "https://taostats.io/subnets/12",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/12",
+    "gaps": {
+      "gap_notes": [
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "docs",
+        "openapi",
+        "source-repo",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "Compute Horde",
     "native_name": "Compute Horde",
     "native_slug": "compute-horde",
     "netuid": 12,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 8,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -71,16 +1229,568 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 2256433,
     "slug": "sn-12",
-    "source_repo": null,
+    "source_repo": "https://github.com/backend-developers-ltd/ComputeHorde",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 8,
     "symbol": "μ",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://github.com/bactensor/collateral-contracts"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-dashboard-4",
+      "kind": "dashboard",
+      "name": "Compute Horde dashboard",
+      "netuid": 12,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "subnet_name": "Compute Horde",
+      "subnet_slug": "sn-12",
+      "url": "https://taostats.io/subnets/12",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 231,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:23.553Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-website-1",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "subnet_name": "Compute Horde",
+      "subnet_slug": "sn-12",
+      "url": "https://github.com/bactensor/collateral-contracts",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 578,
+        "method_tested": "HEAD",
+        "redirect_target": "https://github.com/bittensor-church/collateral-contracts",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:23.582Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-website-2",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "subnet_name": "Compute Horde",
+      "subnet_slug": "sn-12",
+      "url": "https://github.com/bactensor/bt-ddos-shield",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 588,
+        "method_tested": "HEAD",
+        "redirect_target": "https://github.com/bittensor-church/bt-ddos-shield",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:23.590Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-12-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Compute Horde TaoMarketCap dashboard",
+      "netuid": 12,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/12"
+      ],
+      "subnet_name": "Compute Horde",
+      "subnet_slug": "sn-12",
+      "url": "https://taomarketcap.com/subnets/12",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 248,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:23.600Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-12-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Compute Horde source repository",
+      "netuid": 12,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/12",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/12/subnet.json"
+      ],
+      "subnet_name": "Compute Horde",
+      "subnet_slug": "sn-12",
+      "url": "https://github.com/backend-developers-ltd/ComputeHorde",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "master",
+        "github_api_url": "https://api.github.com/repos/backend-developers-ltd/ComputeHorde",
+        "homepage": null,
+        "last_push_at": "2026-05-04T06:10:39Z",
+        "redirect_target": null,
+        "topics": [],
+        "verified_at": "2026-06-06T07:17:23.622Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-12-tensorplex-docs",
+      "kind": "docs",
+      "name": "Compute Horde Tensorplex subnet docs",
+      "netuid": 12,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/12/subnet.json"
+      ],
+      "subnet_name": "Compute Horde",
+      "subnet_slug": "sn-12",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/12",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 353,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:23.633Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-12-website-common-docs",
+      "kind": "docs",
+      "name": "Compute Horde docs",
+      "netuid": 12,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh",
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh",
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "subnet_name": "Compute Horde",
+      "subnet_slug": "sn-12",
+      "url": "https://github.com/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 82,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:23.677Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-12-website-common-swagger",
+      "kind": "openapi",
+      "name": "Compute Horde Swagger UI",
+      "netuid": 12,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh",
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh",
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "subnet_name": "Compute Horde",
+      "subnet_slug": "sn-12",
+      "url": "https://github.com/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 83,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:23.759Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-dashboard-4",
+      "kind": "dashboard",
+      "name": "Compute Horde dashboard",
+      "netuid": 12,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "subnet_name": "Compute Horde",
+      "subnet_slug": "sn-12",
+      "url": "https://taostats.io/subnets/12",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 231,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:23.553Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-website-1",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "subnet_name": "Compute Horde",
+      "subnet_slug": "sn-12",
+      "url": "https://github.com/bactensor/collateral-contracts",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 578,
+        "method_tested": "HEAD",
+        "redirect_target": "https://github.com/bittensor-church/collateral-contracts",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:23.582Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-12-github-readme-backend-developers-ltd-computehorde-website-2",
+      "kind": "website",
+      "name": "Compute Horde website page",
+      "netuid": 12,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/blob/master/README.md"
+      ],
+      "subnet_name": "Compute Horde",
+      "subnet_slug": "sn-12",
+      "url": "https://github.com/bactensor/bt-ddos-shield",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 588,
+        "method_tested": "HEAD",
+        "redirect_target": "https://github.com/bittensor-church/bt-ddos-shield",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:23.590Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-12-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Compute Horde TaoMarketCap dashboard",
+      "netuid": 12,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/12"
+      ],
+      "subnet_name": "Compute Horde",
+      "subnet_slug": "sn-12",
+      "url": "https://taomarketcap.com/subnets/12",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 248,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:23.600Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-12-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Compute Horde source repository",
+      "netuid": 12,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/12",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/12/subnet.json"
+      ],
+      "subnet_name": "Compute Horde",
+      "subnet_slug": "sn-12",
+      "url": "https://github.com/backend-developers-ltd/ComputeHorde",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "master",
+        "github_api_url": "https://api.github.com/repos/backend-developers-ltd/ComputeHorde",
+        "homepage": null,
+        "last_push_at": "2026-05-04T06:10:39Z",
+        "redirect_target": null,
+        "topics": [],
+        "verified_at": "2026-06-06T07:17:23.622Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-12-tensorplex-docs",
+      "kind": "docs",
+      "name": "Compute Horde Tensorplex subnet docs",
+      "netuid": 12,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/12/subnet.json"
+      ],
+      "subnet_name": "Compute Horde",
+      "subnet_slug": "sn-12",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/12",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 353,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:23.633Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-12-website-common-docs",
+      "kind": "docs",
+      "name": "Compute Horde docs",
+      "netuid": 12,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh",
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh",
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "subnet_name": "Compute Horde",
+      "subnet_slug": "sn-12",
+      "url": "https://github.com/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 82,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:23.677Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-12-website-common-swagger",
+      "kind": "openapi",
+      "name": "Compute Horde Swagger UI",
+      "netuid": 12,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_miner.sh",
+        "https://github.com/backend-developers-ltd/ComputeHorde/raw/master/install_validator.sh",
+        "https://github.com/bactensor/bt-ddos-shield",
+        "https://github.com/bactensor/collateral-contracts"
+      ],
+      "subnet_name": "Compute Horde",
+      "subnet_slug": "sn-12",
+      "url": "https://github.com/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 83,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:23.759Z"
+      }
+    }
+  ]
 }

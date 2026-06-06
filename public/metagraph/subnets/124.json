@@ -1,5 +1,194 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-dashboard-1",
+      "kind": "dashboard",
+      "name": "Swarm dashboard",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://swarm124.com/benchmark"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-4",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://img.shields.io/badge/Start%20Training-Miner%20Guide-111111?style=for-the-badge"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-5",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://img.shields.io/badge/Run%20Validator-Guide-111111?style=for-the-badge"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-6",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://img.shields.io/badge/Miner%20Guide-Start%20Training-111111?style=for-the-badge"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-7",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://img.shields.io/badge/Validator%20Guide-Get%20Started-111111?style=for-the-badge"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-website-2",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swarm-subnet/Langostino"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-website-3",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swarm-subnet/swarm/releases"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-website-8",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swarm-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-124-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Swarm TaoMarketCap dashboard",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/124",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/124"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/124"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -63,27 +252,1404 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/124"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-api",
+      "kind": "subnet-api",
+      "name": "Swarm API",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.swarm124.com/",
+      "source_urls": [
+        "https://www.swarm124.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.swarm124.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "Swarm API",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/swarm-subnet/Langostino",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-docs",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.swarm124.com/",
+      "source_urls": [
+        "https://www.swarm124.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.swarm124.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/swarm-subnet/Langostino",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-health",
+      "kind": "subnet-api",
+      "name": "Swarm health endpoint",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.swarm124.com/",
+      "source_urls": [
+        "https://www.swarm124.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.swarm124.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "Swarm health endpoint",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/swarm-subnet/Langostino",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Swarm OpenAPI JSON",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.swarm124.com/",
+      "source_urls": [
+        "https://www.swarm124.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.swarm124.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "Swarm OpenAPI JSON",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/swarm-subnet/Langostino",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-swagger",
+      "kind": "openapi",
+      "name": "Swarm Swagger UI",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.swarm124.com/",
+      "source_urls": [
+        "https://www.swarm124.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.swarm124.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Swarm Swagger UI",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/swarm-subnet/Langostino",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Swarm Swagger JSON",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.swarm124.com/",
+      "source_urls": [
+        "https://www.swarm124.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.swarm124.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "Swarm Swagger JSON",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/swarm-subnet/Langostino",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fswarm-subnet%2Fswarm%2Freleases"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-2-1bren3b",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/Langostino",
+      "source_urls": [
+        "https://github.com/swarm-subnet/Langostino"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fswarm-subnet%2FLangostino"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-2-p4856",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet",
+      "source_urls": [
+        "https://github.com/swarm-subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fswarm-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-dashboard-1",
+      "kind": "dashboard",
+      "name": "Swarm dashboard",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://swarm124.com/benchmark"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-4",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://img.shields.io/badge/Start%20Training-Miner%20Guide-111111?style=for-the-badge"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-5",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://img.shields.io/badge/Run%20Validator-Guide-111111?style=for-the-badge"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-6",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://img.shields.io/badge/Miner%20Guide-Start%20Training-111111?style=for-the-badge"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-7",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://img.shields.io/badge/Validator%20Guide-Get%20Started-111111?style=for-the-badge"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-website-2",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swarm-subnet/Langostino"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-website-3",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swarm-subnet/swarm/releases"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-website-8",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swarm-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-124-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Swarm TaoMarketCap dashboard",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/124",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/124"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/124"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-124-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Swarm source repository",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/124",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/124",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/124/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swarm-subnet/swarm"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-124-taomarketcap-website",
+      "kind": "website",
+      "name": "Swarm website",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/124",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/124"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.swarm124.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-124-tensorplex-docs",
+      "kind": "docs",
+      "name": "Swarm Tensorplex subnet docs",
+      "netuid": 124,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/124/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/124/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/124"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-api",
+      "kind": "subnet-api",
+      "name": "Swarm API",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.swarm124.com/",
+      "source_urls": [
+        "https://www.swarm124.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.swarm124.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "Swarm API",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/swarm-subnet/Langostino",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-docs",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.swarm124.com/",
+      "source_urls": [
+        "https://www.swarm124.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.swarm124.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/swarm-subnet/Langostino",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-health",
+      "kind": "subnet-api",
+      "name": "Swarm health endpoint",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.swarm124.com/",
+      "source_urls": [
+        "https://www.swarm124.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.swarm124.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "Swarm health endpoint",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/swarm-subnet/Langostino",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Swarm OpenAPI JSON",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.swarm124.com/",
+      "source_urls": [
+        "https://www.swarm124.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.swarm124.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "Swarm OpenAPI JSON",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/swarm-subnet/Langostino",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-swagger",
+      "kind": "openapi",
+      "name": "Swarm Swagger UI",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.swarm124.com/",
+      "source_urls": [
+        "https://www.swarm124.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.swarm124.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Swarm Swagger UI",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/swarm-subnet/Langostino",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Swarm Swagger JSON",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.swarm124.com/",
+      "source_urls": [
+        "https://www.swarm124.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.swarm124.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "Swarm Swagger JSON",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/swarm-subnet/Langostino",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fswarm-subnet%2Fswarm%2Freleases"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-2-1bren3b",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/Langostino",
+      "source_urls": [
+        "https://github.com/swarm-subnet/Langostino"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fswarm-subnet%2FLangostino"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-2-p4856",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet",
+      "source_urls": [
+        "https://github.com/swarm-subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fswarm-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-124-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Swarm website page",
+      "netuid": 124,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/swarm-subnet/swarm/releases",
+      "source_urls": [
+        "https://github.com/swarm-subnet",
+        "https://github.com/swarm-subnet/Langostino",
+        "https://github.com/swarm-subnet/swarm/releases"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "source-repo",
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "docs",
+      "openapi",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 3,
+    "candidate_count": 36,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 3,
+      "verified_at": "2026-06-06T07:18:08.844Z"
+    },
+    "dashboard_url": "https://swarm124.com/benchmark",
+    "docs_url": "https://img.shields.io/badge/Start%20Training-Miner%20Guide-111111?style=for-the-badge",
+    "gaps": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "source-repo",
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "docs",
+        "openapi",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "Swarm",
     "native_name": "Swarm",
     "native_slug": "swarm",
     "netuid": 124,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 8,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -92,16 +1658,548 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 5813454,
     "slug": "sn-124",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 8,
     "symbol": "𑀁",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://www.swarm124.com/"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-dashboard-1",
+      "kind": "dashboard",
+      "name": "Swarm dashboard",
+      "netuid": 124,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "subnet_name": "Swarm",
+      "subnet_slug": "sn-124",
+      "url": "https://swarm124.com/benchmark",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 1065,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.600Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-4",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "subnet_name": "Swarm",
+      "subnet_slug": "sn-124",
+      "url": "https://img.shields.io/badge/Start%20Training-Miner%20Guide-111111?style=for-the-badge",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 33,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.621Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-5",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "subnet_name": "Swarm",
+      "subnet_slug": "sn-124",
+      "url": "https://img.shields.io/badge/Run%20Validator-Guide-111111?style=for-the-badge",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 36,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.625Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-6",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "subnet_name": "Swarm",
+      "subnet_slug": "sn-124",
+      "url": "https://img.shields.io/badge/Miner%20Guide-Start%20Training-111111?style=for-the-badge",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 32,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.645Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-7",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "subnet_name": "Swarm",
+      "subnet_slug": "sn-124",
+      "url": "https://img.shields.io/badge/Validator%20Guide-Get%20Started-111111?style=for-the-badge",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 33,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.653Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Swarm TaoMarketCap dashboard",
+      "netuid": 124,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/124"
+      ],
+      "subnet_name": "Swarm",
+      "subnet_slug": "sn-124",
+      "url": "https://taomarketcap.com/subnets/124",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 363,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.677Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-taomarketcap-website",
+      "kind": "website",
+      "name": "Swarm website",
+      "netuid": 124,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/124"
+      ],
+      "subnet_name": "Swarm",
+      "subnet_slug": "sn-124",
+      "url": "https://www.swarm124.com/",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 1822,
+        "method_tested": "HEAD",
+        "redirect_target": "https://swarm124.com/",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.686Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-website-common-swagger",
+      "kind": "openapi",
+      "name": "Swarm Swagger UI",
+      "netuid": 124,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://www.swarm124.com/"
+      ],
+      "subnet_name": "Swarm",
+      "subnet_slug": "sn-124",
+      "url": "https://www.swarm124.com/swagger",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 1889,
+        "method_tested": "HEAD",
+        "redirect_target": "https://swarm124.com/swagger",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.844Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-dashboard-1",
+      "kind": "dashboard",
+      "name": "Swarm dashboard",
+      "netuid": 124,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "subnet_name": "Swarm",
+      "subnet_slug": "sn-124",
+      "url": "https://swarm124.com/benchmark",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 1065,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.600Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-4",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "subnet_name": "Swarm",
+      "subnet_slug": "sn-124",
+      "url": "https://img.shields.io/badge/Start%20Training-Miner%20Guide-111111?style=for-the-badge",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 33,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.621Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-5",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "subnet_name": "Swarm",
+      "subnet_slug": "sn-124",
+      "url": "https://img.shields.io/badge/Run%20Validator-Guide-111111?style=for-the-badge",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 36,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.625Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-6",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "subnet_name": "Swarm",
+      "subnet_slug": "sn-124",
+      "url": "https://img.shields.io/badge/Miner%20Guide-Start%20Training-111111?style=for-the-badge",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 32,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.645Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-7",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "netuid": 124,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "subnet_name": "Swarm",
+      "subnet_slug": "sn-124",
+      "url": "https://img.shields.io/badge/Validator%20Guide-Get%20Started-111111?style=for-the-badge",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 33,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.653Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Swarm TaoMarketCap dashboard",
+      "netuid": 124,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/124"
+      ],
+      "subnet_name": "Swarm",
+      "subnet_slug": "sn-124",
+      "url": "https://taomarketcap.com/subnets/124",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 363,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.677Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-taomarketcap-website",
+      "kind": "website",
+      "name": "Swarm website",
+      "netuid": 124,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/124"
+      ],
+      "subnet_name": "Swarm",
+      "subnet_slug": "sn-124",
+      "url": "https://www.swarm124.com/",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 1822,
+        "method_tested": "HEAD",
+        "redirect_target": "https://swarm124.com/",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.686Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-website-common-swagger",
+      "kind": "openapi",
+      "name": "Swarm Swagger UI",
+      "netuid": 124,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://www.swarm124.com/"
+      ],
+      "subnet_name": "Swarm",
+      "subnet_slug": "sn-124",
+      "url": "https://www.swarm124.com/swagger",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 1889,
+        "method_tested": "HEAD",
+        "redirect_target": "https://swarm124.com/swagger",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.844Z"
+      }
+    }
+  ]
 }

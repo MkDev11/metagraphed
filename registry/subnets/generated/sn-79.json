@@ -1,0 +1,181 @@
+{
+  "categories": [
+    "baseline-curated"
+  ],
+  "curation": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "level": "machine-verified",
+    "review_state": "machine-generated",
+    "reviewed_at": null,
+    "source_count": 2,
+    "verified_at": "2026-06-06T07:17:49.983Z"
+  },
+  "dashboard_url": "https://img.shields.io/badge/dashboard-white?logo=grafana",
+  "docs_url": "https://simulate.trading/taos-im-paper",
+  "links": [],
+  "name": "MVTRX",
+  "netuid": 79,
+  "notes": "Machine-generated baseline overlay from verified public-source candidates.",
+  "schema_version": 1,
+  "slug": "sn-79",
+  "status": "active",
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-79-taomarketcap-website",
+      "kind": "website",
+      "name": "MVTRX website",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/79"
+      ],
+      "url": "https://taos.im/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=UTF-8",
+        "latency_ms": 202,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:49.983Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-79-github-readme-taos-im-sn-79-docs-1",
+      "kind": "docs",
+      "name": "MVTRX docs",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/taos-im/sn-79/blob/main/README.md"
+      ],
+      "url": "https://simulate.trading/taos-im-paper",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=UTF-8",
+        "latency_ms": 675,
+        "method_tested": "HEAD",
+        "redirect_target": "https://drive.proton.me/urls/ZAQRQ25584",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:49.935Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-79-github-readme-taos-im-sn-79-docs-6",
+      "kind": "docs",
+      "name": "MVTRX docs",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/taos-im/sn-79/blob/main/README.md"
+      ],
+      "url": "https://img.shields.io/badge/whitepaper-white?logo=proton",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 24,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:49.958Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-79-github-readme-taos-im-sn-79-dashboard-7",
+      "kind": "dashboard",
+      "name": "MVTRX dashboard",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/taos-im/sn-79/blob/main/README.md"
+      ],
+      "url": "https://img.shields.io/badge/dashboard-white?logo=grafana",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 32,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:49.926Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-79-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "MVTRX TaoMarketCap dashboard",
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/79"
+      ],
+      "url": "https://taomarketcap.com/subnets/79",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 134,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:49.982Z"
+      }
+    }
+  ],
+  "website_url": "https://taos.im/"
+}

@@ -10,9 +10,24 @@
     "pilot"
   ],
   "docs_url": "https://docs.gittensor.io/",
-  "source_repo": null,
+  "source_repo": "https://github.com/entrius/gittensor",
   "dashboard_url": null,
+  "website_url": "https://gittensor.io/",
   "notes": "Pilot manifest. This tracks public-safe registry concepts only; validator credential flows and private scoring internals are out of scope.",
+  "curation": {
+    "level": "adapter-backed",
+    "review_state": "maintainer-reviewed",
+    "reviewed_at": null,
+    "verified_at": null,
+    "source_count": 3,
+    "gap_notes": [
+      "No verified dashboard surface yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ]
+  },
+  "links": [],
   "surfaces": [
     {
       "id": "gittensor-docs",

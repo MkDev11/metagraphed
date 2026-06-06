@@ -1,5 +1,26 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-44-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Score TaoMarketCap dashboard",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/44",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/44"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/44"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -83,27 +104,482 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/score-technologies/score-vision"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-44-website-common-api",
+      "kind": "subnet-api",
+      "name": "Score API",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.wearescore.com/",
+      "source_urls": [
+        "https://www.wearescore.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.wearescore.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-44-website-common-docs",
+      "kind": "docs",
+      "name": "Score docs",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.wearescore.com/",
+      "source_urls": [
+        "https://www.wearescore.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.wearescore.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-44-website-common-health",
+      "kind": "subnet-api",
+      "name": "Score health endpoint",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.wearescore.com/",
+      "source_urls": [
+        "https://www.wearescore.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.wearescore.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-44-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Score OpenAPI JSON",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.wearescore.com/",
+      "source_urls": [
+        "https://www.wearescore.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.wearescore.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-44-website-common-swagger",
+      "kind": "openapi",
+      "name": "Score Swagger UI",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.wearescore.com/",
+      "source_urls": [
+        "https://www.wearescore.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.wearescore.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-44-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Score Swagger JSON",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.wearescore.com/",
+      "source_urls": [
+        "https://www.wearescore.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.wearescore.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-44-website-link-www-wearescore-com-website-1",
+      "kind": "website",
+      "name": "Score website page",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.wearescore.com/",
+      "source_urls": [
+        "https://www.wearescore.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.wearescore.com/get-started"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-44-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Score TaoMarketCap dashboard",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/44",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/44"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/44"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-44-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Score source repository",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/44",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/44"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/score-technologies/turbovision"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-44-taomarketcap-website",
+      "kind": "website",
+      "name": "Score website",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/44",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/44"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.wearescore.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-44-tensorplex-docs",
+      "kind": "docs",
+      "name": "Score Tensorplex subnet docs",
+      "netuid": 44,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/44/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/44/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/44"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-44-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "Score source repository",
+      "netuid": 44,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs-github",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/44/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/44/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/score-technologies/score-vision"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-44-website-common-api",
+      "kind": "subnet-api",
+      "name": "Score API",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.wearescore.com/",
+      "source_urls": [
+        "https://www.wearescore.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.wearescore.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-44-website-common-docs",
+      "kind": "docs",
+      "name": "Score docs",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.wearescore.com/",
+      "source_urls": [
+        "https://www.wearescore.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.wearescore.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-44-website-common-health",
+      "kind": "subnet-api",
+      "name": "Score health endpoint",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.wearescore.com/",
+      "source_urls": [
+        "https://www.wearescore.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.wearescore.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-44-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Score OpenAPI JSON",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.wearescore.com/",
+      "source_urls": [
+        "https://www.wearescore.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.wearescore.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-44-website-common-swagger",
+      "kind": "openapi",
+      "name": "Score Swagger UI",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.wearescore.com/",
+      "source_urls": [
+        "https://www.wearescore.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.wearescore.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-44-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Score Swagger JSON",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.wearescore.com/",
+      "source_urls": [
+        "https://www.wearescore.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.wearescore.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-44-website-link-www-wearescore-com-website-1",
+      "kind": "website",
+      "name": "Score website page",
+      "netuid": 44,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.wearescore.com/",
+      "source_urls": [
+        "https://www.wearescore.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.wearescore.com/get-started"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "openapi",
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "docs",
+      "source-repo",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 4,
+    "candidate_count": 12,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:17:36.002Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/44",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/44",
+    "gaps": {
+      "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "openapi",
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "docs",
+        "source-repo",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 2,
     "name": "Score",
     "native_name": "Score",
     "native_slug": "score",
     "netuid": 44,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 5,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -112,16 +588,362 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 3550319,
     "slug": "sn-44",
-    "source_repo": null,
+    "source_repo": "https://github.com/score-technologies/turbovision",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 5,
     "symbol": "ף",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://www.wearescore.com/"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-44-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Score TaoMarketCap dashboard",
+      "netuid": 44,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/44"
+      ],
+      "subnet_name": "Score",
+      "subnet_slug": "sn-44",
+      "url": "https://taomarketcap.com/subnets/44",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 307,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.998Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-44-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Score source repository",
+      "netuid": 44,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/44"
+      ],
+      "subnet_name": "Score",
+      "subnet_slug": "sn-44",
+      "url": "https://github.com/score-technologies/turbovision",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/score-technologies/turbovision",
+        "homepage": null,
+        "last_push_at": "2026-06-05T08:26:57Z",
+        "redirect_target": null,
+        "topics": [],
+        "verified_at": "2026-06-06T07:17:36.000Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-44-taomarketcap-website",
+      "kind": "website",
+      "name": "Score website",
+      "netuid": 44,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/44"
+      ],
+      "subnet_name": "Score",
+      "subnet_slug": "sn-44",
+      "url": "https://www.wearescore.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 566,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:36.001Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-44-tensorplex-docs",
+      "kind": "docs",
+      "name": "Score Tensorplex subnet docs",
+      "netuid": 44,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/44/subnet.json"
+      ],
+      "subnet_name": "Score",
+      "subnet_slug": "sn-44",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/44",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 379,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:36.002Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-44-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "Score source repository",
+      "netuid": 44,
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/44/subnet.json"
+      ],
+      "subnet_name": "Score",
+      "subnet_slug": "sn-44",
+      "url": "https://github.com/score-technologies/score-vision",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/score-technologies/score-vision",
+        "homepage": null,
+        "last_push_at": "2025-12-05T09:05:34Z",
+        "redirect_target": null,
+        "topics": [],
+        "verified_at": "2026-06-06T07:17:36.002Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-44-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Score TaoMarketCap dashboard",
+      "netuid": 44,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/44"
+      ],
+      "subnet_name": "Score",
+      "subnet_slug": "sn-44",
+      "url": "https://taomarketcap.com/subnets/44",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 307,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.998Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-44-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Score source repository",
+      "netuid": 44,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/44"
+      ],
+      "subnet_name": "Score",
+      "subnet_slug": "sn-44",
+      "url": "https://github.com/score-technologies/turbovision",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/score-technologies/turbovision",
+        "homepage": null,
+        "last_push_at": "2026-06-05T08:26:57Z",
+        "redirect_target": null,
+        "topics": [],
+        "verified_at": "2026-06-06T07:17:36.000Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-44-taomarketcap-website",
+      "kind": "website",
+      "name": "Score website",
+      "netuid": 44,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/44"
+      ],
+      "subnet_name": "Score",
+      "subnet_slug": "sn-44",
+      "url": "https://www.wearescore.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 566,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:36.001Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-44-tensorplex-docs",
+      "kind": "docs",
+      "name": "Score Tensorplex subnet docs",
+      "netuid": 44,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/44/subnet.json"
+      ],
+      "subnet_name": "Score",
+      "subnet_slug": "sn-44",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/44",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 379,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:36.002Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-44-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "Score source repository",
+      "netuid": 44,
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/44/subnet.json"
+      ],
+      "subnet_name": "Score",
+      "subnet_slug": "sn-44",
+      "url": "https://github.com/score-technologies/score-vision",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/score-technologies/score-vision",
+        "homepage": null,
+        "last_push_at": "2025-12-05T09:05:34Z",
+        "redirect_target": null,
+        "topics": [],
+        "verified_at": "2026-06-06T07:17:36.002Z"
+      }
+    }
+  ]
 }

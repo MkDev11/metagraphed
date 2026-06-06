@@ -1,0 +1,270 @@
+{
+  "categories": [
+    "baseline-curated"
+  ],
+  "curation": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "level": "machine-verified",
+    "review_state": "machine-generated",
+    "reviewed_at": null,
+    "source_count": 3,
+    "verified_at": "2026-06-06T07:18:08.844Z"
+  },
+  "dashboard_url": "https://swarm124.com/benchmark",
+  "docs_url": "https://img.shields.io/badge/Start%20Training-Miner%20Guide-111111?style=for-the-badge",
+  "links": [],
+  "name": "Swarm",
+  "netuid": 124,
+  "notes": "Machine-generated baseline overlay from verified public-source candidates.",
+  "schema_version": 1,
+  "slug": "sn-124",
+  "status": "active",
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-taomarketcap-website",
+      "kind": "website",
+      "name": "Swarm website",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/124"
+      ],
+      "url": "https://www.swarm124.com/",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 1822,
+        "method_tested": "HEAD",
+        "redirect_target": "https://swarm124.com/",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.686Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-4",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "url": "https://img.shields.io/badge/Start%20Training-Miner%20Guide-111111?style=for-the-badge",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 33,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.621Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-5",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "url": "https://img.shields.io/badge/Run%20Validator-Guide-111111?style=for-the-badge",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 36,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.625Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-6",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "url": "https://img.shields.io/badge/Miner%20Guide-Start%20Training-111111?style=for-the-badge",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 32,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.645Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-docs-7",
+      "kind": "docs",
+      "name": "Swarm docs",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "url": "https://img.shields.io/badge/Validator%20Guide-Get%20Started-111111?style=for-the-badge",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 33,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.653Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-github-readme-swarm-subnet-swarm-dashboard-1",
+      "kind": "dashboard",
+      "name": "Swarm dashboard",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/swarm-subnet/swarm/blob/main/README.md"
+      ],
+      "url": "https://swarm124.com/benchmark",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 1065,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.600Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Swarm TaoMarketCap dashboard",
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/124"
+      ],
+      "url": "https://taomarketcap.com/subnets/124",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 363,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.677Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-124-website-common-swagger",
+      "kind": "openapi",
+      "name": "Swarm Swagger UI",
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://www.swarm124.com/"
+      ],
+      "url": "https://www.swarm124.com/swagger",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 1889,
+        "method_tested": "HEAD",
+        "redirect_target": "https://swarm124.com/swagger",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:08.844Z"
+      }
+    }
+  ],
+  "website_url": "https://www.swarm124.com/"
+}

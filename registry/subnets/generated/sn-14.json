@@ -1,0 +1,413 @@
+{
+  "categories": [
+    "baseline-curated"
+  ],
+  "curation": {
+    "gap_notes": [
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "level": "machine-verified",
+    "review_state": "machine-generated",
+    "reviewed_at": null,
+    "source_count": 6,
+    "verified_at": "2026-06-06T07:17:25.102Z"
+  },
+  "dashboard_url": "https://taohash.com/leaderboard",
+  "docs_url": "https://img.shields.io/badge/docs-cacheon.ai-blue",
+  "links": [],
+  "name": "Cacheon",
+  "netuid": 14,
+  "notes": "Machine-generated baseline overlay from verified public-source candidates.",
+  "schema_version": 1,
+  "slug": "sn-14",
+  "source_repo": "https://github.com/latent-to/cacheon",
+  "status": "active",
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-14-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Cacheon source repository",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/14"
+      ],
+      "url": "https://github.com/latent-to/cacheon",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/latent-to/cacheon",
+        "homepage": "https://cacheon.ai/",
+        "last_push_at": "2026-06-05T12:50:05Z",
+        "redirect_target": null,
+        "topics": [
+          "ai",
+          "bittensor",
+          "bittensor-subnet",
+          "inference",
+          "inference-engine",
+          "inference-optimization",
+          "llm",
+          "tao"
+        ],
+        "verified_at": "2026-06-06T07:17:24.879Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-14-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "Cacheon source repository",
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/14/subnet.json"
+      ],
+      "url": "https://github.com/latent-to/taohash",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/latent-to/taohash",
+        "homepage": "https://taohash.com/",
+        "last_push_at": "2025-12-16T19:25:48Z",
+        "redirect_target": null,
+        "topics": [
+          "bitcoin",
+          "bittensor",
+          "hashrate",
+          "mining",
+          "proofofwork"
+        ],
+        "verified_at": "2026-06-06T07:17:24.937Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-14-github-readme-latent-to-taohash-website-7",
+      "kind": "website",
+      "name": "Cacheon website page",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/latent-to/taohash/blob/main/README.md"
+      ],
+      "url": "https://github.com/latent-to/taohash.git",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 457,
+        "method_tested": "HEAD",
+        "redirect_target": "https://github.com/latent-to/taohash",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:24.865Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-14-taomarketcap-website",
+      "kind": "website",
+      "name": "Cacheon website",
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/14"
+      ],
+      "url": "https://cacheon.ai/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html",
+        "latency_ms": 40,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:24.897Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-14-github-readme-latent-to-cacheon-docs-1",
+      "kind": "docs",
+      "name": "Cacheon docs",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/latent-to/cacheon/blob/main/README.md"
+      ],
+      "url": "https://img.shields.io/badge/docs-cacheon.ai-blue",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 30,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:24.667Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-14-github-readme-latent-to-cacheon-docs-10",
+      "kind": "docs",
+      "name": "Cacheon docs",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/latent-to/cacheon/blob/main/README.md"
+      ],
+      "url": "https://cacheon.ai/docs/validators/setup",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html",
+        "latency_ms": 132,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:24.670Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-14-github-readme-latent-to-cacheon-docs-2",
+      "kind": "docs",
+      "name": "Cacheon docs",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://cacheon.ai/",
+        "https://github.com/latent-to/cacheon/blob/main/README.md"
+      ],
+      "url": "https://cacheon.ai/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html",
+        "latency_ms": 143,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:24.675Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-14-github-readme-latent-to-cacheon-docs-3",
+      "kind": "docs",
+      "name": "Cacheon docs",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://cacheon.ai/",
+        "https://github.com/latent-to/cacheon/blob/main/README.md"
+      ],
+      "url": "https://cacheon.ai/docs/evaluation/scoring",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html",
+        "latency_ms": 168,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:24.677Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-14-github-readme-latent-to-taohash-dashboard-5",
+      "kind": "dashboard",
+      "name": "Cacheon dashboard",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/latent-to/taohash/blob/main/README.md"
+      ],
+      "url": "https://taohash.com/leaderboard",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html",
+        "latency_ms": 311,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:24.802Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-14-github-readme-latent-to-taohash-dashboard-8",
+      "kind": "dashboard",
+      "name": "Cacheon dashboard",
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/latent-to/taohash/blob/main/README.md"
+      ],
+      "url": "https://taohash.com/leaderboard](https://taohash.com/leaderboard",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html",
+        "latency_ms": 300,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:24.818Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-14-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Cacheon TaoMarketCap dashboard",
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/14"
+      ],
+      "url": "https://taomarketcap.com/subnets/14",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 163,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:24.877Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-14-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Cacheon Swagger UI",
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/latent-to/taohash.git"
+      ],
+      "url": "https://github.com/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 80,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:25.102Z"
+      }
+    }
+  ],
+  "website_url": "https://github.com/latent-to/taohash.git"
+}

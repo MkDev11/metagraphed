@@ -37,17 +37,25 @@ Example future routes:
 
 Metagraphed is chain-first:
 
-- every active Finney netuid gets a native stub entry from decoded Bittensor/Subtensor data;
+- every active Finney netuid gets a native chain entry from decoded Bittensor/Subtensor data;
 - root `netuid: 0` is included and labeled as root/system;
-- curated overlays add public interface metadata only after review;
+- curated overlays add public interface metadata after machine verification or maintainer review;
 - third-party APIs are enrichment/candidate sources, not canonical existence sources.
-- generated candidates capture public-source leads, but only reviewed overlays become verified surfaces.
+- generated candidates capture public-source leads, but only live/redirected public-safe candidates become promoted surfaces.
 
 Coverage levels:
 
 - `native-only`: chain-derived subnet entry, no verified public interface metadata yet;
 - `manifested`: curated interface metadata exists, but no default probe is enabled;
 - `probed`: curated interface metadata exists and at least one safe read-only probe is configured.
+
+Curation levels:
+
+- `native`: chain-derived only;
+- `candidate-discovered`: public-source leads exist but are not verified;
+- `machine-verified`: live public surfaces were safely probed and promoted;
+- `maintainer-reviewed`: a human reviewed the overlay;
+- `adapter-backed`: subnet-specific public data dimensions are modeled.
 
 ## Pilot Overlays
 
@@ -66,9 +74,12 @@ Generated public artifacts live under `public/metagraph`:
 - `surfaces.json`
 - `candidates.json`
 - `review-queue.json`
+- `curation.json`
+- `gaps.json`
 - `providers.json`
 - `metagraph/latest.json`
 - `health/latest.json`
+- `verification/latest.json`
 - `coverage.json`
 - `subnets/{netuid}.json`
 - `adapters/allways.json`
@@ -86,12 +97,18 @@ npm run build
 npm run scan:public-safety
 npm run sync:subnets:dry-run
 npm run discover:candidates:dry-run
+npm run verify:candidates:dry-run
+npm run curate:baseline:dry-run
 npm run probes:smoke
 ```
 
 `sync:subnets` uses the Bittensor Python SDK through `uvx` to fetch decoded native Finney subnet metadata without committing Python dependencies to this repo.
 
 `discover:candidates` reads public enrichment sources and writes unverified candidate surfaces into `registry/candidates/generated/public-sources.json`.
+
+`verify:candidates` safely checks candidate URLs and writes live/dead/auth/unsupported classifications into `registry/verification/latest.json`.
+
+`curate:baseline` promotes verified public-safe candidates into generated baseline overlays for every active netuid that does not already have a hand-curated overlay.
 
 `probes:smoke` performs read-only checks against public surfaces. It does not submit transactions, mutate subnet state, send wallet data, or use credentials.
 
@@ -103,6 +120,7 @@ registry/native/      generated chain-derived subnet snapshots
 registry/candidates/  unverified interface candidates pending review
 registry/providers/   provider metadata
 registry/subnets/     curated subnet interface overlays
+registry/verification/ generated candidate verification snapshots
 schemas/              public JSON schema contracts
 scripts/              validation, artifact generation, probe, and safety scripts
 public/metagraph/     generated public JSON artifacts

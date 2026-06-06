@@ -1,5 +1,26 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-70-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "NexisGen TaoMarketCap dashboard",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/70",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/70"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/70"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -62,27 +83,629 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/70"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-common-api",
+      "kind": "subnet-api",
+      "name": "NexisGen API",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-common-docs",
+      "kind": "docs",
+      "name": "NexisGen docs",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-common-health",
+      "kind": "subnet-api",
+      "name": "NexisGen health endpoint",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "NexisGen OpenAPI JSON",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-common-swagger",
+      "kind": "openapi",
+      "name": "NexisGen Swagger UI",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "NexisGen Swagger JSON",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-link-nexisgen-ai-data-artifact-5",
+      "kind": "data-artifact",
+      "name": "NexisGen data artifact",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/commission"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-link-nexisgen-ai-website-1",
+      "kind": "website",
+      "name": "NexisGen website page",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/catalogue"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-link-nexisgen-ai-website-2",
+      "kind": "website",
+      "name": "NexisGen website page",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/floor"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-link-nexisgen-ai-website-3",
+      "kind": "website",
+      "name": "NexisGen website page",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/how-it-works"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-link-nexisgen-ai-website-6",
+      "kind": "website",
+      "name": "NexisGen website page",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/catalogue/video_v1"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-70-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "NexisGen TaoMarketCap dashboard",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/70",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/70"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/70"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-70-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "NexisGen source repository",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/70",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/70"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/RendixNetwork/nexisgen"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-70-taomarketcap-website",
+      "kind": "website",
+      "name": "NexisGen website",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/70",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/70"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-70-tensorplex-docs",
+      "kind": "docs",
+      "name": "NexisGen Tensorplex subnet docs",
+      "netuid": 70,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/70/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/70/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/70"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-common-api",
+      "kind": "subnet-api",
+      "name": "NexisGen API",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-common-docs",
+      "kind": "docs",
+      "name": "NexisGen docs",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-common-health",
+      "kind": "subnet-api",
+      "name": "NexisGen health endpoint",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "NexisGen OpenAPI JSON",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-common-swagger",
+      "kind": "openapi",
+      "name": "NexisGen Swagger UI",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "NexisGen Swagger JSON",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-link-nexisgen-ai-data-artifact-5",
+      "kind": "data-artifact",
+      "name": "NexisGen data artifact",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/commission"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-link-nexisgen-ai-website-1",
+      "kind": "website",
+      "name": "NexisGen website page",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/catalogue"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-link-nexisgen-ai-website-2",
+      "kind": "website",
+      "name": "NexisGen website page",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/floor"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-link-nexisgen-ai-website-3",
+      "kind": "website",
+      "name": "NexisGen website page",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/how-it-works"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-70-website-link-nexisgen-ai-website-6",
+      "kind": "website",
+      "name": "NexisGen website page",
+      "netuid": 70,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://nexisgen.ai/",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://nexisgen.ai/catalogue/video_v1"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet."
+    ],
+    "missing_kinds": [
+      "source-repo",
+      "openapi",
+      "subnet-api",
+      "sse"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "data-artifact",
+      "docs",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 3,
+    "candidate_count": 15,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:17:47.335Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/70",
+    "docs_url": "https://nexisgen.ai/docs",
+    "gaps": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet."
+      ],
+      "missing_kinds": [
+        "source-repo",
+        "openapi",
+        "subnet-api",
+        "sse"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "data-artifact",
+        "docs",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "NexisGen",
     "native_name": "NexisGen",
     "native_slug": "nexisgen",
     "netuid": 70,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 232,
-    "probed_surface_count": 0,
+    "probed_surface_count": 4,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -91,16 +714,284 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 7787562,
     "slug": "sn-70",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 4,
     "symbol": "غ",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://nexisgen.ai/"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-70-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "NexisGen TaoMarketCap dashboard",
+      "netuid": 70,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/70"
+      ],
+      "subnet_name": "NexisGen",
+      "subnet_slug": "sn-70",
+      "url": "https://taomarketcap.com/subnets/70",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 134,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.229Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-70-taomarketcap-website",
+      "kind": "website",
+      "name": "NexisGen website",
+      "netuid": 70,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/70"
+      ],
+      "subnet_name": "NexisGen",
+      "subnet_slug": "sn-70",
+      "url": "https://nexisgen.ai/",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 364,
+        "method_tested": "HEAD",
+        "redirect_target": "https://www.nexisgen.ai/",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.235Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-70-website-common-docs",
+      "kind": "docs",
+      "name": "NexisGen docs",
+      "netuid": 70,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "subnet_name": "NexisGen",
+      "subnet_slug": "sn-70",
+      "url": "https://nexisgen.ai/docs",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 336,
+        "method_tested": "HEAD",
+        "redirect_target": "https://www.nexisgen.ai/docs",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.250Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-70-website-link-nexisgen-ai-data-artifact-5",
+      "kind": "data-artifact",
+      "name": "NexisGen data artifact",
+      "netuid": 70,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "subnet_name": "NexisGen",
+      "subnet_slug": "sn-70",
+      "url": "https://nexisgen.ai/commission",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 334,
+        "method_tested": "HEAD",
+        "redirect_target": "https://www.nexisgen.ai/commission",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.335Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-70-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "NexisGen TaoMarketCap dashboard",
+      "netuid": 70,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/70"
+      ],
+      "subnet_name": "NexisGen",
+      "subnet_slug": "sn-70",
+      "url": "https://taomarketcap.com/subnets/70",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 134,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.229Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-70-taomarketcap-website",
+      "kind": "website",
+      "name": "NexisGen website",
+      "netuid": 70,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/70"
+      ],
+      "subnet_name": "NexisGen",
+      "subnet_slug": "sn-70",
+      "url": "https://nexisgen.ai/",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 364,
+        "method_tested": "HEAD",
+        "redirect_target": "https://www.nexisgen.ai/",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.235Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-70-website-common-docs",
+      "kind": "docs",
+      "name": "NexisGen docs",
+      "netuid": 70,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "subnet_name": "NexisGen",
+      "subnet_slug": "sn-70",
+      "url": "https://nexisgen.ai/docs",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 336,
+        "method_tested": "HEAD",
+        "redirect_target": "https://www.nexisgen.ai/docs",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.250Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-70-website-link-nexisgen-ai-data-artifact-5",
+      "kind": "data-artifact",
+      "name": "NexisGen data artifact",
+      "netuid": 70,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://nexisgen.ai/"
+      ],
+      "subnet_name": "NexisGen",
+      "subnet_slug": "sn-70",
+      "url": "https://nexisgen.ai/commission",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 334,
+        "method_tested": "HEAD",
+        "redirect_target": "https://www.nexisgen.ai/commission",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.335Z"
+      }
+    }
+  ]
 }

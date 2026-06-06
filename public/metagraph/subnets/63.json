@@ -1,5 +1,89 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-github-readme-qbittensor-labs-enigma-dashboard-1",
+      "kind": "dashboard",
+      "name": "Enigma dashboard",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://taostats.io/subnets/63"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-github-readme-qbittensor-labs-enigma-website-2",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/qbittensor-labs/enigma"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-github-readme-qbittensor-labs-enigma-website-3",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/qbittensor-labs/enigma.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-63-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Enigma TaoMarketCap dashboard",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/63",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/63"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/63"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -83,27 +167,1591 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/qbittensor-labs/quantum"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-api",
+      "kind": "subnet-api",
+      "name": "Enigma API",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "Enigma API",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-docs",
+      "kind": "docs",
+      "name": "Enigma docs",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "Enigma docs",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-health",
+      "kind": "subnet-api",
+      "name": "Enigma health endpoint",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "Enigma health endpoint",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Enigma OpenAPI JSON",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "Enigma OpenAPI JSON",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-swagger",
+      "kind": "openapi",
+      "name": "Enigma Swagger UI",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Enigma Swagger UI",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Enigma Swagger JSON",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "Enigma Swagger JSON",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fqbittensor-labs%2Fenigma"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-1",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/enigma"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-2",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/quantum"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-3",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/about"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-4",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/news"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-5",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/enigma/contracts"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-6",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/terms"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-7",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/privacy"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-8",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/payment-processing"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-9",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/enigma/rules"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-github-readme-qbittensor-labs-enigma-dashboard-1",
+      "kind": "dashboard",
+      "name": "Enigma dashboard",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://taostats.io/subnets/63"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-github-readme-qbittensor-labs-enigma-website-2",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/qbittensor-labs/enigma"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-github-readme-qbittensor-labs-enigma-website-3",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/qbittensor-labs/enigma.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-63-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Enigma TaoMarketCap dashboard",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/63",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/63"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/63"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-63-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Enigma source repository",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/63",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/63"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/qbittensor-labs/enigma"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-63-taomarketcap-website",
+      "kind": "website",
+      "name": "Enigma website",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/63",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/63"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-63-tensorplex-docs",
+      "kind": "docs",
+      "name": "Enigma Tensorplex subnet docs",
+      "netuid": 63,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/63/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/63/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/63"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-63-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "Enigma source repository",
+      "netuid": 63,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs-github",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/63/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/63/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/qbittensor-labs/quantum"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-api",
+      "kind": "subnet-api",
+      "name": "Enigma API",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "Enigma API",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-docs",
+      "kind": "docs",
+      "name": "Enigma docs",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "Enigma docs",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-health",
+      "kind": "subnet-api",
+      "name": "Enigma health endpoint",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "Enigma health endpoint",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Enigma OpenAPI JSON",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "Enigma OpenAPI JSON",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-swagger",
+      "kind": "openapi",
+      "name": "Enigma Swagger UI",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Enigma Swagger UI",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Enigma Swagger JSON",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "Enigma Swagger JSON",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fqbittensor-labs%2Fenigma"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/qbittensor-labs/enigma",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma",
+        "https://github.com/qbittensor-labs/enigma.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-1",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/enigma"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-2",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/quantum"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-3",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/about"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-4",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/news"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-5",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/enigma/contracts"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-6",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/terms"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-7",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/privacy"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-8",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/payment-processing"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-63-website-link-www-qbittensorlabs-com-website-9",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.qbittensorlabs.com/",
+      "source_urls": [
+        "https://www.qbittensorlabs.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.qbittensorlabs.com/enigma/rules"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified project docs surface yet.",
+      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "docs",
+      "source-repo",
+      "openapi",
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 4,
+    "candidate_count": 39,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified project docs surface yet.",
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:17:44.288Z"
+    },
+    "dashboard_url": "https://taostats.io/subnets/63",
     "docs_url": null,
+    "gaps": {
+      "gap_notes": [
+        "No verified project docs surface yet.",
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "docs",
+        "source-repo",
+        "openapi",
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "Enigma",
     "native_name": "Enigma",
     "native_slug": "enigma",
     "netuid": 63,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 4,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -112,16 +1760,284 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 4885578,
     "slug": "sn-63",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 4,
     "symbol": "س",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://github.com/qbittensor-labs/enigma.git"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-63-github-readme-qbittensor-labs-enigma-dashboard-1",
+      "kind": "dashboard",
+      "name": "Enigma dashboard",
+      "netuid": 63,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma/blob/main/README.md"
+      ],
+      "subnet_name": "Enigma",
+      "subnet_slug": "sn-63",
+      "url": "https://taostats.io/subnets/63",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 203,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:44.115Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-63-github-readme-qbittensor-labs-enigma-website-3",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma/blob/main/README.md"
+      ],
+      "subnet_name": "Enigma",
+      "subnet_slug": "sn-63",
+      "url": "https://github.com/qbittensor-labs/enigma.git",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 501,
+        "method_tested": "HEAD",
+        "redirect_target": "https://github.com/qbittensor-labs/enigma",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:44.219Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-63-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Enigma TaoMarketCap dashboard",
+      "netuid": 63,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/63"
+      ],
+      "subnet_name": "Enigma",
+      "subnet_slug": "sn-63",
+      "url": "https://taomarketcap.com/subnets/63",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 163,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:44.271Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-63-taomarketcap-website",
+      "kind": "website",
+      "name": "Enigma website",
+      "netuid": 63,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/63"
+      ],
+      "subnet_name": "Enigma",
+      "subnet_slug": "sn-63",
+      "url": "https://www.qbittensorlabs.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 202,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:44.288Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-63-github-readme-qbittensor-labs-enigma-dashboard-1",
+      "kind": "dashboard",
+      "name": "Enigma dashboard",
+      "netuid": 63,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma/blob/main/README.md"
+      ],
+      "subnet_name": "Enigma",
+      "subnet_slug": "sn-63",
+      "url": "https://taostats.io/subnets/63",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 203,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:44.115Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-63-github-readme-qbittensor-labs-enigma-website-3",
+      "kind": "website",
+      "name": "Enigma website page",
+      "netuid": 63,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/qbittensor-labs/enigma/blob/main/README.md"
+      ],
+      "subnet_name": "Enigma",
+      "subnet_slug": "sn-63",
+      "url": "https://github.com/qbittensor-labs/enigma.git",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 501,
+        "method_tested": "HEAD",
+        "redirect_target": "https://github.com/qbittensor-labs/enigma",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:44.219Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-63-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Enigma TaoMarketCap dashboard",
+      "netuid": 63,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/63"
+      ],
+      "subnet_name": "Enigma",
+      "subnet_slug": "sn-63",
+      "url": "https://taomarketcap.com/subnets/63",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 163,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:44.271Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-63-taomarketcap-website",
+      "kind": "website",
+      "name": "Enigma website",
+      "netuid": 63,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/63"
+      ],
+      "subnet_name": "Enigma",
+      "subnet_slug": "sn-63",
+      "url": "https://www.qbittensorlabs.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 202,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:44.288Z"
+      }
+    }
+  ]
 }

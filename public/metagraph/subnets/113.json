@@ -1,5 +1,89 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-github-readme-tensorusd-subnet-docs-1",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/TensorUSD/subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.tensorusd.com/components/subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-github-readme-tensorusd-subnet-docs-2",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/TensorUSD/subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.astral.sh/uv"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-github-readme-tensorusd-subnet-website-3",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/TensorUSD/subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/TensorUSD/subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-113-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "TensorUSD TaoMarketCap dashboard",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/113",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/113"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/113"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -62,27 +146,1367 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/113"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-api",
+      "kind": "subnet-api",
+      "name": "TensorUSD API",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "TensorUSD API",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-docs",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-health",
+      "kind": "subnet-api",
+      "name": "TensorUSD health endpoint",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "TensorUSD health endpoint",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "TensorUSD OpenAPI JSON",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "TensorUSD OpenAPI JSON",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-swagger",
+      "kind": "openapi",
+      "name": "TensorUSD Swagger UI",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "TensorUSD Swagger UI",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "TensorUSD Swagger JSON",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "TensorUSD Swagger JSON",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FTensorUSD%2Fsubnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-tensorusd-com-docs-1",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.tensorusd.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-tensorusd-com-docs-5",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.tensorusd.com/whitepaper/tensorusd-whitepaper-v1.0"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-tensorusd-com-website-2",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/app/mint"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-tensorusd-com-website-3",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-tensorusd-com-website-4",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/faq"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-github-readme-tensorusd-subnet-docs-1",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/TensorUSD/subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.tensorusd.com/components/subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-github-readme-tensorusd-subnet-docs-2",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/TensorUSD/subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.astral.sh/uv"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-github-readme-tensorusd-subnet-website-3",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/TensorUSD/subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/TensorUSD/subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-113-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "TensorUSD TaoMarketCap dashboard",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/113",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/113"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/113"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-113-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "TensorUSD source repository",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/113",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/113"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/TensorUSD/subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-113-taomarketcap-website",
+      "kind": "website",
+      "name": "TensorUSD website",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/113",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/113"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-113-tensorplex-docs",
+      "kind": "docs",
+      "name": "TensorUSD Tensorplex subnet docs",
+      "netuid": 113,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/113/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/113/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/113"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-api",
+      "kind": "subnet-api",
+      "name": "TensorUSD API",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "TensorUSD API",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-docs",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-health",
+      "kind": "subnet-api",
+      "name": "TensorUSD health endpoint",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "TensorUSD health endpoint",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "TensorUSD OpenAPI JSON",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "TensorUSD OpenAPI JSON",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-swagger",
+      "kind": "openapi",
+      "name": "TensorUSD Swagger UI",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "TensorUSD Swagger UI",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "TensorUSD Swagger JSON",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "TensorUSD Swagger JSON",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FTensorUSD%2Fsubnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TensorUSD/subnet",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-tensorusd-com-docs-1",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.tensorusd.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-tensorusd-com-docs-5",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.tensorusd.com/whitepaper/tensorusd-whitepaper-v1.0"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-tensorusd-com-website-2",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/app/mint"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-tensorusd-com-website-3",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-113-website-link-tensorusd-com-website-4",
+      "kind": "website",
+      "name": "TensorUSD website page",
+      "netuid": 113,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://tensorusd.com/",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://tensorusd.com/faq"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "source-repo",
+      "openapi",
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "docs",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 3,
+    "candidate_count": 34,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 3,
+      "verified_at": "2026-06-06T07:18:05.956Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/113",
+    "docs_url": "https://docs.tensorusd.com/components/subnet",
+    "gaps": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "source-repo",
+        "openapi",
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "docs",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 2,
     "name": "TensorUSD",
     "native_name": "TensorUSD",
     "native_slug": "tensorusd",
     "netuid": 113,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 135,
-    "probed_surface_count": 0,
+    "probed_surface_count": 5,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -91,16 +1515,350 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 7119664,
     "slug": "sn-113",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 5,
     "symbol": "Ѓ",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://tensorusd.com/"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-113-github-readme-tensorusd-subnet-docs-1",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet/blob/main/README.md"
+      ],
+      "subnet_name": "TensorUSD",
+      "subnet_slug": "sn-113",
+      "url": "https://docs.tensorusd.com/components/subnet",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 249,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:05.412Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-113-github-readme-tensorusd-subnet-docs-2",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet/blob/main/README.md"
+      ],
+      "subnet_name": "TensorUSD",
+      "subnet_slug": "sn-113",
+      "url": "https://docs.astral.sh/uv",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 79,
+        "method_tested": "HEAD",
+        "redirect_target": "https://docs.astral.sh/uv/",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:05.417Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-113-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "TensorUSD TaoMarketCap dashboard",
+      "netuid": 113,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/113"
+      ],
+      "subnet_name": "TensorUSD",
+      "subnet_slug": "sn-113",
+      "url": "https://taomarketcap.com/subnets/113",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 132,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:05.437Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-113-taomarketcap-website",
+      "kind": "website",
+      "name": "TensorUSD website",
+      "netuid": 113,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/113"
+      ],
+      "subnet_name": "TensorUSD",
+      "subnet_slug": "sn-113",
+      "url": "https://tensorusd.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 592,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:05.496Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-113-website-link-tensorusd-com-docs-1",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "subnet_name": "TensorUSD",
+      "subnet_slug": "sn-113",
+      "url": "https://docs.tensorusd.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 132,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:05.956Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-113-github-readme-tensorusd-subnet-docs-1",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet/blob/main/README.md"
+      ],
+      "subnet_name": "TensorUSD",
+      "subnet_slug": "sn-113",
+      "url": "https://docs.tensorusd.com/components/subnet",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 249,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:05.412Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-113-github-readme-tensorusd-subnet-docs-2",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/TensorUSD/subnet/blob/main/README.md"
+      ],
+      "subnet_name": "TensorUSD",
+      "subnet_slug": "sn-113",
+      "url": "https://docs.astral.sh/uv",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 79,
+        "method_tested": "HEAD",
+        "redirect_target": "https://docs.astral.sh/uv/",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:05.417Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-113-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "TensorUSD TaoMarketCap dashboard",
+      "netuid": 113,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/113"
+      ],
+      "subnet_name": "TensorUSD",
+      "subnet_slug": "sn-113",
+      "url": "https://taomarketcap.com/subnets/113",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 132,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:05.437Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-113-taomarketcap-website",
+      "kind": "website",
+      "name": "TensorUSD website",
+      "netuid": 113,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/113"
+      ],
+      "subnet_name": "TensorUSD",
+      "subnet_slug": "sn-113",
+      "url": "https://tensorusd.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 592,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:05.496Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-113-website-link-tensorusd-com-docs-1",
+      "kind": "docs",
+      "name": "TensorUSD docs",
+      "netuid": 113,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://tensorusd.com/"
+      ],
+      "subnet_name": "TensorUSD",
+      "subnet_slug": "sn-113",
+      "url": "https://docs.tensorusd.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 132,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:05.956Z"
+      }
+    }
+  ]
 }

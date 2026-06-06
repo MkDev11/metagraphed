@@ -7,6 +7,7 @@ import {
   loadNativeSnapshot,
   loadProviders,
   loadSubnets,
+  loadVerification,
   repoRoot,
   slugify,
   writeJson
@@ -15,10 +16,12 @@ import {
 const providers = await loadProviders();
 const overlays = await loadSubnets();
 const candidates = await loadCandidates();
+const verification = await loadVerification();
 const nativeSnapshot = await loadNativeSnapshot();
 const overlayByNetuid = new Map(overlays.map((overlay) => [overlay.netuid, overlay]));
 const chainSubnets = nativeSnapshot.subnets;
 const candidatesByNetuid = groupByNetuid(candidates);
+const verificationByCandidate = new Map((verification.results || []).map((result) => [result.candidate_id, result]));
 const mergedSubnets = chainSubnets.map((nativeSubnet) =>
   mergeSubnet(nativeSubnet, overlayByNetuid.get(nativeSubnet.netuid), candidatesByNetuid.get(nativeSubnet.netuid)?.length || 0)
 );
@@ -33,8 +36,10 @@ const subnetIndex = mergedSubnets.map((subnet) => ({
   candidate_count: subnet.candidate_count,
   categories: subnet.categories,
   coverage_level: subnet.coverage_level,
+  curation_level: subnet.curation.level,
   dashboard_url: subnet.dashboard_url,
   docs_url: subnet.docs_url,
+  gap_count: subnet.gaps.missing_kinds.length,
   mechanism_count: subnet.mechanism_count,
   name: subnet.name,
   native_name: subnet.native_name,
@@ -48,7 +53,8 @@ const subnetIndex = mergedSubnets.map((subnet) => ({
   subnet_type: subnet.subnet_type,
   surface_count: subnet.surface_count,
   symbol: subnet.symbol,
-  tempo: subnet.tempo
+  tempo: subnet.tempo,
+  website_url: subnet.website_url
 }));
 
 const metagraphLatest = {
@@ -118,6 +124,7 @@ const coverage = {
   probed_surface_count: surfaces.filter((surface) => surface.probe?.enabled).length,
   candidate_count: candidates.length,
   candidate_subnet_count: candidatesByNetuid.size,
+  curation_level_counts: countBy(mergedSubnets, (subnet) => subnet.curation.level),
   native_only_with_candidates: mergedSubnets.filter(
     (subnet) => subnet.coverage_level === "native-only" && subnet.candidate_count > 0
   ).length,
@@ -128,12 +135,34 @@ const coverage = {
 
 const candidateIndex = candidates.map((candidate) => ({
   ...candidate,
+  verification: verificationByCandidate.get(candidate.id) || candidate.verification || null,
   subnet_name: nativeSnapshot.subnets.find((subnet) => subnet.netuid === candidate.netuid)?.name || null
 }));
 
 const reviewQueue = candidateIndex.filter((candidate) =>
   ["schema-valid", "maintainer-review", "stale"].includes(candidate.state)
 );
+
+const curationIndex = mergedSubnets.map((subnet) => ({
+  candidate_count: subnet.candidate_count,
+  coverage_level: subnet.coverage_level,
+  curation: subnet.curation,
+  gap_count: subnet.gaps.missing_kinds.length,
+  gaps: subnet.gaps,
+  name: subnet.name,
+  netuid: subnet.netuid,
+  slug: subnet.slug,
+  surface_count: subnet.surface_count
+}));
+
+const gapsIndex = mergedSubnets.map((subnet) => ({
+  coverage_level: subnet.coverage_level,
+  curation_level: subnet.curation.level,
+  gaps: subnet.gaps,
+  name: subnet.name,
+  netuid: subnet.netuid,
+  slug: subnet.slug
+}));
 
 await writeJson(path.join(outputRoot, "providers.json"), {
   schema_version: 1,
@@ -153,12 +182,16 @@ await writeJson(path.join(outputRoot, "subnets.json"), {
 await fs.rm(path.join(outputRoot, "subnets"), { recursive: true, force: true });
 for (const subnet of mergedSubnets) {
   const subnetCandidates = candidatesByNetuid.get(subnet.netuid) || [];
+  const subnetSurfaces = surfaces.filter((surface) => surface.netuid === subnet.netuid);
   await writeJson(path.join(outputRoot, `subnets/${subnet.netuid}.json`), {
     schema_version: 1,
     generated_at: generatedAt,
     subnet,
+    candidate_surfaces: subnetCandidates,
     candidates: subnetCandidates,
-    surfaces: surfaces.filter((surface) => surface.netuid === subnet.netuid)
+    gaps: subnet.gaps,
+    surfaces: subnetSurfaces,
+    verified_surfaces: subnetSurfaces
   });
 }
 
@@ -182,6 +215,25 @@ await writeJson(path.join(outputRoot, "review-queue.json"), {
   notes: "Candidate surfaces that need maintainer review before promotion into curated subnet overlays.",
   count: reviewQueue.length,
   candidates: reviewQueue
+});
+
+await writeJson(path.join(outputRoot, "curation.json"), {
+  schema_version: 1,
+  generated_at: generatedAt,
+  notes: "Curation status for every active Finney subnet.",
+  curation: curationIndex
+});
+
+await writeJson(path.join(outputRoot, "gaps.json"), {
+  schema_version: 1,
+  generated_at: generatedAt,
+  notes: "Missing or unsupported public interface facets by subnet. Missing facets are not invented.",
+  gaps: gapsIndex
+});
+
+await writeJson(path.join(outputRoot, "verification/latest.json"), {
+  ...verification,
+  generated_at: verification.generated_at || generatedAt
 });
 
 await writeJson(path.join(outputRoot, "metagraph/latest.json"), metagraphLatest);
@@ -218,6 +270,7 @@ function mergeSubnet(nativeSubnet, overlay, candidateCount) {
     coverage_level: coverageLevel,
     dashboard_url: overlay?.dashboard_url || null,
     docs_url: overlay?.docs_url || null,
+    gaps: buildGaps(overlay?.surfaces || [], overlay),
     mechanism_count: nativeSubnet.mechanism_count,
     name: overlay?.name || nativeSubnet.name || `Subnet ${nativeSubnet.netuid}`,
     native_name: nativeSubnet.name || null,
@@ -234,7 +287,7 @@ function mergeSubnet(nativeSubnet, overlay, candidateCount) {
         network: nativeSnapshot.network,
         source_kind: nativeSnapshot.source.kind
       },
-      interface_metadata: overlay ? "curated-overlay" : "none"
+      interface_metadata: overlay ? overlay.curation?.level || "curated-overlay" : "none"
     },
     registered_at_block: nativeSubnet.registered_at_block,
     slug,
@@ -243,8 +296,53 @@ function mergeSubnet(nativeSubnet, overlay, candidateCount) {
     subnet_type: nativeSubnet.subnet_type,
     surface_count: surfaceCount,
     symbol: nativeSubnet.symbol,
-    tempo: nativeSubnet.tempo
+    tempo: nativeSubnet.tempo,
+    website_url: overlay?.website_url || null,
+    curation: overlay?.curation || {
+      level: overlay ? "candidate-discovered" : "native",
+      review_state: "unreviewed",
+      reviewed_at: null,
+      verified_at: null,
+      source_count: 0,
+      gap_notes: []
+    },
+    links: overlay?.links || []
   };
+}
+
+function buildGaps(surfaces, overlay) {
+  const kinds = new Set(surfaces.map((surface) => surface.kind));
+  if (overlay?.docs_url) {
+    kinds.add("docs");
+  }
+  if (overlay?.source_repo) {
+    kinds.add("source-repo");
+  }
+  if (overlay?.website_url) {
+    kinds.add("website");
+  }
+  if (overlay?.dashboard_url) {
+    kinds.add("dashboard");
+  }
+  const expectedKinds = ["docs", "source-repo", "website", "dashboard", "openapi", "subnet-api", "sse", "data-artifact"];
+  const missingKinds = expectedKinds.filter((kind) => !kinds.has(kind));
+  return {
+    missing_kinds: missingKinds,
+    supported_kinds: [...kinds].sort(),
+    gap_notes: overlay?.curation?.gap_notes || []
+  };
+}
+
+function countBy(items, keyOrFn) {
+  return Object.fromEntries(
+    Object.entries(
+      items.reduce((accumulator, item) => {
+        const key = typeof keyOrFn === "function" ? keyOrFn(item) : item[keyOrFn];
+        accumulator[key] = (accumulator[key] || 0) + 1;
+        return accumulator;
+      }, {})
+    ).sort(([a], [b]) => a.localeCompare(b))
+  );
 }
 
 function groupByNetuid(items) {

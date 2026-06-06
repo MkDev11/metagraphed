@@ -1,5 +1,216 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-1",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://img.shields.io/badge/Docs-8A2BE2"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-2",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/",
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/subnets/subnet-1-apex"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-3",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/subnets/new-subnet-1-apex/subnet-1-base-miner-setup"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-4",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/subnets/new-subnet-1-apex/subnet-1-base-miner-setup/apex-cli"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-5",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/subnets/new-subnet-1-apex/incentive-mechanism"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-6",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/subnets/new-subnet-1-apex/validating"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-7",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/subnets/new-subnet-1-apex/subnet-1-base-miner-setup/current-competitions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-8",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/subnets/subnet-1-apex/subnet-1-current-competitions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-9",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/subnets/new-subnet-1-apex"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-1-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Apex TaoMarketCap dashboard",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/1",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/1"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/1"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -105,27 +316,862 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/macrocosm-os/prompting/blob/main/min_compute.yml"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-common-api",
+      "kind": "subnet-api",
+      "name": "Apex API",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://apex.macrocosmos.ai/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-common-docs",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://apex.macrocosmos.ai/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-common-health",
+      "kind": "subnet-api",
+      "name": "Apex health endpoint",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://apex.macrocosmos.ai/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Apex OpenAPI JSON",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://apex.macrocosmos.ai/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-common-swagger",
+      "kind": "openapi",
+      "name": "Apex Swagger UI",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://apex.macrocosmos.ai/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Apex Swagger JSON",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://apex.macrocosmos.ai/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-link-apex-macrocosmos-ai-docs-3",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://macrocosmos.ai/delegation-guide"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-link-apex-macrocosmos-ai-docs-6",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-link-apex-macrocosmos-ai-website-1",
+      "kind": "website",
+      "name": "Apex website page",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://macrocosmos.ai/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-link-apex-macrocosmos-ai-website-4",
+      "kind": "website",
+      "name": "Apex website page",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://macrocosmos.ai/our-purpose"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-link-apex-macrocosmos-ai-website-5",
+      "kind": "website",
+      "name": "Apex website page",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://macrocosmos.ai/team"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-1",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://img.shields.io/badge/Docs-8A2BE2"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-2",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/",
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/subnets/subnet-1-apex"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-3",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/subnets/new-subnet-1-apex/subnet-1-base-miner-setup"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-4",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/subnets/new-subnet-1-apex/subnet-1-base-miner-setup/apex-cli"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-5",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/subnets/new-subnet-1-apex/incentive-mechanism"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-6",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/subnets/new-subnet-1-apex/validating"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-7",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/subnets/new-subnet-1-apex/subnet-1-base-miner-setup/current-competitions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-8",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/subnets/subnet-1-apex/subnet-1-current-competitions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-9",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/macrocosm-os/apex/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/subnets/new-subnet-1-apex"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-1-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Apex TaoMarketCap dashboard",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/1",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/1"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/1"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-1-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Apex source repository",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/1",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/1",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/1/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/macrocosm-os/apex"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-1-taomarketcap-website",
+      "kind": "website",
+      "name": "Apex website",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/1",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/1"
+      ],
+      "state": "schema-valid",
+      "url": "https://apex.macrocosmos.ai/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-taopedia-article",
+      "kind": "docs",
+      "name": "Apex Taopedia article",
+      "netuid": 1,
+      "provider": "taopedia-articles",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from the public Taopedia article repository. Not verified as an operational interface.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "taopedia-article",
+      "source_url": "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_1_apex/index.mdx",
+      "source_urls": [
+        "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_1_apex/index.mdx"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/e35ventura/taopedia-articles/blob/main/content/pages/subnet_1_apex/index.mdx"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-1-tensorplex-docs",
+      "kind": "docs",
+      "name": "Apex Tensorplex subnet docs",
+      "netuid": 1,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/1/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/1/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/1"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-tensorplex-hardware-docs",
+      "kind": "docs",
+      "name": "Apex hardware requirements",
+      "netuid": 1,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs hardware requirements metadata.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs-hardware",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/1/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/1/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/macrocosm-os/prompting/blob/main/min_compute.yml"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-common-api",
+      "kind": "subnet-api",
+      "name": "Apex API",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://apex.macrocosmos.ai/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-common-docs",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://apex.macrocosmos.ai/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-common-health",
+      "kind": "subnet-api",
+      "name": "Apex health endpoint",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://apex.macrocosmos.ai/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Apex OpenAPI JSON",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://apex.macrocosmos.ai/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-common-swagger",
+      "kind": "openapi",
+      "name": "Apex Swagger UI",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://apex.macrocosmos.ai/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Apex Swagger JSON",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://apex.macrocosmos.ai/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-link-apex-macrocosmos-ai-docs-3",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://macrocosmos.ai/delegation-guide"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-link-apex-macrocosmos-ai-docs-6",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.macrocosmos.ai/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-link-apex-macrocosmos-ai-website-1",
+      "kind": "website",
+      "name": "Apex website page",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://macrocosmos.ai/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-link-apex-macrocosmos-ai-website-4",
+      "kind": "website",
+      "name": "Apex website page",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://macrocosmos.ai/our-purpose"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-1-website-link-apex-macrocosmos-ai-website-5",
+      "kind": "website",
+      "name": "Apex website page",
+      "netuid": 1,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://apex.macrocosmos.ai/",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://macrocosmos.ai/team"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "openapi",
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "docs",
+      "source-repo",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 5,
+    "candidate_count": 26,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 4,
+      "verified_at": "2026-06-06T07:17:18.982Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/1",
+    "docs_url": "https://img.shields.io/badge/Docs-8A2BE2",
+    "gaps": {
+      "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "openapi",
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "docs",
+        "source-repo",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "Apex",
     "native_name": "Apex",
     "native_slug": "apex",
     "netuid": 1,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 7,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -134,16 +1180,506 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 1497824,
     "slug": "sn-1",
-    "source_repo": null,
+    "source_repo": "https://github.com/macrocosm-os/apex",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 7,
     "symbol": "α",
-    "tempo": 99
+    "tempo": 99,
+    "website_url": "https://apex.macrocosmos.ai/"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-1",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "subnet_name": "Apex",
+      "subnet_slug": "sn-1",
+      "url": "https://img.shields.io/badge/Docs-8A2BE2",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 164,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:18.977Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-2",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/",
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "subnet_name": "Apex",
+      "subnet_slug": "sn-1",
+      "url": "https://docs.macrocosmos.ai/subnets/subnet-1-apex",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 452,
+        "method_tested": "HEAD",
+        "redirect_target": "https://docs.macrocosmos.ai/",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:18.978Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-3",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "subnet_name": "Apex",
+      "subnet_slug": "sn-1",
+      "url": "https://docs.macrocosmos.ai/subnets/new-subnet-1-apex/subnet-1-base-miner-setup",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 443,
+        "method_tested": "HEAD",
+        "redirect_target": "https://docs.macrocosmos.ai/subnets/subnet-1-apex/subnet-1-base-miner-setup",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:18.978Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-4",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "subnet_name": "Apex",
+      "subnet_slug": "sn-1",
+      "url": "https://docs.macrocosmos.ai/subnets/new-subnet-1-apex/subnet-1-base-miner-setup/apex-cli",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 463,
+        "method_tested": "HEAD",
+        "redirect_target": "https://docs.macrocosmos.ai/subnets/subnet-1-apex/subnet-1-base-miner-setup/apex-cli",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:18.979Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-1-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Apex TaoMarketCap dashboard",
+      "netuid": 1,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/1"
+      ],
+      "subnet_name": "Apex",
+      "subnet_slug": "sn-1",
+      "url": "https://taomarketcap.com/subnets/1",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 376,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:18.982Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-1-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Apex source repository",
+      "netuid": 1,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/1",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/1/subnet.json"
+      ],
+      "subnet_name": "Apex",
+      "subnet_slug": "sn-1",
+      "url": "https://github.com/macrocosm-os/apex",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/macrocosm-os/apex",
+        "homepage": "https://apex.macrocosmos.ai/",
+        "last_push_at": "2026-06-04T09:58:25Z",
+        "redirect_target": null,
+        "topics": [
+          "ai",
+          "bittensor",
+          "blockchain",
+          "cryptocurrency",
+          "llm",
+          "network"
+        ],
+        "verified_at": "2026-06-06T07:17:18.982Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-1-taomarketcap-website",
+      "kind": "website",
+      "name": "Apex website",
+      "netuid": 1,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/1"
+      ],
+      "subnet_name": "Apex",
+      "subnet_slug": "sn-1",
+      "url": "https://apex.macrocosmos.ai/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 262,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:18.982Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-1",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "subnet_name": "Apex",
+      "subnet_slug": "sn-1",
+      "url": "https://img.shields.io/badge/Docs-8A2BE2",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 164,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:18.977Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-2",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://apex.macrocosmos.ai/",
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "subnet_name": "Apex",
+      "subnet_slug": "sn-1",
+      "url": "https://docs.macrocosmos.ai/subnets/subnet-1-apex",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 452,
+        "method_tested": "HEAD",
+        "redirect_target": "https://docs.macrocosmos.ai/",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:18.978Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-3",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "subnet_name": "Apex",
+      "subnet_slug": "sn-1",
+      "url": "https://docs.macrocosmos.ai/subnets/new-subnet-1-apex/subnet-1-base-miner-setup",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 443,
+        "method_tested": "HEAD",
+        "redirect_target": "https://docs.macrocosmos.ai/subnets/subnet-1-apex/subnet-1-base-miner-setup",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:18.978Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-1-github-readme-macrocosm-os-apex-docs-4",
+      "kind": "docs",
+      "name": "Apex docs",
+      "netuid": 1,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/macrocosm-os/apex/blob/main/README.md"
+      ],
+      "subnet_name": "Apex",
+      "subnet_slug": "sn-1",
+      "url": "https://docs.macrocosmos.ai/subnets/new-subnet-1-apex/subnet-1-base-miner-setup/apex-cli",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 463,
+        "method_tested": "HEAD",
+        "redirect_target": "https://docs.macrocosmos.ai/subnets/subnet-1-apex/subnet-1-base-miner-setup/apex-cli",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:18.979Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-1-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Apex TaoMarketCap dashboard",
+      "netuid": 1,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/1"
+      ],
+      "subnet_name": "Apex",
+      "subnet_slug": "sn-1",
+      "url": "https://taomarketcap.com/subnets/1",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 376,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:18.982Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-1-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Apex source repository",
+      "netuid": 1,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/1",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/1/subnet.json"
+      ],
+      "subnet_name": "Apex",
+      "subnet_slug": "sn-1",
+      "url": "https://github.com/macrocosm-os/apex",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/macrocosm-os/apex",
+        "homepage": "https://apex.macrocosmos.ai/",
+        "last_push_at": "2026-06-04T09:58:25Z",
+        "redirect_target": null,
+        "topics": [
+          "ai",
+          "bittensor",
+          "blockchain",
+          "cryptocurrency",
+          "llm",
+          "network"
+        ],
+        "verified_at": "2026-06-06T07:17:18.982Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-1-taomarketcap-website",
+      "kind": "website",
+      "name": "Apex website",
+      "netuid": 1,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/1"
+      ],
+      "subnet_name": "Apex",
+      "subnet_slug": "sn-1",
+      "url": "https://apex.macrocosmos.ai/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 262,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:18.982Z"
+      }
+    }
+  ]
 }

@@ -1,5 +1,110 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-github-readme-tplr-ai-grail-dashboard-2",
+      "kind": "dashboard",
+      "name": "deprecated dashboard",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/tplr-ai/grail/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/tplr-ai/grail/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://img.shields.io/badge/W%26B-Public%20Dashboard-FFBE00?logo=weightsandbiases"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-github-readme-tplr-ai-grail-website-1",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/tplr-ai/grail/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/tplr-ai/grail/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/one-covenant/grail/blob/main/LICENSE"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-github-readme-tplr-ai-grail-website-3",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/tplr-ai/grail/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/tplr-ai/grail/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/one-covenant/grail/commits/main"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-github-readme-tplr-ai-grail-website-4",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/tplr-ai/grail/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/tplr-ai/grail/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/one-covenant/grail"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-81-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "deprecated TaoMarketCap dashboard",
+      "netuid": 81,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/81",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/81"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/81"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -62,27 +167,1016 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tplr-ai/grail"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-common-api",
+      "kind": "subnet-api",
+      "name": "deprecated API",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/one-covenant/grail/blob/main/LICENSE",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/blob/main/LICENSE",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-common-docs",
+      "kind": "docs",
+      "name": "deprecated docs",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/one-covenant/grail/blob/main/LICENSE",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/blob/main/LICENSE",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-common-health",
+      "kind": "subnet-api",
+      "name": "deprecated health endpoint",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/one-covenant/grail/blob/main/LICENSE",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/blob/main/LICENSE",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "deprecated OpenAPI JSON",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/one-covenant/grail/blob/main/LICENSE",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/blob/main/LICENSE",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-common-swagger",
+      "kind": "openapi",
+      "name": "deprecated Swagger UI",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/one-covenant/grail/blob/main/LICENSE",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/blob/main/LICENSE",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "deprecated Swagger JSON",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/one-covenant/grail/blob/main/LICENSE",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/blob/main/LICENSE",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fone-covenant%2Fgrail"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-2-1w7bbik",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail/commits/main",
+      "source_urls": [
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fone-covenant%2Fgrail%2Fcommits%2Fmain"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-github-readme-tplr-ai-grail-dashboard-2",
+      "kind": "dashboard",
+      "name": "deprecated dashboard",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/tplr-ai/grail/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/tplr-ai/grail/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://img.shields.io/badge/W%26B-Public%20Dashboard-FFBE00?logo=weightsandbiases"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-github-readme-tplr-ai-grail-website-1",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/tplr-ai/grail/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/tplr-ai/grail/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/one-covenant/grail/blob/main/LICENSE"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-github-readme-tplr-ai-grail-website-3",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/tplr-ai/grail/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/tplr-ai/grail/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/one-covenant/grail/commits/main"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-github-readme-tplr-ai-grail-website-4",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/tplr-ai/grail/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/tplr-ai/grail/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/one-covenant/grail"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-81-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "deprecated TaoMarketCap dashboard",
+      "netuid": 81,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/81",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/81"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/81"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-81-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "deprecated source repository",
+      "netuid": 81,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/81",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/81"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/deprecated/deprecated"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-81-tensorplex-docs",
+      "kind": "docs",
+      "name": "deprecated Tensorplex subnet docs",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/81/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/81/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/81"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-81-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "deprecated source repository",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs-github",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/81/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/81/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tplr-ai/grail"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-common-api",
+      "kind": "subnet-api",
+      "name": "deprecated API",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/one-covenant/grail/blob/main/LICENSE",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/blob/main/LICENSE",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-common-docs",
+      "kind": "docs",
+      "name": "deprecated docs",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/one-covenant/grail/blob/main/LICENSE",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/blob/main/LICENSE",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-common-health",
+      "kind": "subnet-api",
+      "name": "deprecated health endpoint",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/one-covenant/grail/blob/main/LICENSE",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/blob/main/LICENSE",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "deprecated OpenAPI JSON",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/one-covenant/grail/blob/main/LICENSE",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/blob/main/LICENSE",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-common-swagger",
+      "kind": "openapi",
+      "name": "deprecated Swagger UI",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/one-covenant/grail/blob/main/LICENSE",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/blob/main/LICENSE",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "deprecated Swagger JSON",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/one-covenant/grail/blob/main/LICENSE",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/blob/main/LICENSE",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fone-covenant%2Fgrail"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-2-1w7bbik",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail/commits/main",
+      "source_urls": [
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fone-covenant%2Fgrail%2Fcommits%2Fmain"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-81-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "deprecated website page",
+      "netuid": 81,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/one-covenant/grail",
+      "source_urls": [
+        "https://github.com/one-covenant/grail",
+        "https://github.com/one-covenant/grail/commits/main"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified project docs surface yet.",
+      "No verified source repository yet.",
+      "No verified project website yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "docs",
+      "source-repo",
+      "website",
+      "openapi",
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 3,
+    "candidate_count": 25,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified project docs surface yet.",
+        "No verified source repository yet.",
+        "No verified project website yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:17:51.292Z"
+    },
+    "dashboard_url": "https://img.shields.io/badge/W%26B-Public%20Dashboard-FFBE00?logo=weightsandbiases",
     "docs_url": null,
+    "gaps": {
+      "gap_notes": [
+        "No verified project docs surface yet.",
+        "No verified source repository yet.",
+        "No verified project website yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "docs",
+        "source-repo",
+        "website",
+        "openapi",
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "deprecated",
     "native_name": "deprecated",
     "native_slug": "deprecated",
     "netuid": 81,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 2,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -91,16 +1185,152 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 5203057,
     "slug": "sn-81",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 2,
     "symbol": "ᚠ",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": null
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-81-github-readme-tplr-ai-grail-dashboard-2",
+      "kind": "dashboard",
+      "name": "deprecated dashboard",
+      "netuid": 81,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tplr-ai/grail/blob/main/README.md"
+      ],
+      "subnet_name": "deprecated",
+      "subnet_slug": "sn-81",
+      "url": "https://img.shields.io/badge/W%26B-Public%20Dashboard-FFBE00?logo=weightsandbiases",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 40,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:51.217Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-81-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "deprecated TaoMarketCap dashboard",
+      "netuid": 81,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/81"
+      ],
+      "subnet_name": "deprecated",
+      "subnet_slug": "sn-81",
+      "url": "https://taomarketcap.com/subnets/81",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 151,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:51.292Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-81-github-readme-tplr-ai-grail-dashboard-2",
+      "kind": "dashboard",
+      "name": "deprecated dashboard",
+      "netuid": 81,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tplr-ai/grail/blob/main/README.md"
+      ],
+      "subnet_name": "deprecated",
+      "subnet_slug": "sn-81",
+      "url": "https://img.shields.io/badge/W%26B-Public%20Dashboard-FFBE00?logo=weightsandbiases",
+      "verification": {
+        "classification": "live",
+        "content_type": "image/svg+xml;charset=utf-8",
+        "latency_ms": 40,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:51.217Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-81-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "deprecated TaoMarketCap dashboard",
+      "netuid": 81,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/81"
+      ],
+      "subnet_name": "deprecated",
+      "subnet_slug": "sn-81",
+      "url": "https://taomarketcap.com/subnets/81",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 151,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:51.292Z"
+      }
+    }
+  ]
 }

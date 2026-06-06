@@ -76,10 +76,7 @@ function acceptHeader(expect) {
   }
 }
 
-const results = [];
-for (const surface of surfaces) {
-  results.push(await probeSurface(surface));
-}
+const results = await mapLimit(surfaces, 16, probeSurface);
 
 const artifact = {
   schema_version: 1,
@@ -109,4 +106,17 @@ for (const result of results) {
 
 if (failed > 0 && process.env.METAGRAPH_STRICT_PROBES === "1") {
   process.exit(1);
+}
+
+async function mapLimit(items, limit, mapper) {
+  const queue = [...items];
+  const results = [];
+  const workers = Array.from({ length: Math.min(limit, queue.length) }, async () => {
+    while (queue.length > 0) {
+      const item = queue.shift();
+      results.push(await mapper(item));
+    }
+  });
+  await Promise.all(workers);
+  return results.sort((a, b) => a.subnet_slug.localeCompare(b.subnet_slug) || a.surface_id.localeCompare(b.surface_id));
 }

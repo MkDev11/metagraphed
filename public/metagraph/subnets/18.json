@@ -1,5 +1,26 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-18-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Zeus TaoMarketCap dashboard",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/18",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/18"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/18"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -63,27 +84,672 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/18"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-common-api",
+      "kind": "subnet-api",
+      "name": "Zeus API",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-common-docs",
+      "kind": "docs",
+      "name": "Zeus docs",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-common-health",
+      "kind": "subnet-api",
+      "name": "Zeus health endpoint",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Zeus OpenAPI JSON",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-common-swagger",
+      "kind": "openapi",
+      "name": "Zeus Swagger UI",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Zeus Swagger JSON",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-link-www-zeussubnet-com-dashboard-6",
+      "kind": "dashboard",
+      "name": "Zeus dashboard",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/dashboard"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-link-www-zeussubnet-com-docs-5",
+      "kind": "docs",
+      "name": "Zeus docs",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.zeussubnet.com/docs/introduction"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-link-www-zeussubnet-com-website-1",
+      "kind": "website",
+      "name": "Zeus website page",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/company"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-link-www-zeussubnet-com-website-2",
+      "kind": "website",
+      "name": "Zeus website page",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/articles"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-link-www-zeussubnet-com-website-3",
+      "kind": "website",
+      "name": "Zeus website page",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/map"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-link-www-zeussubnet-com-website-4",
+      "kind": "website",
+      "name": "Zeus website page",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/news-and-updates/ZEUS_V2_Benchmark.pdf"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-18-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Zeus TaoMarketCap dashboard",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/18",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/18"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/18"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-18-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Zeus source repository",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/18",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/18",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/18/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/Orpheus-AI/Zeus"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-18-taomarketcap-website",
+      "kind": "website",
+      "name": "Zeus website",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/18",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/18"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-18-tensorplex-docs",
+      "kind": "docs",
+      "name": "Zeus Tensorplex subnet docs",
+      "netuid": 18,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/18/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/18/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/18"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-common-api",
+      "kind": "subnet-api",
+      "name": "Zeus API",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-common-docs",
+      "kind": "docs",
+      "name": "Zeus docs",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-common-health",
+      "kind": "subnet-api",
+      "name": "Zeus health endpoint",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Zeus OpenAPI JSON",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-common-swagger",
+      "kind": "openapi",
+      "name": "Zeus Swagger UI",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Zeus Swagger JSON",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-link-www-zeussubnet-com-dashboard-6",
+      "kind": "dashboard",
+      "name": "Zeus dashboard",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/dashboard"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-link-www-zeussubnet-com-docs-5",
+      "kind": "docs",
+      "name": "Zeus docs",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.zeussubnet.com/docs/introduction"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-link-www-zeussubnet-com-website-1",
+      "kind": "website",
+      "name": "Zeus website page",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/company"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-link-www-zeussubnet-com-website-2",
+      "kind": "website",
+      "name": "Zeus website page",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/articles"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-link-www-zeussubnet-com-website-3",
+      "kind": "website",
+      "name": "Zeus website page",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/map"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-18-website-link-www-zeussubnet-com-website-4",
+      "kind": "website",
+      "name": "Zeus website page",
+      "netuid": 18,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.zeussubnet.com/",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.zeussubnet.com/news-and-updates/ZEUS_V2_Benchmark.pdf"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "openapi",
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "docs",
+      "source-repo",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 3,
+    "candidate_count": 16,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 3,
+      "verified_at": "2026-06-06T07:17:27.250Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/18",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/18",
+    "gaps": {
+      "gap_notes": [
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "openapi",
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "docs",
+        "source-repo",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "Zeus",
     "native_name": "Zeus",
     "native_slug": "zeus",
     "netuid": 18,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 257,
-    "probed_surface_count": 0,
+    "probed_surface_count": 6,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -92,16 +758,432 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 1604679,
     "slug": "sn-18",
-    "source_repo": null,
+    "source_repo": "https://github.com/Orpheus-AI/Zeus",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 6,
     "symbol": "σ",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://www.zeussubnet.com/"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-18-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Zeus TaoMarketCap dashboard",
+      "netuid": 18,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/18"
+      ],
+      "subnet_name": "Zeus",
+      "subnet_slug": "sn-18",
+      "url": "https://taomarketcap.com/subnets/18",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 261,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:26.989Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-18-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Zeus source repository",
+      "netuid": 18,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/18",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/18/subnet.json"
+      ],
+      "subnet_name": "Zeus",
+      "subnet_slug": "sn-18",
+      "url": "https://github.com/Orpheus-AI/Zeus",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/Orpheus-AI/Zeus",
+        "homepage": null,
+        "last_push_at": "2026-06-04T16:21:46Z",
+        "redirect_target": null,
+        "topics": [
+          "bittensor",
+          "climate-forecasting",
+          "weather-forecasting"
+        ],
+        "verified_at": "2026-06-06T07:17:26.989Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-18-taomarketcap-website",
+      "kind": "website",
+      "name": "Zeus website",
+      "netuid": 18,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/18"
+      ],
+      "subnet_name": "Zeus",
+      "subnet_slug": "sn-18",
+      "url": "https://www.zeussubnet.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 1066,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:26.989Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-18-tensorplex-docs",
+      "kind": "docs",
+      "name": "Zeus Tensorplex subnet docs",
+      "netuid": 18,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/18/subnet.json"
+      ],
+      "subnet_name": "Zeus",
+      "subnet_slug": "sn-18",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/18",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 499,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:26.989Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-18-website-link-www-zeussubnet-com-dashboard-6",
+      "kind": "dashboard",
+      "name": "Zeus dashboard",
+      "netuid": 18,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "subnet_name": "Zeus",
+      "subnet_slug": "sn-18",
+      "url": "https://www.zeussubnet.com/dashboard",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 408,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.164Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-18-website-link-www-zeussubnet-com-docs-5",
+      "kind": "docs",
+      "name": "Zeus docs",
+      "netuid": 18,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "subnet_name": "Zeus",
+      "subnet_slug": "sn-18",
+      "url": "https://docs.zeussubnet.com/docs/introduction",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 627,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.250Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-18-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Zeus TaoMarketCap dashboard",
+      "netuid": 18,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/18"
+      ],
+      "subnet_name": "Zeus",
+      "subnet_slug": "sn-18",
+      "url": "https://taomarketcap.com/subnets/18",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 261,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:26.989Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-18-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Zeus source repository",
+      "netuid": 18,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/18",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/18/subnet.json"
+      ],
+      "subnet_name": "Zeus",
+      "subnet_slug": "sn-18",
+      "url": "https://github.com/Orpheus-AI/Zeus",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/Orpheus-AI/Zeus",
+        "homepage": null,
+        "last_push_at": "2026-06-04T16:21:46Z",
+        "redirect_target": null,
+        "topics": [
+          "bittensor",
+          "climate-forecasting",
+          "weather-forecasting"
+        ],
+        "verified_at": "2026-06-06T07:17:26.989Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-18-taomarketcap-website",
+      "kind": "website",
+      "name": "Zeus website",
+      "netuid": 18,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/18"
+      ],
+      "subnet_name": "Zeus",
+      "subnet_slug": "sn-18",
+      "url": "https://www.zeussubnet.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 1066,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:26.989Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-18-tensorplex-docs",
+      "kind": "docs",
+      "name": "Zeus Tensorplex subnet docs",
+      "netuid": 18,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/18/subnet.json"
+      ],
+      "subnet_name": "Zeus",
+      "subnet_slug": "sn-18",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/18",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 499,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:26.989Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-18-website-link-www-zeussubnet-com-dashboard-6",
+      "kind": "dashboard",
+      "name": "Zeus dashboard",
+      "netuid": 18,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "subnet_name": "Zeus",
+      "subnet_slug": "sn-18",
+      "url": "https://www.zeussubnet.com/dashboard",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 408,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.164Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-18-website-link-www-zeussubnet-com-docs-5",
+      "kind": "docs",
+      "name": "Zeus docs",
+      "netuid": 18,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://www.zeussubnet.com/"
+      ],
+      "subnet_name": "Zeus",
+      "subnet_slug": "sn-18",
+      "url": "https://docs.zeussubnet.com/docs/introduction",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 627,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:27.250Z"
+      }
+    }
+  ]
 }

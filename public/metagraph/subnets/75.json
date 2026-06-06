@@ -1,5 +1,47 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-github-readme-thenervelab-hippius-storage-miner-website-1",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/thenervelab/hippius-storage-miner.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-75-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Hippius TaoMarketCap dashboard",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/75",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/75"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/75"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -105,27 +147,1578 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/thenervelab/hippius-storage-miner"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-api",
+      "kind": "subnet-api",
+      "name": "Hippius API",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "Hippius API",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-docs",
+      "kind": "docs",
+      "name": "Hippius docs",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "Hippius docs",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-health",
+      "kind": "subnet-api",
+      "name": "Hippius health endpoint",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "Hippius health endpoint",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Hippius OpenAPI JSON",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "Hippius OpenAPI JSON",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-swagger",
+      "kind": "openapi",
+      "name": "Hippius Swagger UI",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Hippius Swagger UI",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Hippius Swagger JSON",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "Hippius Swagger JSON",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fthenervelab%2Fhippius-storage-miner"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-docs-8",
+      "kind": "docs",
+      "name": "Hippius docs",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.hippius.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-subnet-api-10",
+      "kind": "subnet-api",
+      "name": "Hippius API surface",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.hippius.com/blockchain/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-website-1",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/why-hippius"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-website-2",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/product"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-website-3",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/pricing"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-website-4",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/alphanomics"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-website-5",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/blog"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-website-6",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://console.hippius.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-website-7",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/desktop-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-website-9",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/hermes"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-github-readme-thenervelab-hippius-storage-miner-website-1",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/thenervelab/hippius-storage-miner.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-75-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Hippius TaoMarketCap dashboard",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/75",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/75"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/75"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-75-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Hippius source repository",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/75",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/75",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/75/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/thenervelab/thebrain"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-75-taomarketcap-website",
+      "kind": "website",
+      "name": "Hippius website",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/75",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/75"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-75-tensorplex-docs",
+      "kind": "docs",
+      "name": "Hippius Tensorplex subnet docs",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/75/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/75/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/75"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-75-tensorplex-source-repo-2",
+      "kind": "source-repo",
+      "name": "Hippius source repository",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs-github",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/75/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/75/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/thenervelab/hippius-validator"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-75-tensorplex-source-repo-3",
+      "kind": "source-repo",
+      "name": "Hippius source repository",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs-github",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/75/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/75/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/thenervelab/hippius-storage-miner"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-api",
+      "kind": "subnet-api",
+      "name": "Hippius API",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "Hippius API",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-docs",
+      "kind": "docs",
+      "name": "Hippius docs",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "Hippius docs",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-health",
+      "kind": "subnet-api",
+      "name": "Hippius health endpoint",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "Hippius health endpoint",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Hippius OpenAPI JSON",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "Hippius OpenAPI JSON",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-swagger",
+      "kind": "openapi",
+      "name": "Hippius Swagger UI",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Hippius Swagger UI",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Hippius Swagger JSON",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "Hippius Swagger JSON",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fthenervelab%2Fhippius-storage-miner"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/thenervelab/hippius-storage-miner.git",
+      "source_urls": [
+        "https://github.com/thenervelab/hippius-storage-miner.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-docs-8",
+      "kind": "docs",
+      "name": "Hippius docs",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.hippius.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-subnet-api-10",
+      "kind": "subnet-api",
+      "name": "Hippius API surface",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.hippius.com/blockchain/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-website-1",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/why-hippius"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-website-2",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/product"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-website-3",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/pricing"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-website-4",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/alphanomics"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-website-5",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/blog"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-website-6",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://console.hippius.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-website-7",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/desktop-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-75-website-link-hippius-com-website-9",
+      "kind": "website",
+      "name": "Hippius website page",
+      "netuid": 75,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://hippius.com/",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://hippius.com/hermes"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "source-repo",
+      "openapi",
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "docs",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 5,
+    "candidate_count": 39,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:17:49.050Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/75",
+    "docs_url": "https://docs.hippius.com/",
+    "gaps": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "source-repo",
+        "openapi",
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "docs",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "Hippius",
     "native_name": "Hippius",
     "native_slug": "hippius",
     "netuid": 75,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 3,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -134,16 +1727,218 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 5102795,
     "slug": "sn-75",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 3,
     "symbol": "م",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://hippius.com/"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-75-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Hippius TaoMarketCap dashboard",
+      "netuid": 75,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/75"
+      ],
+      "subnet_name": "Hippius",
+      "subnet_slug": "sn-75",
+      "url": "https://taomarketcap.com/subnets/75",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 143,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:48.664Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-75-taomarketcap-website",
+      "kind": "website",
+      "name": "Hippius website",
+      "netuid": 75,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/75"
+      ],
+      "subnet_name": "Hippius",
+      "subnet_slug": "sn-75",
+      "url": "https://hippius.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 368,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:48.682Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-75-website-link-hippius-com-docs-8",
+      "kind": "docs",
+      "name": "Hippius docs",
+      "netuid": 75,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "subnet_name": "Hippius",
+      "subnet_slug": "sn-75",
+      "url": "https://docs.hippius.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 610,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:49.050Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-75-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Hippius TaoMarketCap dashboard",
+      "netuid": 75,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/75"
+      ],
+      "subnet_name": "Hippius",
+      "subnet_slug": "sn-75",
+      "url": "https://taomarketcap.com/subnets/75",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 143,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:48.664Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-75-taomarketcap-website",
+      "kind": "website",
+      "name": "Hippius website",
+      "netuid": 75,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/75"
+      ],
+      "subnet_name": "Hippius",
+      "subnet_slug": "sn-75",
+      "url": "https://hippius.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 368,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:48.682Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-75-website-link-hippius-com-docs-8",
+      "kind": "docs",
+      "name": "Hippius docs",
+      "netuid": 75,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://hippius.com/"
+      ],
+      "subnet_name": "Hippius",
+      "subnet_slug": "sn-75",
+      "url": "https://docs.hippius.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 610,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:49.050Z"
+      }
+    }
+  ]
 }

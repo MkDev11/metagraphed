@@ -1,5 +1,68 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-github-readme-connito-ai-connito-docs-1",
+      "kind": "docs",
+      "name": "ConnitoAI docs",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Connito-AI/Connito/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/Connito-AI/Connito/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/docs/miner"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-github-readme-connito-ai-connito-docs-2",
+      "kind": "docs",
+      "name": "ConnitoAI docs",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Connito-AI/Connito/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/Connito-AI/Connito/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/docs/validator"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-102-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "ConnitoAI TaoMarketCap dashboard",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/102",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/102"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/102"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -62,27 +125,632 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/102"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-common-api",
+      "kind": "subnet-api",
+      "name": "ConnitoAI API",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-common-docs",
+      "kind": "docs",
+      "name": "ConnitoAI docs",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-common-health",
+      "kind": "subnet-api",
+      "name": "ConnitoAI health endpoint",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "ConnitoAI OpenAPI JSON",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-common-swagger",
+      "kind": "openapi",
+      "name": "ConnitoAI Swagger UI",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "ConnitoAI Swagger JSON",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-link-connito-ai-docs-1",
+      "kind": "docs",
+      "name": "ConnitoAI docs",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/docs/miner/prerequisites"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-link-connito-ai-docs-3",
+      "kind": "docs",
+      "name": "ConnitoAI docs",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/whitepaper"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-link-connito-ai-website-2",
+      "kind": "website",
+      "name": "ConnitoAI website page",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/connito-explained/the-connito-story"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-link-connito-ai-website-4",
+      "kind": "website",
+      "name": "ConnitoAI website page",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/blog"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-github-readme-connito-ai-connito-docs-1",
+      "kind": "docs",
+      "name": "ConnitoAI docs",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Connito-AI/Connito/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/Connito-AI/Connito/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/docs/miner"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-github-readme-connito-ai-connito-docs-2",
+      "kind": "docs",
+      "name": "ConnitoAI docs",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/Connito-AI/Connito/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/Connito-AI/Connito/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/docs/validator"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-102-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "ConnitoAI TaoMarketCap dashboard",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/102",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/102"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/102"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-102-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "ConnitoAI source repository",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/102",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/102"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/Connito-AI/Connito"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-102-taomarketcap-website",
+      "kind": "website",
+      "name": "ConnitoAI website",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/102",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/102"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-102-tensorplex-docs",
+      "kind": "docs",
+      "name": "ConnitoAI Tensorplex subnet docs",
+      "netuid": 102,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/102/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/102/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/102"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-common-api",
+      "kind": "subnet-api",
+      "name": "ConnitoAI API",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-common-docs",
+      "kind": "docs",
+      "name": "ConnitoAI docs",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-common-health",
+      "kind": "subnet-api",
+      "name": "ConnitoAI health endpoint",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "ConnitoAI OpenAPI JSON",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-common-swagger",
+      "kind": "openapi",
+      "name": "ConnitoAI Swagger UI",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "ConnitoAI Swagger JSON",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-link-connito-ai-docs-1",
+      "kind": "docs",
+      "name": "ConnitoAI docs",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/docs/miner/prerequisites"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-link-connito-ai-docs-3",
+      "kind": "docs",
+      "name": "ConnitoAI docs",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/whitepaper"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-link-connito-ai-website-2",
+      "kind": "website",
+      "name": "ConnitoAI website page",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/connito-explained/the-connito-story"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-102-website-link-connito-ai-website-4",
+      "kind": "website",
+      "name": "ConnitoAI website page",
+      "netuid": 102,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://connito.ai/",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "state": "schema-valid",
+      "url": "https://connito.ai/blog"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "source-repo",
+      "openapi",
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "docs",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 3,
+    "candidate_count": 16,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:18:01.388Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/102",
+    "docs_url": "https://connito.ai/docs",
+    "gaps": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "source-repo",
+        "openapi",
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "docs",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "ConnitoAI",
     "native_name": "ConnitoAI",
     "native_slug": "connitoai",
     "netuid": 102,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 5,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -91,16 +759,350 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 7840965,
     "slug": "sn-102",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 5,
     "symbol": "ვ",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://connito.ai/"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-102-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "ConnitoAI TaoMarketCap dashboard",
+      "netuid": 102,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/102"
+      ],
+      "subnet_name": "ConnitoAI",
+      "subnet_slug": "sn-102",
+      "url": "https://taomarketcap.com/subnets/102",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 168,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:01.240Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-102-taomarketcap-website",
+      "kind": "website",
+      "name": "ConnitoAI website",
+      "netuid": 102,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/102"
+      ],
+      "subnet_name": "ConnitoAI",
+      "subnet_slug": "sn-102",
+      "url": "https://connito.ai/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 209,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:01.242Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-102-website-common-docs",
+      "kind": "docs",
+      "name": "ConnitoAI docs",
+      "netuid": 102,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "subnet_name": "ConnitoAI",
+      "subnet_slug": "sn-102",
+      "url": "https://connito.ai/docs",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 208,
+        "method_tested": "HEAD",
+        "redirect_target": "https://connito.ai/docs/miner/prerequisites",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:01.311Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-102-website-link-connito-ai-docs-1",
+      "kind": "docs",
+      "name": "ConnitoAI docs",
+      "netuid": 102,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "subnet_name": "ConnitoAI",
+      "subnet_slug": "sn-102",
+      "url": "https://connito.ai/docs/miner/prerequisites",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 152,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:01.366Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-102-website-link-connito-ai-docs-3",
+      "kind": "docs",
+      "name": "ConnitoAI docs",
+      "netuid": 102,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "subnet_name": "ConnitoAI",
+      "subnet_slug": "sn-102",
+      "url": "https://connito.ai/whitepaper",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 168,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:01.388Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-102-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "ConnitoAI TaoMarketCap dashboard",
+      "netuid": 102,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/102"
+      ],
+      "subnet_name": "ConnitoAI",
+      "subnet_slug": "sn-102",
+      "url": "https://taomarketcap.com/subnets/102",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 168,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:01.240Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-102-taomarketcap-website",
+      "kind": "website",
+      "name": "ConnitoAI website",
+      "netuid": 102,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/102"
+      ],
+      "subnet_name": "ConnitoAI",
+      "subnet_slug": "sn-102",
+      "url": "https://connito.ai/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 209,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:01.242Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-102-website-common-docs",
+      "kind": "docs",
+      "name": "ConnitoAI docs",
+      "netuid": 102,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "subnet_name": "ConnitoAI",
+      "subnet_slug": "sn-102",
+      "url": "https://connito.ai/docs",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 208,
+        "method_tested": "HEAD",
+        "redirect_target": "https://connito.ai/docs/miner/prerequisites",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:01.311Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-102-website-link-connito-ai-docs-1",
+      "kind": "docs",
+      "name": "ConnitoAI docs",
+      "netuid": 102,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "subnet_name": "ConnitoAI",
+      "subnet_slug": "sn-102",
+      "url": "https://connito.ai/docs/miner/prerequisites",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 152,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:01.366Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-102-website-link-connito-ai-docs-3",
+      "kind": "docs",
+      "name": "ConnitoAI docs",
+      "netuid": 102,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://connito.ai/"
+      ],
+      "subnet_name": "ConnitoAI",
+      "subnet_slug": "sn-102",
+      "url": "https://connito.ai/whitepaper",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 168,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:01.388Z"
+      }
+    }
+  ]
 }

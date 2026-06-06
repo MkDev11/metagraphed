@@ -2,6 +2,7 @@ import path from "node:path";
 import {
   buildTimestamp,
   loadNativeSnapshot,
+  readJson,
   repoRoot,
   slugify,
   stableStringify,
@@ -14,11 +15,19 @@ const dryRun = args.has("--dry-run") || !shouldWrite;
 const nativeSnapshot = await loadNativeSnapshot();
 const nativeByNetuid = new Map(nativeSnapshot.subnets.map((subnet) => [subnet.netuid, subnet]));
 const candidatesByKey = new Map();
+const candidateIds = new Set();
 const warnings = [];
+const existingGeneratedCandidates = await loadExistingGeneratedCandidates();
+const restoredProviders = new Set();
 
 await discoverFromTaoMarketCap();
 await discoverFromTensorplexSubnetDocs();
 await discoverFromTaopediaArticles();
+await discoverUniversalTaoMarketCapDashboards();
+if (restoredProviders.size === 0) {
+  await discoverFromGithubReadmes();
+  await discoverFromProjectWebsites();
+}
 
 const candidates = [...candidatesByKey.values()].sort(
   (a, b) => a.netuid - b.netuid || a.kind.localeCompare(b.kind) || a.id.localeCompare(b.id)
@@ -54,6 +63,14 @@ if (!dryRun) {
       {
         id: "taopedia-articles",
         url: "https://github.com/e35ventura/taopedia-articles"
+      },
+      {
+        id: "github-readme-links",
+        url: "https://github.com"
+      },
+      {
+        id: "project-website-links",
+        url: "https://metagraph.sh"
       }
     ],
     candidates
@@ -71,6 +88,9 @@ async function discoverFromTaoMarketCap() {
     const pageUrl = `https://api.taomarketcap.com/public/v1/subnets/?limit=${limit}&offset=${offset}`;
     const page = await fetchJson(pageUrl);
     if (!page) {
+      if (offset === 0) {
+        restoreExistingCandidatesForProvider("taomarketcap");
+      }
       return;
     }
 
@@ -134,6 +154,7 @@ async function discoverFromTensorplexSubnetDocs() {
   const entries = await fetchJson(dataRootUrl, githubHeaders());
   if (!Array.isArray(entries)) {
     warnings.push("tensorplex-subnet-docs: failed to list data directories");
+    restoreExistingCandidatesForProvider("tensorplex-subnet-docs");
     return;
   }
 
@@ -233,6 +254,7 @@ async function discoverFromTaopediaArticles() {
   const tree = await fetchJson(treeUrl, githubHeaders());
   if (!Array.isArray(tree?.tree)) {
     warnings.push("taopedia-articles: failed to list repository tree");
+    restoreExistingCandidatesForProvider("taopedia-articles");
     return;
   }
 
@@ -264,6 +286,167 @@ async function discoverFromTaopediaArticles() {
   }
 }
 
+async function discoverUniversalTaoMarketCapDashboards() {
+  for (const subnet of nativeSnapshot.subnets) {
+    addCandidate({
+      id: `sn-${subnet.netuid}-taomarketcap-dashboard`,
+      netuid: subnet.netuid,
+      name: `${subnet.name} TaoMarketCap dashboard`,
+      kind: "dashboard",
+      url: `https://taomarketcap.com/subnets/${subnet.netuid}`,
+      source_url: `https://api.taomarketcap.com/public/v1/subnets/${subnet.netuid}/`,
+      source_type: "taomarketcap-dashboard",
+      source_tier: "third-party-index",
+      confidence: "medium",
+      provider: "taomarketcap",
+      review_notes: "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority."
+    });
+  }
+}
+
+async function discoverFromGithubReadmes() {
+  const sourceRepoCandidates = [...candidatesByKey.values()].filter(
+    (candidate) => candidate.kind === "source-repo" && parseGithubRepo(candidate.url)
+  );
+  const byRepo = new Map();
+
+  for (const candidate of sourceRepoCandidates) {
+    const repo = parseGithubRepo(candidate.url);
+    const key = `${repo.owner}/${repo.repo}`.toLowerCase();
+    if (!byRepo.has(key)) {
+      byRepo.set(key, { repo, candidates: [] });
+    }
+    byRepo.get(key).candidates.push(candidate);
+  }
+
+  await mapLimit([...byRepo.values()], 8, async ({ repo, candidates }) => {
+    const readme = await fetchGithubReadme(repo);
+    if (!readme) {
+      return;
+    }
+
+    for (const candidate of candidates) {
+      const repoSlug = slugify(`${repo.owner}-${repo.repo}`);
+      const links = extractMarkdownLinks(readme.text, readme.url)
+        .map((link) => ({ ...link, classification: classifyDiscoveredLink(link.url, link.label, candidate.url) }))
+        .filter((link) => link.classification)
+        .slice(0, 10);
+
+      for (const [index, link] of links.entries()) {
+        addCandidate({
+          id: `sn-${candidate.netuid}-github-readme-${repoSlug}-${link.classification.kind}-${index + 1}`,
+          netuid: candidate.netuid,
+          name: `${nativeByNetuid.get(candidate.netuid).name} ${link.classification.label}`,
+          kind: link.classification.kind,
+          url: link.url,
+          source_url: readme.htmlUrl,
+          source_type: "github-readme-link",
+          source_tier: "community-docs",
+          confidence: "low",
+          provider: candidate.provider,
+          review_notes: "Discovered from a public GitHub README link. Requires verification before promotion."
+        });
+      }
+    }
+  });
+}
+
+async function discoverFromProjectWebsites() {
+  const websiteCandidates = [...candidatesByKey.values()].filter((candidate) => candidate.kind === "website");
+  await mapLimit(websiteCandidates, 8, async (candidate) => {
+    const root = normalizePublicUrl(candidate.url);
+    if (!root) {
+      return;
+    }
+    const websiteSlug = slugify(new URL(root).hostname);
+
+    addCommonApiPathCandidates(candidate, root);
+
+    const html = await fetchText(root, {
+      accept: "text/html,application/xhtml+xml",
+      warn: false
+    });
+    if (!html?.text) {
+      return;
+    }
+
+    const links = extractHtmlLinks(html.text, root)
+      .filter((link) => isLikelyProjectDomain(root, link.url))
+      .map((link) => ({ ...link, classification: classifyDiscoveredLink(link.url, link.label, root) }))
+      .filter((link) => link.classification)
+      .slice(0, 10);
+
+    for (const [index, link] of links.entries()) {
+      addCandidate({
+        id: `sn-${candidate.netuid}-website-link-${websiteSlug}-${link.classification.kind}-${index + 1}`,
+        netuid: candidate.netuid,
+        name: `${nativeByNetuid.get(candidate.netuid).name} ${link.classification.label}`,
+        kind: link.classification.kind,
+        url: link.url,
+        source_url: root,
+        source_type: "project-website-link",
+        source_tier: "provider-claimed",
+        confidence: "low",
+        provider: candidate.provider,
+        review_notes: "Discovered from a public project website link. Requires verification before promotion."
+      });
+    }
+  });
+}
+
+function addCommonApiPathCandidates(candidate, root) {
+  let origin;
+  try {
+    origin = new URL(root).origin;
+  } catch {
+    return;
+  }
+
+  const commonPaths = [
+    { path: "/openapi.json", kind: "openapi", label: "OpenAPI JSON" },
+    { path: "/swagger.json", kind: "openapi", label: "Swagger JSON" },
+    { path: "/swagger", kind: "openapi", label: "Swagger UI" },
+    { path: "/docs", kind: "docs", label: "docs" },
+    { path: "/api", kind: "subnet-api", label: "API" },
+    { path: "/health", kind: "subnet-api", label: "health endpoint" }
+  ];
+
+  for (const commonPath of commonPaths) {
+    addCandidate({
+      id: `sn-${candidate.netuid}-website-common-${slugify(commonPath.path)}`,
+      netuid: candidate.netuid,
+      name: `${nativeByNetuid.get(candidate.netuid).name} ${commonPath.label}`,
+      kind: commonPath.kind,
+      url: `${origin}${commonPath.path}`,
+      source_url: root,
+      source_type: "project-website-common-path",
+      source_tier: "provider-claimed",
+      confidence: "low",
+      provider: candidate.provider,
+      review_notes: "Common read-only path discovered from a public project website root. Requires verification before promotion."
+    });
+  }
+}
+
+async function loadExistingGeneratedCandidates() {
+  try {
+    const existing = await readJson(path.join(repoRoot, "registry/candidates/generated/public-sources.json"));
+    return Array.isArray(existing.candidates) ? existing.candidates : [];
+  } catch {
+    return [];
+  }
+}
+
+function restoreExistingCandidatesForProvider(provider) {
+  restoredProviders.add(provider);
+  for (const candidate of existingGeneratedCandidates.filter((entry) => entry.provider === provider)) {
+    addCandidate({
+      ...candidate,
+      review_notes: `${candidate.review_notes || "Candidate restored from previous generated bundle."} Source refresh failed; preserved pending a successful refresh.`
+    });
+  }
+}
+
 function addCandidate(candidate) {
   const normalizedUrl = normalizePublicUrl(candidate.url);
   if (!normalizedUrl) {
@@ -283,6 +466,8 @@ function addCandidate(candidate) {
     return;
   }
 
+  const stableId = uniqueCandidateId(candidate.id, normalizedUrl);
+  candidateIds.add(stableId);
   candidatesByKey.set(key, {
     schema_version: 1,
     state: "schema-valid",
@@ -290,10 +475,35 @@ function addCandidate(candidate) {
     public_safe: true,
     rate_limit_notes: "Candidate only; no recurring probe is configured until maintainer review.",
     ...candidate,
+    id: stableId,
     url: normalizedUrl,
     source_url: sourceUrl,
     source_urls: sourceUrls
   });
+}
+
+function uniqueCandidateId(id, url) {
+  if (!candidateIds.has(id)) {
+    return id;
+  }
+  const suffix = hashString(url).slice(0, 8);
+  const suffixed = `${id}-${suffix}`;
+  if (!candidateIds.has(suffixed)) {
+    return suffixed;
+  }
+  let index = 2;
+  while (candidateIds.has(`${suffixed}-${index}`)) {
+    index += 1;
+  }
+  return `${suffixed}-${index}`;
+}
+
+function hashString(value) {
+  let hash = 0;
+  for (const char of value) {
+    hash = (hash * 31 + char.charCodeAt(0)) >>> 0;
+  }
+  return hash.toString(36);
 }
 
 function extractUrls(value) {
@@ -403,6 +613,171 @@ function surfaceKindForWebsiteLabel(label) {
   return "website";
 }
 
+function parseGithubRepo(value) {
+  try {
+    const url = new URL(value);
+    if (url.hostname !== "github.com") {
+      return null;
+    }
+    const [owner, repo] = url.pathname.split("/").filter(Boolean);
+    if (!owner || !repo) {
+      return null;
+    }
+    return { owner, repo: repo.replace(/\.git$/, "") };
+  } catch {
+    return null;
+  }
+}
+
+async function fetchGithubReadme(repo) {
+  const branches = ["main", "master"];
+  const names = ["README.md", "readme.md"];
+  for (const branch of branches) {
+    for (const name of names) {
+      const rawUrl = `https://raw.githubusercontent.com/${repo.owner}/${repo.repo}/${branch}/${name}`;
+      const response = await fetchText(rawUrl, {
+        accept: "text/markdown,text/plain",
+        warn: false
+      });
+      if (response?.status_code === 200 && response.text) {
+        return {
+          text: response.text.slice(0, 120000),
+          url: rawUrl,
+          htmlUrl: `https://github.com/${repo.owner}/${repo.repo}/blob/${branch}/${name}`
+        };
+      }
+    }
+  }
+  return null;
+}
+
+function extractMarkdownLinks(markdown, baseUrl) {
+  const links = [];
+  const markdownLinkPattern = /\[([^\]]{1,120})\]\((https?:\/\/[^)\s]+)\)/g;
+  const bareUrlPattern = /https?:\/\/[^\s<>)"']+/g;
+  for (const match of markdown.matchAll(markdownLinkPattern)) {
+    links.push({ label: match[1], url: normalizePublicUrl(match[2]) });
+  }
+  for (const match of markdown.matchAll(bareUrlPattern)) {
+    links.push({ label: "", url: normalizePublicUrl(match[0]) });
+  }
+  return dedupeLinks(links.filter((link) => link.url), baseUrl);
+}
+
+function extractHtmlLinks(html, baseUrl) {
+  const links = [];
+  const anchorPattern = /<a\b[^>]*href=["']([^"']+)["'][^>]*>(.*?)<\/a>/gis;
+  for (const match of html.matchAll(anchorPattern)) {
+    links.push({
+      label: stripHtml(match[2]).slice(0, 120),
+      url: normalizeLinkedUrl(match[1], baseUrl)
+    });
+  }
+  return dedupeLinks(links.filter((link) => link.url), baseUrl);
+}
+
+function normalizeLinkedUrl(value, baseUrl) {
+  if (typeof value !== "string" || value.startsWith("#") || value.startsWith("mailto:")) {
+    return null;
+  }
+  try {
+    return normalizePublicUrl(new URL(value, baseUrl).toString());
+  } catch {
+    return null;
+  }
+}
+
+function dedupeLinks(links, baseUrl) {
+  const seen = new Set([normalizePublicUrl(baseUrl)]);
+  const result = [];
+  for (const link of links) {
+    if (!link.url || seen.has(link.url) || isSocialUrl(link.url)) {
+      continue;
+    }
+    seen.add(link.url);
+    result.push(link);
+  }
+  return result;
+}
+
+function classifyDiscoveredLink(url, label, baseUrl) {
+  let parsed;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return null;
+  }
+
+  const haystack = `${label || ""} ${parsed.hostname} ${parsed.pathname}`.toLowerCase();
+  if (isSocialUrl(url) || haystack.includes("/issues") || haystack.includes("/pulls")) {
+    return null;
+  }
+
+  if (haystack.includes("openapi") || haystack.includes("swagger")) {
+    return { kind: "openapi", label: "OpenAPI surface" };
+  }
+  if (haystack.includes("leaderboard") || haystack.includes("dashboard") || haystack.includes("stats")) {
+    return { kind: "dashboard", label: "dashboard" };
+  }
+  if (haystack.includes("api") || haystack.includes("health")) {
+    return { kind: "subnet-api", label: "API surface" };
+  }
+  if (
+    haystack.includes("docs") ||
+    haystack.includes("documentation") ||
+    haystack.includes("whitepaper") ||
+    haystack.includes("guide") ||
+    haystack.includes("paper")
+  ) {
+    return { kind: "docs", label: "docs" };
+  }
+  if (haystack.includes("huggingface.co") || haystack.includes("dataset") || haystack.includes("model")) {
+    return { kind: "data-artifact", label: "data artifact" };
+  }
+  if (isLikelyProjectDomain(baseUrl, url)) {
+    return { kind: "website", label: "website page" };
+  }
+  return null;
+}
+
+function isLikelyProjectDomain(baseUrl, candidateUrl) {
+  try {
+    const base = new URL(baseUrl);
+    const candidate = new URL(candidateUrl);
+    return candidate.hostname === base.hostname || registrableDomain(candidate.hostname) === registrableDomain(base.hostname);
+  } catch {
+    return false;
+  }
+}
+
+function registrableDomain(hostname) {
+  const parts = hostname.toLowerCase().split(".").filter(Boolean);
+  return parts.slice(-2).join(".");
+}
+
+function isSocialUrl(value) {
+  try {
+    const host = new URL(value).hostname.replace(/^www\./, "");
+    return [
+      "x.com",
+      "twitter.com",
+      "discord.com",
+      "discord.gg",
+      "t.me",
+      "telegram.me",
+      "linkedin.com",
+      "youtube.com",
+      "youtu.be"
+    ].some((socialHost) => host === socialHost || host.endsWith(`.${socialHost}`));
+  } catch {
+    return false;
+  }
+}
+
+function stripHtml(value) {
+  return String(value || "").replace(/<[^>]+>/g, " ").replace(/\s+/g, " ").trim();
+}
+
 async function fetchJson(url, headers = {}) {
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), 15000);
@@ -422,6 +797,35 @@ async function fetchJson(url, headers = {}) {
     return await response.json();
   } catch (error) {
     warnings.push(`${url}: ${error.message}`);
+    return null;
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+async function fetchText(url, options = {}) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), options.timeoutMs || 10000);
+  try {
+    const response = await fetch(url, {
+      headers: {
+        accept: options.accept || "*/*",
+        "user-agent": "metagraphed-candidate-discovery/0.0"
+      },
+      signal: controller.signal
+    });
+    if (!response.ok && options.warn !== false) {
+      warnings.push(`${url}: HTTP ${response.status}`);
+    }
+    const text = response.ok ? await response.text() : "";
+    return {
+      status_code: response.status,
+      text
+    };
+  } catch (error) {
+    if (options.warn !== false) {
+      warnings.push(`${url}: ${error.message}`);
+    }
     return null;
   } finally {
     clearTimeout(timer);

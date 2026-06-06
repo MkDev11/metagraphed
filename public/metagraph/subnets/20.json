@@ -1,5 +1,26 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-20-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "GroundLayer TaoMarketCap dashboard",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/20",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/20"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/20"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -62,27 +83,506 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/20"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-20-website-common-api",
+      "kind": "subnet-api",
+      "name": "GroundLayer API",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://groundlayer.xyz/",
+      "source_urls": [
+        "https://groundlayer.xyz/"
+      ],
+      "state": "schema-valid",
+      "url": "https://groundlayer.xyz/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-20-website-common-docs",
+      "kind": "docs",
+      "name": "GroundLayer docs",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://groundlayer.xyz/",
+      "source_urls": [
+        "https://groundlayer.xyz/"
+      ],
+      "state": "schema-valid",
+      "url": "https://groundlayer.xyz/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-20-website-common-health",
+      "kind": "subnet-api",
+      "name": "GroundLayer health endpoint",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://groundlayer.xyz/",
+      "source_urls": [
+        "https://groundlayer.xyz/"
+      ],
+      "state": "schema-valid",
+      "url": "https://groundlayer.xyz/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-20-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "GroundLayer OpenAPI JSON",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://groundlayer.xyz/",
+      "source_urls": [
+        "https://groundlayer.xyz/"
+      ],
+      "state": "schema-valid",
+      "url": "https://groundlayer.xyz/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-20-website-common-swagger",
+      "kind": "openapi",
+      "name": "GroundLayer Swagger UI",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://groundlayer.xyz/",
+      "source_urls": [
+        "https://groundlayer.xyz/"
+      ],
+      "state": "schema-valid",
+      "url": "https://groundlayer.xyz/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-20-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "GroundLayer Swagger JSON",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://groundlayer.xyz/",
+      "source_urls": [
+        "https://groundlayer.xyz/"
+      ],
+      "state": "schema-valid",
+      "url": "https://groundlayer.xyz/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-20-website-link-groundlayer-xyz-website-1",
+      "kind": "website",
+      "name": "GroundLayer website page",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://groundlayer.xyz/",
+      "source_urls": [
+        "https://groundlayer.xyz/"
+      ],
+      "state": "schema-valid",
+      "url": "https://groundlayer.xyz/subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-20-website-link-groundlayer-xyz-website-2",
+      "kind": "website",
+      "name": "GroundLayer website page",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://groundlayer.xyz/",
+      "source_urls": [
+        "https://groundlayer.xyz/"
+      ],
+      "state": "schema-valid",
+      "url": "https://groundlayer.xyz/roadmap"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-20-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "GroundLayer TaoMarketCap dashboard",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/20",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/20"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/20"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-20-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "GroundLayer source repository",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/20",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/20"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/RogueTensor/comingsoon"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-20-taomarketcap-website",
+      "kind": "website",
+      "name": "GroundLayer website",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/20",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/20"
+      ],
+      "state": "schema-valid",
+      "url": "https://groundlayer.xyz/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-20-tensorplex-docs",
+      "kind": "docs",
+      "name": "GroundLayer Tensorplex subnet docs",
+      "netuid": 20,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/20/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/20/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/20"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-20-website-common-api",
+      "kind": "subnet-api",
+      "name": "GroundLayer API",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://groundlayer.xyz/",
+      "source_urls": [
+        "https://groundlayer.xyz/"
+      ],
+      "state": "schema-valid",
+      "url": "https://groundlayer.xyz/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-20-website-common-docs",
+      "kind": "docs",
+      "name": "GroundLayer docs",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://groundlayer.xyz/",
+      "source_urls": [
+        "https://groundlayer.xyz/"
+      ],
+      "state": "schema-valid",
+      "url": "https://groundlayer.xyz/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-20-website-common-health",
+      "kind": "subnet-api",
+      "name": "GroundLayer health endpoint",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://groundlayer.xyz/",
+      "source_urls": [
+        "https://groundlayer.xyz/"
+      ],
+      "state": "schema-valid",
+      "url": "https://groundlayer.xyz/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-20-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "GroundLayer OpenAPI JSON",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://groundlayer.xyz/",
+      "source_urls": [
+        "https://groundlayer.xyz/"
+      ],
+      "state": "schema-valid",
+      "url": "https://groundlayer.xyz/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-20-website-common-swagger",
+      "kind": "openapi",
+      "name": "GroundLayer Swagger UI",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://groundlayer.xyz/",
+      "source_urls": [
+        "https://groundlayer.xyz/"
+      ],
+      "state": "schema-valid",
+      "url": "https://groundlayer.xyz/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-20-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "GroundLayer Swagger JSON",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://groundlayer.xyz/",
+      "source_urls": [
+        "https://groundlayer.xyz/"
+      ],
+      "state": "schema-valid",
+      "url": "https://groundlayer.xyz/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-20-website-link-groundlayer-xyz-website-1",
+      "kind": "website",
+      "name": "GroundLayer website page",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://groundlayer.xyz/",
+      "source_urls": [
+        "https://groundlayer.xyz/"
+      ],
+      "state": "schema-valid",
+      "url": "https://groundlayer.xyz/subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-20-website-link-groundlayer-xyz-website-2",
+      "kind": "website",
+      "name": "GroundLayer website page",
+      "netuid": 20,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://groundlayer.xyz/",
+      "source_urls": [
+        "https://groundlayer.xyz/"
+      ],
+      "state": "schema-valid",
+      "url": "https://groundlayer.xyz/roadmap"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "source-repo",
+      "openapi",
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "docs",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 3,
+    "candidate_count": 12,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:17:28.402Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/20",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/20",
+    "gaps": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "source-repo",
+        "openapi",
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "docs",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "GroundLayer",
     "native_name": "GroundLayer",
     "native_slug": "groundlayer",
     "netuid": 20,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 3,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -91,16 +591,218 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 1970929,
     "slug": "sn-20",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 3,
     "symbol": "υ",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://groundlayer.xyz/"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-20-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "GroundLayer TaoMarketCap dashboard",
+      "netuid": 20,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/20"
+      ],
+      "subnet_name": "GroundLayer",
+      "subnet_slug": "sn-20",
+      "url": "https://taomarketcap.com/subnets/20",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 167,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:28.392Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-20-taomarketcap-website",
+      "kind": "website",
+      "name": "GroundLayer website",
+      "netuid": 20,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/20"
+      ],
+      "subnet_name": "GroundLayer",
+      "subnet_slug": "sn-20",
+      "url": "https://groundlayer.xyz/",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 371,
+        "method_tested": "HEAD",
+        "redirect_target": "https://www.groundlayer.xyz/",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:28.397Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-20-tensorplex-docs",
+      "kind": "docs",
+      "name": "GroundLayer Tensorplex subnet docs",
+      "netuid": 20,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/20/subnet.json"
+      ],
+      "subnet_name": "GroundLayer",
+      "subnet_slug": "sn-20",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/20",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 382,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:28.402Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-20-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "GroundLayer TaoMarketCap dashboard",
+      "netuid": 20,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/20"
+      ],
+      "subnet_name": "GroundLayer",
+      "subnet_slug": "sn-20",
+      "url": "https://taomarketcap.com/subnets/20",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 167,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:28.392Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-20-taomarketcap-website",
+      "kind": "website",
+      "name": "GroundLayer website",
+      "netuid": 20,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/20"
+      ],
+      "subnet_name": "GroundLayer",
+      "subnet_slug": "sn-20",
+      "url": "https://groundlayer.xyz/",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 371,
+        "method_tested": "HEAD",
+        "redirect_target": "https://www.groundlayer.xyz/",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:28.397Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-20-tensorplex-docs",
+      "kind": "docs",
+      "name": "GroundLayer Tensorplex subnet docs",
+      "netuid": 20,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/20/subnet.json"
+      ],
+      "subnet_name": "GroundLayer",
+      "subnet_slug": "sn-20",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/20",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 382,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:28.402Z"
+      }
+    }
+  ]
 }

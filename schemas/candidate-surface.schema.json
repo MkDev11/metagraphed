@@ -101,6 +101,29 @@
     "public_safe": {
       "type": "boolean"
     },
+    "verification": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": [
+        "classification",
+        "verified_at"
+      ],
+      "properties": {
+        "classification": {
+          "enum": [
+            "live",
+            "redirected",
+            "auth-required",
+            "dead",
+            "unsafe",
+            "unsupported"
+          ]
+        },
+        "verified_at": {
+          "type": "string"
+        }
+      }
+    },
     "rate_limit_notes": {
       "type": "string"
     },

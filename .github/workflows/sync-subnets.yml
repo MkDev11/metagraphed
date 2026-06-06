@@ -36,6 +36,14 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Verify candidate surfaces
+        run: npm run verify:candidates
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Curate baseline overlays
+        run: npm run curate:baseline
+
       - name: Build artifacts
         run: npm run build
 

@@ -1,5 +1,131 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-github-readme-openevolai-evolai-data-artifact-2",
+      "kind": "data-artifact",
+      "name": "EvolAI data artifact",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/openevolai/evolai/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/openevolai/evolai/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://huggingface.co/datasets/evolai/universal_qa"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-github-readme-openevolai-evolai-website-1",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/openevolai/evolai/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/openevolai/evolai/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/astral-sh/uv"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-github-readme-openevolai-evolai-website-3",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/openevolai/evolai/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/openevolai/evolai/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/evolai-subnet/evolai.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-github-readme-reboot-org-reboot-subnet-dashboard-2",
+      "kind": "dashboard",
+      "name": "EvolAI dashboard",
+      "netuid": 47,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/reboot-org/reboot-subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/reboot-org/reboot-subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://taostats.io/subnets/47/chart"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-github-readme-reboot-org-reboot-subnet-website-1",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/reboot-org/reboot-subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/reboot-org/reboot-subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/opentensor/bittensor"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-47-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "EvolAI TaoMarketCap dashboard",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/47",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/47"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/47"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -62,27 +188,1022 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/reboot-org/reboot-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-common-api",
+      "kind": "subnet-api",
+      "name": "EvolAI API",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/evolai-subnet/evolai.git",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-common-docs",
+      "kind": "docs",
+      "name": "EvolAI docs",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/evolai-subnet/evolai.git",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-common-health",
+      "kind": "subnet-api",
+      "name": "EvolAI health endpoint",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/evolai-subnet/evolai.git",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "EvolAI OpenAPI JSON",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/evolai-subnet/evolai.git",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-common-swagger",
+      "kind": "openapi",
+      "name": "EvolAI Swagger UI",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/evolai-subnet/evolai.git",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "EvolAI Swagger JSON",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/evolai-subnet/evolai.git",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fastral-sh%2Fuv"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-2-4tf7hd",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/opentensor/bittensor",
+      "source_urls": [
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Flatent-to%2Fbittensor"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-github-readme-openevolai-evolai-data-artifact-2",
+      "kind": "data-artifact",
+      "name": "EvolAI data artifact",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/openevolai/evolai/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/openevolai/evolai/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://huggingface.co/datasets/evolai/universal_qa"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-github-readme-openevolai-evolai-website-1",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/openevolai/evolai/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/openevolai/evolai/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/astral-sh/uv"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-github-readme-openevolai-evolai-website-3",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/openevolai/evolai/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/openevolai/evolai/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/evolai-subnet/evolai.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-github-readme-reboot-org-reboot-subnet-dashboard-2",
+      "kind": "dashboard",
+      "name": "EvolAI dashboard",
+      "netuid": 47,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/reboot-org/reboot-subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/reboot-org/reboot-subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://taostats.io/subnets/47/chart"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-github-readme-reboot-org-reboot-subnet-website-1",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/reboot-org/reboot-subnet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/reboot-org/reboot-subnet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/opentensor/bittensor"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-47-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "EvolAI TaoMarketCap dashboard",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/47",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/47"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/47"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-47-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "EvolAI source repository",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/47",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/47"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openevolai/evolai.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-47-tensorplex-docs",
+      "kind": "docs",
+      "name": "EvolAI Tensorplex subnet docs",
+      "netuid": 47,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/47/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/47/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/47"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-47-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "EvolAI source repository",
+      "netuid": 47,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs-github",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/47/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/47/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/reboot-org/reboot-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-common-api",
+      "kind": "subnet-api",
+      "name": "EvolAI API",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/evolai-subnet/evolai.git",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-common-docs",
+      "kind": "docs",
+      "name": "EvolAI docs",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/evolai-subnet/evolai.git",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-common-health",
+      "kind": "subnet-api",
+      "name": "EvolAI health endpoint",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/evolai-subnet/evolai.git",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "EvolAI OpenAPI JSON",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/evolai-subnet/evolai.git",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-common-swagger",
+      "kind": "openapi",
+      "name": "EvolAI Swagger UI",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/evolai-subnet/evolai.git",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "EvolAI Swagger JSON",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/evolai-subnet/evolai.git",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fastral-sh%2Fuv"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-2-4tf7hd",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/opentensor/bittensor",
+      "source_urls": [
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Flatent-to%2Fbittensor"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-47-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/astral-sh/uv",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet."
+    ],
+    "missing_kinds": [
+      "subnet-api",
+      "sse"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "data-artifact",
+      "docs",
+      "openapi",
+      "source-repo",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 3,
+    "candidate_count": 26,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 7,
+      "verified_at": "2026-06-06T07:17:37.746Z"
+    },
+    "dashboard_url": "https://taostats.io/subnets/47/chart",
+    "docs_url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/47",
+    "gaps": {
+      "gap_notes": [
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet."
+      ],
+      "missing_kinds": [
+        "subnet-api",
+        "sse"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "data-artifact",
+        "docs",
+        "openapi",
+        "source-repo",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "EvolAI",
     "native_name": "EvolAI",
     "native_slug": "evolai",
     "netuid": 47,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 108,
-    "probed_surface_count": 0,
+    "probed_surface_count": 10,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -91,16 +1212,696 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 7340355,
     "slug": "sn-47",
-    "source_repo": null,
+    "source_repo": "https://github.com/openevolai/evolai.git",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 10,
     "symbol": "צ",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://github.com/astral-sh/uv"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-github-readme-openevolai-evolai-data-artifact-2",
+      "kind": "data-artifact",
+      "name": "EvolAI data artifact",
+      "netuid": 47,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/openevolai/evolai/blob/main/README.md"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://huggingface.co/datasets/evolai/universal_qa",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 237,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.509Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-github-readme-openevolai-evolai-website-1",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/openevolai/evolai/blob/main/README.md"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://github.com/astral-sh/uv",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 85,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.510Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-github-readme-reboot-org-reboot-subnet-dashboard-2",
+      "kind": "dashboard",
+      "name": "EvolAI dashboard",
+      "netuid": 47,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/reboot-org/reboot-subnet/blob/main/README.md"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://taostats.io/subnets/47/chart",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 249,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.524Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-github-readme-reboot-org-reboot-subnet-website-1",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/reboot-org/reboot-subnet/blob/main/README.md"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://github.com/opentensor/bittensor",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 176,
+        "method_tested": "HEAD",
+        "redirect_target": "https://github.com/latent-to/bittensor",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.525Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "EvolAI TaoMarketCap dashboard",
+      "netuid": 47,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/47"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://taomarketcap.com/subnets/47",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 282,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.525Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "EvolAI source repository",
+      "netuid": 47,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/47"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://github.com/openevolai/evolai.git",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/openevolai/evolai",
+        "homepage": null,
+        "last_push_at": "2026-06-02T05:16:25Z",
+        "redirect_target": null,
+        "topics": [],
+        "verified_at": "2026-06-06T07:17:37.525Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-tensorplex-docs",
+      "kind": "docs",
+      "name": "EvolAI Tensorplex subnet docs",
+      "netuid": 47,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/47/subnet.json"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/47",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 376,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.590Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "EvolAI source repository",
+      "netuid": 47,
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/47/subnet.json"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://github.com/reboot-org/reboot-subnet",
+      "verification": {
+        "classification": "live",
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/reboot-org/reboot-subnet",
+        "latency_ms": 679,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.594Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-website-common-docs",
+      "kind": "docs",
+      "name": "EvolAI docs",
+      "netuid": 47,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/evolai-subnet/evolai.git",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://github.com/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 97,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.701Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-website-common-swagger",
+      "kind": "openapi",
+      "name": "EvolAI Swagger UI",
+      "netuid": 47,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/evolai-subnet/evolai.git",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://github.com/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 89,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.746Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-github-readme-openevolai-evolai-data-artifact-2",
+      "kind": "data-artifact",
+      "name": "EvolAI data artifact",
+      "netuid": 47,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/openevolai/evolai/blob/main/README.md"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://huggingface.co/datasets/evolai/universal_qa",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 237,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.509Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-github-readme-openevolai-evolai-website-1",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/openevolai/evolai/blob/main/README.md"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://github.com/astral-sh/uv",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 85,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.510Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-github-readme-reboot-org-reboot-subnet-dashboard-2",
+      "kind": "dashboard",
+      "name": "EvolAI dashboard",
+      "netuid": 47,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/reboot-org/reboot-subnet/blob/main/README.md"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://taostats.io/subnets/47/chart",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 249,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.524Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-github-readme-reboot-org-reboot-subnet-website-1",
+      "kind": "website",
+      "name": "EvolAI website page",
+      "netuid": 47,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/reboot-org/reboot-subnet/blob/main/README.md"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://github.com/opentensor/bittensor",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 176,
+        "method_tested": "HEAD",
+        "redirect_target": "https://github.com/latent-to/bittensor",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.525Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "EvolAI TaoMarketCap dashboard",
+      "netuid": 47,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/47"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://taomarketcap.com/subnets/47",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 282,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.525Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "EvolAI source repository",
+      "netuid": 47,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/47"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://github.com/openevolai/evolai.git",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/openevolai/evolai",
+        "homepage": null,
+        "last_push_at": "2026-06-02T05:16:25Z",
+        "redirect_target": null,
+        "topics": [],
+        "verified_at": "2026-06-06T07:17:37.525Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-tensorplex-docs",
+      "kind": "docs",
+      "name": "EvolAI Tensorplex subnet docs",
+      "netuid": 47,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/47/subnet.json"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/47",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 376,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.590Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "EvolAI source repository",
+      "netuid": 47,
+      "notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/47/subnet.json"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://github.com/reboot-org/reboot-subnet",
+      "verification": {
+        "classification": "live",
+        "content_type": null,
+        "github_api_url": "https://api.github.com/repos/reboot-org/reboot-subnet",
+        "latency_ms": 679,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.594Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-website-common-docs",
+      "kind": "docs",
+      "name": "EvolAI docs",
+      "netuid": 47,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/evolai-subnet/evolai.git",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://github.com/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 97,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.701Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-47-website-common-swagger",
+      "kind": "openapi",
+      "name": "EvolAI Swagger UI",
+      "netuid": 47,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/astral-sh/uv",
+        "https://github.com/evolai-subnet/evolai.git",
+        "https://github.com/opentensor/bittensor"
+      ],
+      "subnet_name": "EvolAI",
+      "subnet_slug": "sn-47",
+      "url": "https://github.com/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 89,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:37.746Z"
+      }
+    }
+  ]
 }

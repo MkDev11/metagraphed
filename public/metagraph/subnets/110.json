@@ -1,5 +1,26 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-110-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Green Compute TaoMarketCap dashboard",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/110",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/110"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/110"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -62,27 +83,842 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/Rich-Kids-of-TAO/rkt-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-common-api",
+      "kind": "subnet-api",
+      "name": "Green Compute API",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-common-docs",
+      "kind": "docs",
+      "name": "Green Compute docs",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-common-health",
+      "kind": "subnet-api",
+      "name": "Green Compute health endpoint",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Green Compute OpenAPI JSON",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-common-swagger",
+      "kind": "openapi",
+      "name": "Green Compute Swagger UI",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Green Compute Swagger JSON",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-data-artifact-10",
+      "kind": "data-artifact",
+      "name": "Green Compute data artifact",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/models?prefill=Qwen%2FQwen2.5-7B-Instruct"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-data-artifact-6",
+      "kind": "data-artifact",
+      "name": "Green Compute data artifact",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/models"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-data-artifact-9",
+      "kind": "data-artifact",
+      "name": "Green Compute data artifact",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/models?prefill=meta-llama%2FMeta-Llama-3.1-8B-Instruct"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-website-1",
+      "kind": "website",
+      "name": "Green Compute website page",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/about"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-website-2",
+      "kind": "website",
+      "name": "Green Compute website page",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/enterprise"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-website-3",
+      "kind": "website",
+      "name": "Green Compute website page",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/providers"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-website-4",
+      "kind": "website",
+      "name": "Green Compute website page",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/login"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-website-5",
+      "kind": "website",
+      "name": "Green Compute website page",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/rental"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-website-7",
+      "kind": "website",
+      "name": "Green Compute website page",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/rental?gpu=rtx-4090"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-website-8",
+      "kind": "website",
+      "name": "Green Compute website page",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/rental?gpu=rtx-5090"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-110-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Green Compute TaoMarketCap dashboard",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/110",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/110"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/110"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-110-taomarketcap-website",
+      "kind": "website",
+      "name": "Green Compute website",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/110",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/110"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-110-tensorplex-docs",
+      "kind": "docs",
+      "name": "Green Compute Tensorplex subnet docs",
+      "netuid": 110,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/110/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/110/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/110"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-110-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "Green Compute source repository",
+      "netuid": 110,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs-github",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/110/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/110/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/Rich-Kids-of-TAO/rkt-subnet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-common-api",
+      "kind": "subnet-api",
+      "name": "Green Compute API",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-common-docs",
+      "kind": "docs",
+      "name": "Green Compute docs",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-common-health",
+      "kind": "subnet-api",
+      "name": "Green Compute health endpoint",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Green Compute OpenAPI JSON",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-common-swagger",
+      "kind": "openapi",
+      "name": "Green Compute Swagger UI",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Green Compute Swagger JSON",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-data-artifact-10",
+      "kind": "data-artifact",
+      "name": "Green Compute data artifact",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/models?prefill=Qwen%2FQwen2.5-7B-Instruct"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-data-artifact-6",
+      "kind": "data-artifact",
+      "name": "Green Compute data artifact",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/models"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-data-artifact-9",
+      "kind": "data-artifact",
+      "name": "Green Compute data artifact",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/models?prefill=meta-llama%2FMeta-Llama-3.1-8B-Instruct"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-website-1",
+      "kind": "website",
+      "name": "Green Compute website page",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/about"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-website-2",
+      "kind": "website",
+      "name": "Green Compute website page",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/enterprise"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-website-3",
+      "kind": "website",
+      "name": "Green Compute website page",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/providers"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-website-4",
+      "kind": "website",
+      "name": "Green Compute website page",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/login"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-website-5",
+      "kind": "website",
+      "name": "Green Compute website page",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/rental"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-website-7",
+      "kind": "website",
+      "name": "Green Compute website page",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/rental?gpu=rtx-4090"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-110-website-link-www-green-compute-com-website-8",
+      "kind": "website",
+      "name": "Green Compute website page",
+      "netuid": 110,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://www.green-compute.com/",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.green-compute.com/rental?gpu=rtx-5090"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified project docs surface yet.",
+      "No verified source repository yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet."
+    ],
+    "missing_kinds": [
+      "docs",
+      "source-repo",
+      "openapi",
+      "subnet-api",
+      "sse"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "data-artifact",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 3,
+    "candidate_count": 20,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified project docs surface yet.",
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:18:04.543Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/110",
     "docs_url": null,
+    "gaps": {
+      "gap_notes": [
+        "No verified project docs surface yet.",
+        "No verified source repository yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet."
+      ],
+      "missing_kinds": [
+        "docs",
+        "source-repo",
+        "openapi",
+        "subnet-api",
+        "sse"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "data-artifact",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "Green Compute",
     "native_name": "Green Compute",
     "native_slug": "green-compute",
     "netuid": 110,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 5,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -91,16 +927,350 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 5606062,
     "slug": "sn-110",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 5,
     "symbol": "Ѐ",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://www.green-compute.com/"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-110-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Green Compute TaoMarketCap dashboard",
+      "netuid": 110,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/110"
+      ],
+      "subnet_name": "Green Compute",
+      "subnet_slug": "sn-110",
+      "url": "https://taomarketcap.com/subnets/110",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 163,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:04.225Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-110-taomarketcap-website",
+      "kind": "website",
+      "name": "Green Compute website",
+      "netuid": 110,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/110"
+      ],
+      "subnet_name": "Green Compute",
+      "subnet_slug": "sn-110",
+      "url": "https://www.green-compute.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 193,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:04.246Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-110-website-link-www-green-compute-com-data-artifact-10",
+      "kind": "data-artifact",
+      "name": "Green Compute data artifact",
+      "netuid": 110,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "subnet_name": "Green Compute",
+      "subnet_slug": "sn-110",
+      "url": "https://www.green-compute.com/models?prefill=Qwen%2FQwen2.5-7B-Instruct",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 334,
+        "method_tested": "HEAD",
+        "redirect_target": "https://www.green-compute.com/login?callbackUrl=%2Fmodels%3Fprefill%3DQwen%252FQwen2.5-7B-Instruct",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:04.534Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-110-website-link-www-green-compute-com-data-artifact-6",
+      "kind": "data-artifact",
+      "name": "Green Compute data artifact",
+      "netuid": 110,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "subnet_name": "Green Compute",
+      "subnet_slug": "sn-110",
+      "url": "https://www.green-compute.com/models",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 325,
+        "method_tested": "HEAD",
+        "redirect_target": "https://www.green-compute.com/login?callbackUrl=%2Fmodels",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:04.535Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-110-website-link-www-green-compute-com-data-artifact-9",
+      "kind": "data-artifact",
+      "name": "Green Compute data artifact",
+      "netuid": 110,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "subnet_name": "Green Compute",
+      "subnet_slug": "sn-110",
+      "url": "https://www.green-compute.com/models?prefill=meta-llama%2FMeta-Llama-3.1-8B-Instruct",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 309,
+        "method_tested": "HEAD",
+        "redirect_target": "https://www.green-compute.com/login?callbackUrl=%2Fmodels%3Fprefill%3Dmeta-llama%252FMeta-Llama-3.1-8B-Instruct",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:04.543Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-110-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Green Compute TaoMarketCap dashboard",
+      "netuid": 110,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/110"
+      ],
+      "subnet_name": "Green Compute",
+      "subnet_slug": "sn-110",
+      "url": "https://taomarketcap.com/subnets/110",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 163,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:04.225Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-110-taomarketcap-website",
+      "kind": "website",
+      "name": "Green Compute website",
+      "netuid": 110,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/110"
+      ],
+      "subnet_name": "Green Compute",
+      "subnet_slug": "sn-110",
+      "url": "https://www.green-compute.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 193,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:04.246Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-110-website-link-www-green-compute-com-data-artifact-10",
+      "kind": "data-artifact",
+      "name": "Green Compute data artifact",
+      "netuid": 110,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "subnet_name": "Green Compute",
+      "subnet_slug": "sn-110",
+      "url": "https://www.green-compute.com/models?prefill=Qwen%2FQwen2.5-7B-Instruct",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 334,
+        "method_tested": "HEAD",
+        "redirect_target": "https://www.green-compute.com/login?callbackUrl=%2Fmodels%3Fprefill%3DQwen%252FQwen2.5-7B-Instruct",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:04.534Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-110-website-link-www-green-compute-com-data-artifact-6",
+      "kind": "data-artifact",
+      "name": "Green Compute data artifact",
+      "netuid": 110,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "subnet_name": "Green Compute",
+      "subnet_slug": "sn-110",
+      "url": "https://www.green-compute.com/models",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 325,
+        "method_tested": "HEAD",
+        "redirect_target": "https://www.green-compute.com/login?callbackUrl=%2Fmodels",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:04.535Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-110-website-link-www-green-compute-com-data-artifact-9",
+      "kind": "data-artifact",
+      "name": "Green Compute data artifact",
+      "netuid": 110,
+      "notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://www.green-compute.com/"
+      ],
+      "subnet_name": "Green Compute",
+      "subnet_slug": "sn-110",
+      "url": "https://www.green-compute.com/models?prefill=meta-llama%2FMeta-Llama-3.1-8B-Instruct",
+      "verification": {
+        "classification": "redirected",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 309,
+        "method_tested": "HEAD",
+        "redirect_target": "https://www.green-compute.com/login?callbackUrl=%2Fmodels%3Fprefill%3Dmeta-llama%252FMeta-Llama-3.1-8B-Instruct",
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:18:04.543Z"
+      }
+    }
+  ]
 }

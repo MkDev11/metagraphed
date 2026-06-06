@@ -1,5 +1,132 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-github-readme-tatsuproject-chipforge-eda-server-website-1",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md",
+        "https://github.com/TatsuProject/chipforge_eda_server/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/TatsuProject/chipforge_eda_server"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-github-readme-tatsuproject-chipforge-sn84-docs-1",
+      "kind": "docs",
+      "name": "ansuz docs",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.learnbittensor.org/btcli"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-github-readme-tatsuproject-chipforge-sn84-subnet-api-3",
+      "kind": "subnet-api",
+      "name": "ansuz API surface",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "http://your-api-url:8000/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-github-readme-tatsuproject-chipforge-sn84-subnet-api-5",
+      "kind": "subnet-api",
+      "name": "ansuz API surface",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "http://challenge-server:8000/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-github-readme-tatsuproject-chipforge-sn84-website-2",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/TatsuProject/ChipForge_SN84"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-84-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "ansuz TaoMarketCap dashboard",
+      "netuid": 84,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/84",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/84"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/84"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -62,27 +189,1023 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/TatsuProject/chipforge_eda_server"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-common-api",
+      "kind": "subnet-api",
+      "name": "ansuz API",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-common-docs",
+      "kind": "docs",
+      "name": "ansuz docs",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-common-health",
+      "kind": "subnet-api",
+      "name": "ansuz health endpoint",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "ansuz OpenAPI JSON",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-common-swagger",
+      "kind": "openapi",
+      "name": "ansuz Swagger UI",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "ansuz Swagger JSON",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FTatsuProject%2Fchipforge_eda_server"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-2-m80c7w",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/ChipForge_SN84",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FTatsuProject%2FChipForge_SN84"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-github-readme-tatsuproject-chipforge-eda-server-website-1",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md",
+        "https://github.com/TatsuProject/chipforge_eda_server/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/TatsuProject/chipforge_eda_server"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-github-readme-tatsuproject-chipforge-sn84-docs-1",
+      "kind": "docs",
+      "name": "ansuz docs",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.learnbittensor.org/btcli"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-github-readme-tatsuproject-chipforge-sn84-subnet-api-3",
+      "kind": "subnet-api",
+      "name": "ansuz API surface",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "http://your-api-url:8000/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-github-readme-tatsuproject-chipforge-sn84-subnet-api-5",
+      "kind": "subnet-api",
+      "name": "ansuz API surface",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "http://challenge-server:8000/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-github-readme-tatsuproject-chipforge-sn84-website-2",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/TatsuProject/ChipForge_SN84"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-84-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "ansuz TaoMarketCap dashboard",
+      "netuid": 84,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/84",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/84"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/84"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-84-tensorplex-docs",
+      "kind": "docs",
+      "name": "ansuz Tensorplex subnet docs",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/84/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/84/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/84"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-84-tensorplex-source-repo-1",
+      "kind": "source-repo",
+      "name": "ansuz source repository",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs-github",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/84/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/84/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/TatsuProject/ChipForge_SN84"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-84-tensorplex-source-repo-2",
+      "kind": "source-repo",
+      "name": "ansuz source repository",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs-github",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/84/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/84/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/TatsuProject/chipforge_eda_server"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-common-api",
+      "kind": "subnet-api",
+      "name": "ansuz API",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-common-docs",
+      "kind": "docs",
+      "name": "ansuz docs",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-common-health",
+      "kind": "subnet-api",
+      "name": "ansuz health endpoint",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "ansuz OpenAPI JSON",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-common-swagger",
+      "kind": "openapi",
+      "name": "ansuz Swagger UI",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "ansuz Swagger JSON",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FTatsuProject%2Fchipforge_eda_server"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-2-m80c7w",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/ChipForge_SN84",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2FTatsuProject%2FChipForge_SN84"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-84-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "ansuz website page",
+      "netuid": 84,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/TatsuProject/chipforge_eda_server",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84",
+        "https://github.com/TatsuProject/chipforge_eda_server"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified project website yet.",
+      "No verified OpenAPI/Swagger surface yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "source-repo",
+      "website",
+      "openapi",
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "docs"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 3,
+    "candidate_count": 26,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified project website yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:17:52.650Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/84",
+    "docs_url": "https://docs.learnbittensor.org/btcli",
+    "gaps": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified project website yet.",
+        "No verified OpenAPI/Swagger surface yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "source-repo",
+        "website",
+        "openapi",
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "docs"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "ansuz",
     "native_name": "ansuz",
     "native_slug": "ansuz",
     "netuid": 84,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 64,
-    "probed_surface_count": 0,
+    "probed_surface_count": 2,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -91,16 +1214,152 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 8085297,
     "slug": "sn-84",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 2,
     "symbol": "ᚨ",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": null
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-84-github-readme-tatsuproject-chipforge-sn84-docs-1",
+      "kind": "docs",
+      "name": "ansuz docs",
+      "netuid": 84,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md"
+      ],
+      "subnet_name": "ansuz",
+      "subnet_slug": "sn-84",
+      "url": "https://docs.learnbittensor.org/btcli",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 48,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:52.616Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-84-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "ansuz TaoMarketCap dashboard",
+      "netuid": 84,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/84"
+      ],
+      "subnet_name": "ansuz",
+      "subnet_slug": "sn-84",
+      "url": "https://taomarketcap.com/subnets/84",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 184,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:52.650Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-84-github-readme-tatsuproject-chipforge-sn84-docs-1",
+      "kind": "docs",
+      "name": "ansuz docs",
+      "netuid": 84,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/TatsuProject/ChipForge_SN84/blob/master/README.md"
+      ],
+      "subnet_name": "ansuz",
+      "subnet_slug": "sn-84",
+      "url": "https://docs.learnbittensor.org/btcli",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 48,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:52.616Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-84-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "ansuz TaoMarketCap dashboard",
+      "netuid": 84,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/84"
+      ],
+      "subnet_name": "ansuz",
+      "subnet_slug": "sn-84",
+      "url": "https://taomarketcap.com/subnets/84",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 184,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:52.650Z"
+      }
+    }
+  ]
 }

@@ -1,5 +1,89 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-github-readme-sportstensor-sn41-docs-1",
+      "kind": "docs",
+      "name": "Almanac docs",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/sportstensor/sn41/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.learnbittensor.org/keys/wallets"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-github-readme-sportstensor-sn41-docs-2",
+      "kind": "docs",
+      "name": "Almanac docs",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/sportstensor/sn41/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.learnbittensor.org/miners"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-github-readme-sportstensor-sn41-website-3",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/sportstensor/sn41/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/sportstensor/sn41"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-41-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Almanac TaoMarketCap dashboard",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/41",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/41"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/41"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -63,27 +147,1194 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/41"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-api",
+      "kind": "subnet-api",
+      "name": "Almanac API",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://almanac.market/",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "state": "schema-valid",
+      "url": "https://almanac.market/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "Almanac API",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-docs",
+      "kind": "docs",
+      "name": "Almanac docs",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://almanac.market/",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "state": "schema-valid",
+      "url": "https://almanac.market/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "Almanac docs",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-health",
+      "kind": "subnet-api",
+      "name": "Almanac health endpoint",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://almanac.market/",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "state": "schema-valid",
+      "url": "https://almanac.market/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "Almanac health endpoint",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Almanac OpenAPI JSON",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://almanac.market/",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "state": "schema-valid",
+      "url": "https://almanac.market/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "Almanac OpenAPI JSON",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-swagger",
+      "kind": "openapi",
+      "name": "Almanac Swagger UI",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://almanac.market/",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "state": "schema-valid",
+      "url": "https://almanac.market/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Almanac Swagger UI",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Almanac Swagger JSON",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://almanac.market/",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "state": "schema-valid",
+      "url": "https://almanac.market/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "Almanac Swagger JSON",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-almanac-market-website-1",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://almanac.market/",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "state": "schema-valid",
+      "url": "https://beta.almanac.market/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsportstensor%2Fsn41"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-github-readme-sportstensor-sn41-docs-1",
+      "kind": "docs",
+      "name": "Almanac docs",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/sportstensor/sn41/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.learnbittensor.org/keys/wallets"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-github-readme-sportstensor-sn41-docs-2",
+      "kind": "docs",
+      "name": "Almanac docs",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/sportstensor/sn41/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://docs.learnbittensor.org/miners"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-github-readme-sportstensor-sn41-website-3",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/sportstensor/sn41/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/sportstensor/sn41"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-41-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Almanac TaoMarketCap dashboard",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/41",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/41"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/41"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-41-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Almanac source repository",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/41",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/41",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/41/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/sportstensor/sn41"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-41-taomarketcap-website",
+      "kind": "website",
+      "name": "Almanac website",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/41",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/41"
+      ],
+      "state": "schema-valid",
+      "url": "https://almanac.market/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-41-tensorplex-docs",
+      "kind": "docs",
+      "name": "Almanac Tensorplex subnet docs",
+      "netuid": 41,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/41/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/41/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/41"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-api",
+      "kind": "subnet-api",
+      "name": "Almanac API",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://almanac.market/",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "state": "schema-valid",
+      "url": "https://almanac.market/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "Almanac API",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-docs",
+      "kind": "docs",
+      "name": "Almanac docs",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://almanac.market/",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "state": "schema-valid",
+      "url": "https://almanac.market/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "Almanac docs",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-health",
+      "kind": "subnet-api",
+      "name": "Almanac health endpoint",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://almanac.market/",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "state": "schema-valid",
+      "url": "https://almanac.market/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "Almanac health endpoint",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Almanac OpenAPI JSON",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://almanac.market/",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "state": "schema-valid",
+      "url": "https://almanac.market/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "Almanac OpenAPI JSON",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-swagger",
+      "kind": "openapi",
+      "name": "Almanac Swagger UI",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://almanac.market/",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "state": "schema-valid",
+      "url": "https://almanac.market/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Almanac Swagger UI",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Almanac Swagger JSON",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://almanac.market/",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "state": "schema-valid",
+      "url": "https://almanac.market/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "Almanac Swagger JSON",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-almanac-market-website-1",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://almanac.market/",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "state": "schema-valid",
+      "url": "https://beta.almanac.market/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fsportstensor%2Fsn41"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-41-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/sportstensor/sn41",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "docs",
+      "openapi",
+      "source-repo",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 3,
+    "candidate_count": 30,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 5,
+      "verified_at": "2026-06-06T07:17:35.789Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/41",
+    "docs_url": "https://docs.learnbittensor.org/keys/wallets",
+    "gaps": {
+      "gap_notes": [
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "docs",
+        "openapi",
+        "source-repo",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "Almanac",
     "native_name": "Almanac",
     "native_slug": "almanac",
     "netuid": 41,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 10,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -92,16 +1343,688 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 3394182,
     "slug": "sn-41",
-    "source_repo": null,
+    "source_repo": "https://github.com/sportstensor/sn41",
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 10,
     "symbol": "נ",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://github.com/sportstensor/sn41"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-github-readme-sportstensor-sn41-docs-1",
+      "kind": "docs",
+      "name": "Almanac docs",
+      "netuid": 41,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41/blob/main/README.md"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://docs.learnbittensor.org/keys/wallets",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 59,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.532Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-github-readme-sportstensor-sn41-docs-2",
+      "kind": "docs",
+      "name": "Almanac docs",
+      "netuid": 41,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41/blob/main/README.md"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://docs.learnbittensor.org/miners",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 58,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.532Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-github-readme-sportstensor-sn41-website-3",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41/blob/main/README.md"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://github.com/sportstensor/sn41",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 383,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.532Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Almanac TaoMarketCap dashboard",
+      "netuid": 41,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/41"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://taomarketcap.com/subnets/41",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 627,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.543Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Almanac source repository",
+      "netuid": 41,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/41",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/41/subnet.json"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://github.com/sportstensor/sn41",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/sportstensor/sn41",
+        "homepage": null,
+        "last_push_at": "2026-05-04T17:28:00Z",
+        "redirect_target": null,
+        "topics": [],
+        "verified_at": "2026-06-06T07:17:35.546Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-taomarketcap-website",
+      "kind": "website",
+      "name": "Almanac website",
+      "netuid": 41,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/41"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://almanac.market/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 184,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.569Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-tensorplex-docs",
+      "kind": "docs",
+      "name": "Almanac Tensorplex subnet docs",
+      "netuid": 41,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/41/subnet.json"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/41",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 315,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.578Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-website-common-docs",
+      "kind": "docs",
+      "name": "Almanac docs",
+      "netuid": 41,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://almanac.market/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 189,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.600Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-website-common-swagger",
+      "kind": "openapi",
+      "name": "Almanac Swagger UI",
+      "netuid": 41,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://almanac.market/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 83,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.789Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Almanac Swagger UI",
+      "netuid": 41,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://github.com/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 116,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.789Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-github-readme-sportstensor-sn41-docs-1",
+      "kind": "docs",
+      "name": "Almanac docs",
+      "netuid": 41,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41/blob/main/README.md"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://docs.learnbittensor.org/keys/wallets",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 59,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.532Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-github-readme-sportstensor-sn41-docs-2",
+      "kind": "docs",
+      "name": "Almanac docs",
+      "netuid": 41,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41/blob/main/README.md"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://docs.learnbittensor.org/miners",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 58,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.532Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-github-readme-sportstensor-sn41-website-3",
+      "kind": "website",
+      "name": "Almanac website page",
+      "netuid": 41,
+      "notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41/blob/main/README.md"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://github.com/sportstensor/sn41",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 383,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.532Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Almanac TaoMarketCap dashboard",
+      "netuid": 41,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/41"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://taomarketcap.com/subnets/41",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 627,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.543Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Almanac source repository",
+      "netuid": 41,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/41",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/41/subnet.json"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://github.com/sportstensor/sn41",
+      "verification": {
+        "archived": false,
+        "classification": "live",
+        "content_type": null,
+        "default_branch": "main",
+        "github_api_url": "https://api.github.com/repos/sportstensor/sn41",
+        "homepage": null,
+        "last_push_at": "2026-05-04T17:28:00Z",
+        "redirect_target": null,
+        "topics": [],
+        "verified_at": "2026-06-06T07:17:35.546Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-taomarketcap-website",
+      "kind": "website",
+      "name": "Almanac website",
+      "netuid": 41,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/41"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://almanac.market/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 184,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.569Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-tensorplex-docs",
+      "kind": "docs",
+      "name": "Almanac Tensorplex subnet docs",
+      "netuid": 41,
+      "notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/41/subnet.json"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/41",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 315,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.578Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-website-common-docs",
+      "kind": "docs",
+      "name": "Almanac docs",
+      "netuid": 41,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://almanac.market/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 189,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.600Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-website-common-swagger",
+      "kind": "openapi",
+      "name": "Almanac Swagger UI",
+      "netuid": 41,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://almanac.market/"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://almanac.market/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 83,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.789Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-41-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Almanac Swagger UI",
+      "netuid": 41,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://github.com/sportstensor/sn41"
+      ],
+      "subnet_name": "Almanac",
+      "subnet_slug": "sn-41",
+      "url": "https://github.com/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 116,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:35.789Z"
+      }
+    }
+  ]
 }

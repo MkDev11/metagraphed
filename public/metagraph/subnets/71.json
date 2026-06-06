@@ -1,5 +1,68 @@
 {
-  "candidates": [
+  "candidate_surfaces": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-github-readme-leadpoet-leadpoet-subnet-api-1",
+      "kind": "subnet-api",
+      "name": "Leadpoet API surface",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/leadpoet/leadpoet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.scrapingdog.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-github-readme-leadpoet-leadpoet-website-2",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/leadpoet/leadpoet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/leadpoet/leadpoet.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-71-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Leadpoet TaoMarketCap dashboard",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/71",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/71"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/71"
+    },
     {
       "auth_required": false,
       "confidence": "medium",
@@ -63,27 +126,1134 @@
       ],
       "state": "schema-valid",
       "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/71"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-api",
+      "kind": "subnet-api",
+      "name": "Leadpoet API",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://leadpoet.com/",
+      "source_urls": [
+        "https://leadpoet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://leadpoet.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "Leadpoet API",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-docs",
+      "kind": "docs",
+      "name": "Leadpoet docs",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://leadpoet.com/",
+      "source_urls": [
+        "https://leadpoet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://leadpoet.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "Leadpoet docs",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-health",
+      "kind": "subnet-api",
+      "name": "Leadpoet health endpoint",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://leadpoet.com/",
+      "source_urls": [
+        "https://leadpoet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://leadpoet.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "Leadpoet health endpoint",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Leadpoet OpenAPI JSON",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://leadpoet.com/",
+      "source_urls": [
+        "https://leadpoet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://leadpoet.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "Leadpoet OpenAPI JSON",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-swagger",
+      "kind": "openapi",
+      "name": "Leadpoet Swagger UI",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://leadpoet.com/",
+      "source_urls": [
+        "https://leadpoet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://leadpoet.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Leadpoet Swagger UI",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Leadpoet Swagger JSON",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://leadpoet.com/",
+      "source_urls": [
+        "https://leadpoet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://leadpoet.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "Leadpoet Swagger JSON",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fleadpoet%2Fleadpoet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
     }
   ],
+  "candidates": [
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-github-readme-leadpoet-leadpoet-subnet-api-1",
+      "kind": "subnet-api",
+      "name": "Leadpoet API surface",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/leadpoet/leadpoet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://www.scrapingdog.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-github-readme-leadpoet-leadpoet-website-2",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public GitHub README link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "github-readme-link",
+      "source_url": "https://github.com/leadpoet/leadpoet/blob/main/README.md",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet/blob/main/README.md"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/leadpoet/leadpoet.git"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-71-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Leadpoet TaoMarketCap dashboard",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-dashboard",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/71",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/71"
+      ],
+      "state": "schema-valid",
+      "url": "https://taomarketcap.com/subnets/71"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-71-taomarketcap-source-repo",
+      "kind": "source-repo",
+      "name": "Leadpoet source repository",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/71",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/71",
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/71/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/leadpoet/leadpoet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-71-taomarketcap-website",
+      "kind": "website",
+      "name": "Leadpoet website",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "schema_version": 1,
+      "source_tier": "third-party-index",
+      "source_type": "taomarketcap-subnet-identity-v3",
+      "source_url": "https://api.taomarketcap.com/public/v1/subnets/71",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/71"
+      ],
+      "state": "schema-valid",
+      "url": "https://leadpoet.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "medium",
+      "id": "sn-71-tensorplex-docs",
+      "kind": "docs",
+      "name": "Leadpoet Tensorplex subnet docs",
+      "netuid": 71,
+      "provider": "tensorplex-subnet-docs",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from Tensorplex subnet-docs. Useful as documentation enrichment, not verified operational authority.",
+      "schema_version": 1,
+      "source_tier": "community-docs",
+      "source_type": "tensorplex-subnet-docs",
+      "source_url": "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/71/subnet.json",
+      "source_urls": [
+        "https://github.com/tensorplex-labs/subnet-docs/blob/main/data/71/subnet.json"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/tensorplex-labs/subnet-docs/tree/main/data/71"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-api",
+      "kind": "subnet-api",
+      "name": "Leadpoet API",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://leadpoet.com/",
+      "source_urls": [
+        "https://leadpoet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://leadpoet.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-api-1hh6mts",
+      "kind": "subnet-api",
+      "name": "Leadpoet API",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/api"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-docs",
+      "kind": "docs",
+      "name": "Leadpoet docs",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://leadpoet.com/",
+      "source_urls": [
+        "https://leadpoet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://leadpoet.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-docs-o36adh",
+      "kind": "docs",
+      "name": "Leadpoet docs",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/docs"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-health",
+      "kind": "subnet-api",
+      "name": "Leadpoet health endpoint",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://leadpoet.com/",
+      "source_urls": [
+        "https://leadpoet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://leadpoet.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-health-1tfwazq",
+      "kind": "subnet-api",
+      "name": "Leadpoet health endpoint",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/health"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-openapi-json",
+      "kind": "openapi",
+      "name": "Leadpoet OpenAPI JSON",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://leadpoet.com/",
+      "source_urls": [
+        "https://leadpoet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://leadpoet.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-openapi-json-61w4sw",
+      "kind": "openapi",
+      "name": "Leadpoet OpenAPI JSON",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/openapi.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-swagger",
+      "kind": "openapi",
+      "name": "Leadpoet Swagger UI",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://leadpoet.com/",
+      "source_urls": [
+        "https://leadpoet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://leadpoet.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-swagger-1vqiohs",
+      "kind": "openapi",
+      "name": "Leadpoet Swagger UI",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-swagger-json",
+      "kind": "openapi",
+      "name": "Leadpoet Swagger JSON",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://leadpoet.com/",
+      "source_urls": [
+        "https://leadpoet.com/"
+      ],
+      "state": "schema-valid",
+      "url": "https://leadpoet.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-common-swagger-json-18juwly",
+      "kind": "openapi",
+      "name": "Leadpoet Swagger JSON",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-common-path",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/swagger.json"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-1",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-10",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security/code-security"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-2",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Fleadpoet%2Fleadpoet"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-3",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/copilot"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-4",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/ai/github-app"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-5",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/mcp"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-6",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/actions"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-7",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/codespaces"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-8",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/features/code-review"
+    },
+    {
+      "auth_required": false,
+      "confidence": "low",
+      "id": "sn-71-website-link-github-com-website-9",
+      "kind": "website",
+      "name": "Leadpoet website page",
+      "netuid": 71,
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "review_notes": "Discovered from a public project website link. Requires verification before promotion.",
+      "schema_version": 1,
+      "source_tier": "provider-claimed",
+      "source_type": "project-website-link",
+      "source_url": "https://github.com/leadpoet/leadpoet.git",
+      "source_urls": [
+        "https://github.com/leadpoet/leadpoet.git"
+      ],
+      "state": "schema-valid",
+      "url": "https://github.com/security/advanced-security"
+    }
+  ],
+  "gaps": {
+    "gap_notes": [
+      "No verified source repository yet.",
+      "No verified subnet API surface yet.",
+      "No verified SSE/event stream yet.",
+      "No verified data artifact yet."
+    ],
+    "missing_kinds": [
+      "source-repo",
+      "subnet-api",
+      "sse",
+      "data-artifact"
+    ],
+    "supported_kinds": [
+      "dashboard",
+      "docs",
+      "openapi",
+      "website"
+    ]
+  },
   "generated_at": "1970-01-01T00:00:00.000Z",
   "schema_version": 1,
   "subnet": {
     "block": 8344198,
-    "candidate_count": 3,
+    "candidate_count": 28,
     "categories": [
-      "native-only"
+      "baseline-curated"
     ],
-    "coverage_level": "native-only",
-    "dashboard_url": null,
-    "docs_url": null,
+    "coverage_level": "probed",
+    "curation": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "level": "machine-verified",
+      "review_state": "machine-generated",
+      "reviewed_at": null,
+      "source_count": 2,
+      "verified_at": "2026-06-06T07:17:47.738Z"
+    },
+    "dashboard_url": "https://taomarketcap.com/subnets/71",
+    "docs_url": "https://leadpoet.com/docs",
+    "gaps": {
+      "gap_notes": [
+        "No verified source repository yet.",
+        "No verified subnet API surface yet.",
+        "No verified SSE/event stream yet.",
+        "No verified data artifact yet."
+      ],
+      "missing_kinds": [
+        "source-repo",
+        "subnet-api",
+        "sse",
+        "data-artifact"
+      ],
+      "supported_kinds": [
+        "dashboard",
+        "docs",
+        "openapi",
+        "website"
+      ]
+    },
+    "links": [],
     "mechanism_count": 1,
     "name": "Leadpoet",
     "native_name": "Leadpoet",
     "native_slug": "leadpoet",
     "netuid": 71,
-    "notes": null,
+    "notes": "Machine-generated baseline overlay from verified public-source candidates.",
     "participant_count": 256,
-    "probed_surface_count": 0,
+    "probed_surface_count": 4,
     "provenance": {
       "existence": {
         "authority": "native-chain",
@@ -92,16 +1262,284 @@
         "network": "finney",
         "source_kind": "bittensor-sdk"
       },
-      "interface_metadata": "none"
+      "interface_metadata": "machine-verified"
     },
     "registered_at_block": 5048438,
     "slug": "sn-71",
     "source_repo": null,
     "status": "active",
     "subnet_type": "application",
-    "surface_count": 0,
+    "surface_count": 4,
     "symbol": "ㄴ",
-    "tempo": 360
+    "tempo": 360,
+    "website_url": "https://leadpoet.com/"
   },
-  "surfaces": []
+  "surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-71-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Leadpoet TaoMarketCap dashboard",
+      "netuid": 71,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/71"
+      ],
+      "subnet_name": "Leadpoet",
+      "subnet_slug": "sn-71",
+      "url": "https://taomarketcap.com/subnets/71",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 156,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.416Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-71-taomarketcap-website",
+      "kind": "website",
+      "name": "Leadpoet website",
+      "netuid": 71,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/71"
+      ],
+      "subnet_name": "Leadpoet",
+      "subnet_slug": "sn-71",
+      "url": "https://leadpoet.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 424,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.571Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-71-website-common-docs",
+      "kind": "docs",
+      "name": "Leadpoet docs",
+      "netuid": 71,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://leadpoet.com/"
+      ],
+      "subnet_name": "Leadpoet",
+      "subnet_slug": "sn-71",
+      "url": "https://leadpoet.com/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=UTF-8",
+        "latency_ms": 463,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.669Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-71-website-common-swagger",
+      "kind": "openapi",
+      "name": "Leadpoet Swagger UI",
+      "netuid": 71,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://leadpoet.com/"
+      ],
+      "subnet_name": "Leadpoet",
+      "subnet_slug": "sn-71",
+      "url": "https://leadpoet.com/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=UTF-8",
+        "latency_ms": 420,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.738Z"
+      }
+    }
+  ],
+  "verified_surfaces": [
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-71-taomarketcap-dashboard",
+      "kind": "dashboard",
+      "name": "Leadpoet TaoMarketCap dashboard",
+      "netuid": 71,
+      "notes": "Universal TaoMarketCap subnet dashboard candidate. Third-party enrichment, not protocol authority.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/71"
+      ],
+      "subnet_name": "Leadpoet",
+      "subnet_slug": "sn-71",
+      "url": "https://taomarketcap.com/subnets/71",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 156,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.416Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-71-taomarketcap-website",
+      "kind": "website",
+      "name": "Leadpoet website",
+      "netuid": 71,
+      "notes": "Discovered from TaoMarketCap subnet identity metadata. Not probed or verified by Metagraphed.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://api.taomarketcap.com/public/v1/subnets/71"
+      ],
+      "subnet_name": "Leadpoet",
+      "subnet_slug": "sn-71",
+      "url": "https://leadpoet.com/",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=utf-8",
+        "latency_ms": 424,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.571Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-71-website-common-docs",
+      "kind": "docs",
+      "name": "Leadpoet docs",
+      "netuid": 71,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "HEAD",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://leadpoet.com/"
+      ],
+      "subnet_name": "Leadpoet",
+      "subnet_slug": "sn-71",
+      "url": "https://leadpoet.com/docs",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=UTF-8",
+        "latency_ms": 463,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.669Z"
+      }
+    },
+    {
+      "auth_required": false,
+      "authority": "registry-observed",
+      "id": "sn-71-website-common-swagger",
+      "kind": "openapi",
+      "name": "Leadpoet Swagger UI",
+      "netuid": 71,
+      "notes": "Common read-only path discovered from a public project website root. Requires verification before promotion.",
+      "probe": {
+        "enabled": true,
+        "expect": "any",
+        "method": "GET",
+        "timeout_ms": 10000
+      },
+      "provider": "taomarketcap",
+      "public_safe": true,
+      "rate_limit_notes": "Candidate only; no recurring probe is configured until maintainer review.",
+      "source_urls": [
+        "https://leadpoet.com/"
+      ],
+      "subnet_name": "Leadpoet",
+      "subnet_slug": "sn-71",
+      "url": "https://leadpoet.com/swagger",
+      "verification": {
+        "classification": "live",
+        "content_type": "text/html; charset=UTF-8",
+        "latency_ms": 420,
+        "method_tested": "HEAD",
+        "redirect_target": null,
+        "status_code": 200,
+        "verified_at": "2026-06-06T07:17:47.738Z"
+      }
+    }
+  ]
 }

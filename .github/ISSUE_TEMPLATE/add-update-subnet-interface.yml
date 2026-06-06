@@ -29,6 +29,8 @@ body:
     attributes:
       label: Interface kind
       options:
+        - website
+        - source-repo
         - subnet-api
         - openapi
         - sse
