@@ -110,6 +110,7 @@ import { handleMcpRequest } from "../src/mcp-server.mjs";
 import { handleFeedRequest } from "../src/feeds.mjs";
 import { handleBadgeRequest } from "../src/badge.mjs";
 import { handleOgImage } from "../src/og-image.mjs";
+import { handleGraphQLRequest } from "../src/graphql.mjs";
 import {
   aiEnabled,
   askQuestion,
@@ -525,6 +526,11 @@ export async function handleRequest(request, env = {}, ctx = {}) {
     return handleSemanticSearchRequest(request, env, url);
   }
 
+  // GraphQL read-only query layer over existing artifacts (issue #751).
+  if (url.pathname === "/api/v1/graphql") {
+    return handleGraphQLRequest(request, env);
+  }
+
   // Registry leaderboards (D1 + registry projections; fileless-D1 pattern).
   if (url.pathname === "/api/v1/registry/leaderboards") {
     return handleLeaderboards(request, env, url);
@@ -695,6 +701,7 @@ function isMainnetOnlyApiPath(pathname) {
   return (
     pathname === "/api/v1/events" ||
     pathname === "/api/v1/ask" ||
+    pathname === "/api/v1/graphql" ||
     pathname === "/api/v1/search/semantic" ||
     pathname === "/api/v1/registry/leaderboards" ||
     pathname.startsWith("/api/v1/webhooks/") ||
