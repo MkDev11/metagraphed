@@ -88,6 +88,7 @@ import {
 } from "./request-handlers/entities.mjs";
 import {
   canonicalCompareCachePath,
+  canonicalUptimeCachePath,
   configureAnalyticsRoutes,
   handleCompare,
   handleEconomicsTrends,
@@ -1212,8 +1213,13 @@ export async function handleRequest(request, env = {}, ctx = {}) {
     }
     const uptimeMatch = UPTIME_PATH_PATTERN.exec(resolved.url.pathname);
     if (uptimeMatch) {
-      return withEdgeCache(request, ctx, env, "uptime", () =>
-        handleUptime(request, env, Number(uptimeMatch[1]), resolved.url),
+      return withEdgeCache(
+        request,
+        ctx,
+        env,
+        "uptime",
+        () => handleUptime(request, env, Number(uptimeMatch[1]), resolved.url),
+        canonicalUptimeCachePath(resolved.url),
       );
     }
     const concentrationHistoryMatch =
