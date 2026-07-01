@@ -5961,6 +5961,30 @@
           }
         },
         {
+          "name": "min_eligible_count",
+          "schema": {
+            "type": "number"
+          }
+        },
+        {
+          "name": "max_eligible_count",
+          "schema": {
+            "type": "number"
+          }
+        },
+        {
+          "name": "min_endpoint_count",
+          "schema": {
+            "type": "number"
+          }
+        },
+        {
+          "name": "max_endpoint_count",
+          "schema": {
+            "type": "number"
+          }
+        },
+        {
           "name": "fields",
           "schema": {
             "pattern": "^[A-Za-z_][A-Za-z0-9_]*(,[A-Za-z_][A-Za-z0-9_]*)*$",

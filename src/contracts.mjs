@@ -238,6 +238,7 @@ export const API_QUERY_COLLECTIONS = {
       kind: enumSchema(["subtensor-rpc", "subtensor-wss", "archive"]),
     },
     sort: ["eligible_count", "endpoint_count", "id", "kind"],
+    rangeFilters: ["eligible_count", "endpoint_count"],
   }),
   "endpoint-incidents": queryCollection("incidents", {
     filters: {
@@ -545,6 +546,7 @@ export const API_QUERY_COLLECTIONS = {
       kind: enumSchema(["subtensor-rpc", "subtensor-wss", "archive"]),
     },
     sort: ["eligible_count", "endpoint_count", "id", "kind"],
+    rangeFilters: ["eligible_count", "endpoint_count"],
   }),
   providers: queryCollection("providers", {
     filters: {

@@ -9947,6 +9947,10 @@ export interface operations {
             query?: {
                 id?: string;
                 kind?: "subtensor-rpc" | "subtensor-wss" | "archive";
+                min_eligible_count?: number;
+                max_eligible_count?: number;
+                min_endpoint_count?: number;
+                max_endpoint_count?: number;
                 fields?: string;
                 limit?: number;
                 cursor?: number;
