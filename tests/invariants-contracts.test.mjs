@@ -86,8 +86,8 @@ describe("contracts — route ⇄ artifact mapping invariants", () => {
         `${artifact.id} is not under /metagraph/`,
       );
       assert.ok(artifact.storage_tier, `${artifact.id} has no storage_tier`);
-      // Every JSON payload must be typed; the generated .d.ts text artifact is
-      // the documented exception (it carries TS types, not a JSON schema).
+      // Every JSON payload must be typed; generated text contract artifacts
+      // carry their own syntax instead of a JSON schema.
       if (artifact.path.endsWith(".json")) {
         assert.ok(
           typeof artifact.schema_ref === "string" && artifact.schema_ref,
@@ -95,8 +95,8 @@ describe("contracts — route ⇄ artifact mapping invariants", () => {
         );
       } else {
         assert.ok(
-          artifact.path.endsWith(".d.ts"),
-          `non-JSON artifact ${artifact.id} must be the .d.ts exception`,
+          artifact.path.endsWith(".d.ts") || artifact.path.endsWith(".graphql"),
+          `non-JSON artifact ${artifact.id} must be a known text contract`,
         );
         assert.equal(artifact.schema_ref, null);
       }
