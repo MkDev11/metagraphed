@@ -1,5 +1,4 @@
 {
-  "api_index_url": "/metagraph/api-index.json",
   "artifacts": [
     {
       "content_type": "application/json",
