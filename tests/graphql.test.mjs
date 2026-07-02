@@ -1456,6 +1456,30 @@ describe("graphql — account node + lazy account relationships", () => {
     }
   });
 
+  test("balance live fallback works when the limiter binding is absent", async () => {
+    const origFetch = globalThis.fetch;
+    let rpcCalled = false;
+    globalThis.fetch = async () => {
+      rpcCalled = true;
+      return { ok: false };
+    };
+    try {
+      const { status, body } = await gql(
+        `{ account(ss58: "${ACCOUNT_SS58}") { balance { ss58 balance_tao queried_at } } }`,
+        fixtureEnv(),
+      );
+
+      assert.equal(status, 200);
+      assert.equal(body.errors, undefined);
+      assert.equal(rpcCalled, true);
+      assert.equal(body.data.account.balance.ss58, ACCOUNT_SS58);
+      assert.equal(body.data.account.balance.balance_tao, null);
+      assert.ok(body.data.account.balance.queried_at);
+    } finally {
+      globalThis.fetch = origFetch;
+    }
+  });
+
   test("balance rate-limit failures surface as GraphQL field errors", async () => {
     const env = fixtureEnv();
     env.RPC_RATE_LIMITER = {
@@ -1509,6 +1533,14 @@ describe("graphql — account node + lazy account relationships", () => {
     assert.equal(badHistory.body.data.account, null);
     assert.equal(badHistory.body.errors[0].extensions.code, "BAD_USER_INPUT");
 
+    const badDate = await gql(
+      `{ account(ss58: "${ACCOUNT_SS58}") { history(from: "not-a-day") { day_count } } }`,
+      accountD1Env(),
+    );
+    assert.equal(badDate.status, 200);
+    assert.equal(badDate.body.data.account, null);
+    assert.equal(badDate.body.errors[0].extensions.code, "BAD_USER_INPUT");
+
     const badDirection = await gql(
       `{ account(ss58: "${ACCOUNT_SS58}") { transfers(direction: "sideways") { transfer_count } } }`,
       accountD1Env(),
@@ -1533,6 +1565,25 @@ describe("graphql — account node + lazy account relationships", () => {
       assert.equal(body.errors[0].extensions.code, "BAD_USER_INPUT");
       assert.match(body.errors[0].message, /limit/);
     }
+  });
+
+  test("account relationships accept omitted limits and all-direction transfers", async () => {
+    const { status, body } = await gql(
+      `{ account(ss58: "${ACCOUNT_SS58}") {
+          history { day_count }
+          transfers(direction: "all") { transfer_count }
+          counterparties { counterparty_count }
+          extrinsics { extrinsic_count }
+        } }`,
+      accountD1Env(),
+    );
+
+    assert.equal(status, 200);
+    assert.equal(body.errors, undefined);
+    assert.equal(body.data.account.history.day_count, 0);
+    assert.equal(body.data.account.transfers.transfer_count, 0);
+    assert.equal(body.data.account.counterparties.counterparty_count, 0);
+    assert.equal(body.data.account.extrinsics.extrinsic_count, 0);
   });
 });
 
